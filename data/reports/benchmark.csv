@@ -1,0 +1,10 @@
+﻿proveedor,modelo,estado,requisitos_evaluados,tasa_cumplimiento,tasa_no_cumplimiento,tasa_trazabilidad_verificada,tasa_citas_verificadas,confianza_media,latencia_media_s,segundos_por_requisito,tokens_promedio_entrada,tokens_promedio_salida,costo_usd_total,acuerdo_con_otros
+ollama,llama3.1:8b,ok,5,0.8,0.2,1.0,1.0,0.88,42.222,43.33,2324.4,452.6,0.0,
+ollama,llama3.2,ok,5,0.0,1.0,1.0,0.9286,0.0,22.544,23.02,2334.4,491.0,0.0,
+ollama,gpt-oss:120b-cloud,ok,5,0.4,0.6,0.6,0.5714,0.51,3.362,3.94,2123.2,977.6,0.0,
+ollama,deepseek-v3,error,,,,,,,,,,,,
+ollama,mistral-large,error,,,,,,,,,,,,
+openai,gpt-4o-mini,error,,,,,,,,,,,,
+openai,gpt-4o,error,,,,,,,,,,,,
+anthropic,claude-3-5-sonnet-latest,error,,,,,,,,,,,,
+anthropic,claude-3-5-opus-latest,error,,,,,,,,,,,,

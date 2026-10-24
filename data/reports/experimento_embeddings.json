@@ -1,0 +1,35 @@
+{
+  "fragmentos": 12669,
+  "base_produccion": {
+    "modelo": "mxbai-embed-large",
+    "dim": 1024,
+    "casos": 20,
+    "k": 5,
+    "precision@k": 0.23,
+    "recall@k": 0.325,
+    "mrr": 0.2658,
+    "ndcg@k": 0.3325,
+    "precision@k_documento": 0.2133,
+    "recall@k_documento": 0.325,
+    "mrr_documento": 0.2683,
+    "ndcg@k_documento": 0.3274
+  },
+  "comparaciones": [
+    {
+      "modelo": "nomic-embed-text",
+      "dim": 768,
+      "estado": "ok",
+      "segundos_indexado": 727.9,
+      "casos": 20,
+      "k": 5,
+      "precision@k": 0.26,
+      "recall@k": 0.375,
+      "mrr": 0.2825,
+      "ndcg@k": 0.3646,
+      "precision@k_documento": 0.2375,
+      "recall@k_documento": 0.375,
+      "mrr_documento": 0.3017,
+      "ndcg@k_documento": 0.3734
+    }
+  ]
+}

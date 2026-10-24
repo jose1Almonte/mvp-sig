@@ -1,0 +1,351 @@
+{
+  "generado": "2026-10-21T15:16:45-04:00",
+  "proveedor": "ollama",
+  "modelo": "llama3.1:8b",
+  "organizacion": "METUNIMET",
+  "resumen_ejecutivo": "**Resumen Ejecutivo del Diagnóstico de Cumplimiento Normativo**\n===========================================================\n\n**Panorama general**\n-------------------\n\nEl diagnóstico realizado sobre el Sistema Integrado de Gestión (SIG) ha revelado una situación mixta en cuanto al cumplimiento de la norma ISO 9001. Si bien se han identificado áreas que cumplen con los requisitos de la norma, también se han encontrado brechas críticas que requieren atención inmediata. En general, el SIG se encuentra en una situación de no conformidad en la cláusula 4.1, lo que afecta la comprensión de su contexto interno y externo.\n\n**Brechas críticas**\n-------------------\n\n1. **[ISO9001-4.1] ISO9001 cl.4.1 (calidad): veredicto=NO_CUMPLE (confianza 0.80)**: La organización no ha demostrado una comprensión clara de su contexto interno y externo.\n2. **[ISO9001-4.1] ISO9001 cl.4.1 (calidad): veredicto=NO_CUMPLE (confianza 0.80)**: La organización no ha demostrado una comprensión clara de su contexto interno y externo.\n3. **[ISO9001-4.2] ISO9001 cl.4.2 (calidad): veredicto=CUMPLE (confianza 0.90)**: La organización ha demostrado una comprensión clara de su contexto interno y externo, pero con una confianza moderada.\n\n**Riesgo de no conformidad**\n---------------------------\n\nEl riesgo de no conformidad es mayor en la norma ISO 9001, específicamente en la cláusula 4.1, ya que la organización no ha demostrado una comprensión clara de su contexto interno y externo. Esto puede afectar la capacidad de la organización para identificar y gestionar los riesgos y oportunidades que impactan su sistema de gestión de la calidad.\n\n**Plan de acción priorizado**\n-----------------------------\n\n1. **Realizar un análisis de contexto**: Se realizará un análisis exhaustivo del contexto interno y externo de la organización para identificar las áreas de mejora y desarrollar una comprensión clara de la situación actual.\n2. **Desarrollar un plan de acción**: Se desarrollará un plan de acción que incluya las medidas necesarias para mejorar la comprensión del contexto interno y externo de la organización.\n3. **Capacitar a los empleados**: Se capacitará a los empleados sobre la importancia de la comprensión del contexto interno y externo y se les proporcionará la información necesaria para que puedan cumplir con sus responsabilidades.\n4. **Revisar y actualizar la política de calidad**: Se revisará y actualizará la política de calidad para reflejar la nueva comprensión del contexto interno y externo de la organización.\n5. **Realizar un seguimiento y evaluación**: Se realizará un seguimiento y evaluación del progreso y se identificarán las áreas de mejora para asegurarse de que la organización cumpla con los requisitos de la norma ISO 9001.",
+  "advertencias": [],
+  "metricas": {
+    "requisitos_evaluados": 5,
+    "evaluables": 5,
+    "distribucion_veredictos": {
+      "CUMPLE": 4,
+      "CUMPLE_PARCIAL": 0,
+      "NO_CUMPLE": 1,
+      "NO_APLICA": 0
+    },
+    "tasa_cumplimiento": 0.8,
+    "tasa_cumplimiento_sobre_evaluables": 0.8,
+    "tasa_no_cumplimiento": 0.2,
+    "tasa_trazabilidad_verificada": 1.0,
+    "requisitos_con_evidencia_citada": 5,
+    "por_norma": {
+      "ISO9001": {
+        "total": 5,
+        "cumple": 4,
+        "parcial": 0,
+        "no_cumple": 1,
+        "na": 0
+      }
+    },
+    "por_ambito": {
+      "calidad": {
+        "total": 5,
+        "cumple": 4,
+        "parcial": 0,
+        "no_cumple": 1,
+        "na": 0
+      }
+    },
+    "latencia_media_s": 13.512,
+    "latencia_total_s": 67.558,
+    "tokens_entrada": 11622,
+    "tokens_salida": 2263,
+    "errores": 0
+  },
+  "resultados": [
+    {
+      "requisito_id": "ISO9001-4.1",
+      "norma": "ISO9001",
+      "clausula": "4.1",
+      "ambito": "calidad",
+      "requisito_texto": "4.1 Comprensión de la organización y de su contexto La organización debe determinar las cuestiones externas e internas que son pertinentes para su propósito y su dirección estratégica, y que afectan a su capacidad para lograr los resultados previstos de su sistema de gestión de la calidad. La organización debe realizar el seguimiento y la revisión de la información sobre estas cuestiones externas e internas. NOTA 1 Las cuestiones pueden incluir factores positivos y negativos o condiciones para su consideración. NOTA 1 Las cuestiones pueden incluir factores positivos y negativos o condiciones para su consideración. NOTA 2 La comprensión del contexto externo puede verse facilitada al considerar cuestiones que surgen de los entornos legal, tecnológico, competitivo, de mercado, cultural, social y económico, ya sea internacional, nacional, regional o local. NOTA 3 La comprensión del contexto interno puede verse facilitada al considerar cuestiones relativas a los valores, la cultura, los conocimientos y el desempeño de la organización.",
+      "veredicto": "NO_CUMPLE",
+      "confianza": 0.8,
+      "confianza_evidence": 0.8,
+      "justificacion": "La organización no ha demostrado una comprensión clara de su contexto interno y externo, como se requiere en la norma ISO 9001:2015. La Matriz de Identificación de Cuestiones Internas y Externas (FO-GE-006) versión 01 no muestra una coherencia y pertinencia entre las cuestiones internas y externas y las acciones determinadas para su abordaje.",
+      "evidencias": [
+        {
+          "ref": "E1",
+          "fragmento_id": "Informe de Auditoria Interna Integral_TNS.pdf#4e805d#p8#14",
+          "documento": "Informe de Auditoria Interna Integral_TNS.pdf",
+          "pagina": 8,
+          "seccion": "",
+          "cita": "De acuerdo a lo identificado en el documento denominado MATRIZ DE IDENTIFICACIÓN DE CUESTIONES INTERNAS Y EXTERNAS (FO -GE-006) versión 01, a la hora de establecer las estrategias o acciones que vayan dirigidas al abordaje de riesgos y oportunidades, no se ve claramente una coherencia y pertinencia entre la naturaleza y complejidad de las cuestiones internas y externas (Positivas y negativas) y la eficacia de las acciones que se determinaron para la intervención oportuna de los estados de riesgo (Debilidades y amenazas), y el aprovechamiento de oportunidades y fortalezas.",
+          "verificada": true,
+          "puntaje": 0.7941,
+          "motivo_fallo": ""
+        },
+        {
+          "ref": "E2",
+          "fragmento_id": "Lista de Chequeo Integrada.xlsx#fbf2c2#sLISTA HSEQ|tLISTA HSEQ#0",
+          "documento": "Lista de Chequeo Integrada.xlsx",
+          "pagina": null,
+          "seccion": "LISTA HSEQ",
+          "cita": "4.1 Comprensión de la Organización y de su Contexto | 4.1 Comprensión de la Organización y de su Contexto | 4.1 Comprensión de la Organización y de su Contexto | MATRIZ DE CONTEXTO INTERNO Y EXTERNO Y SU RESPECTIVO SEGUIMIENTO",
+          "verificada": true,
+          "puntaje": 0.7892,
+          "motivo_fallo": ""
+        }
+      ],
+      "hallazgo": "La organización no ha demostrado una comprensión clara de su contexto interno y externo.",
+      "severidad": "MEDIA",
+      "recomendacion": "Revisar y actualizar la Matriz de Identificación de Cuestiones Internas y Externas (FO-GE-006) versión 01 para asegurar una coherencia y pertinencia entre las cuestiones internas y externas y las acciones determinadas para su abordaje.",
+      "fragmentos_recuperados": [
+        "Informe de Auditoria Interna Integral_TNS.pdf#4e805d#p8#14",
+        "Lista de Chequeo Integrada.xlsx#fbf2c2#sLISTA HSEQ|tLISTA HSEQ#0",
+        "Plan de Auditoria_TNS.xlsx#621c91#sHoja1|tHoja1#1",
+        "Informe de Auditoria Interna Integral_TNS.pdf#4e805d#p7#12",
+        "Informe de Auditoria Interna Integral_TNS.pdf#4e805d#p2#1"
+      ],
+      "mejor_puntaje": 0.7941,
+      "traza_verificada": true,
+      "latencia_s": 24.287,
+      "tokens_entrada": 2803,
+      "tokens_salida": 560,
+      "costo_usd": 0.0,
+      "modelo": "llama3.1:8b",
+      "proveedor": "ollama",
+      "error": null
+    },
+    {
+      "requisito_id": "ISO9001-4.2",
+      "norma": "ISO9001",
+      "clausula": "4.2",
+      "ambito": "calidad",
+      "requisito_texto": "4.2 Comprensión de las necesidades y expectativas de las partes interesadas Debido a su efecto o efecto potencial en la capacidad de la organización de proporcionar regularmente productos y servicios que satisfagan los requisitos del cliente y los legales y reglamentarios aplicables, la organización debe determinar: a) las partes interesadas que son pertinentes al sistema de gestión de la calidad; b) los requisitos pertinentes de estas partes interesadas para el sistema de gestión de la calidad. La organización debe realizar el seguimiento y la revisión de la información sobre estas partes interesadas y sus requisitos pertinentes.",
+      "veredicto": "CUMPLE",
+      "confianza": 0.9,
+      "confianza_evidence": 0.9,
+      "justificacion": "La organización ha identificado las partes interesadas pertinentes y sus requisitos en la Matriz de Partes Interesadas (E4) y ha establecido un procedimiento para la revisión de la información sobre estas partes interesadas y sus requisitos.",
+      "evidencias": [
+        {
+          "ref": "E4",
+          "fragmento_id": "Lista de Chequeo Integrada.xlsx#fbf2c2#sLISTA HSEQ|tLISTA HSEQ#0",
+          "documento": "Lista de Chequeo Integrada.xlsx",
+          "pagina": null,
+          "seccion": "LISTA HSEQ",
+          "cita": "4.2 Comprensión de las Necesidades y Expectativas de los Trabajadores y de otras Partes Interesadas | MATRIZ DE PARTES INTERESADAS",
+          "verificada": true,
+          "puntaje": 0.804,
+          "motivo_fallo": ""
+        }
+      ],
+      "hallazgo": "",
+      "severidad": "",
+      "recomendacion": "",
+      "fragmentos_recuperados": [
+        "14. Identificación, Evaluación y Cumplimiento de Requisitos Legales.docx#60ca25#bloque#9",
+        "1. Procedimiento para la Revisión por la Gerencia.docx#d6e419#bloque#11",
+        "2. Manual del Sistema Integrado de Gestión.docx#3394df#bloque#31",
+        "Lista de Chequeo Integrada.xlsx#fbf2c2#sLISTA HSEQ|tLISTA HSEQ#0",
+        "Listado Maestro de Documentos y Registros_ONG CIL.xlsx#703c70#sLMDYR|tLMDYR#1"
+      ],
+      "mejor_puntaje": 0.8195,
+      "traza_verificada": true,
+      "latencia_s": 6.182,
+      "tokens_entrada": 2238,
+      "tokens_salida": 216,
+      "costo_usd": 0.0,
+      "modelo": "llama3.1:8b",
+      "proveedor": "ollama",
+      "error": null
+    },
+    {
+      "requisito_id": "ISO9001-4.3",
+      "norma": "ISO9001",
+      "clausula": "4.3",
+      "ambito": "calidad",
+      "requisito_texto": "4.3 Determinación del alcance del sistema de gestión de la calidad La organización debe determinar los límites y la aplicabilidad del sistema de gestión de la calidad para establecer su alcance. Cuando se determina este alcance, la organización debe considerar: a) las cuestiones externas e internas indicadas en el apartado 4.1; b) los requisitos de las partes interesadas pertinentes indicados en el apartado 4.2; c) los productos y servicios de la organización. La organización debe aplicar todos los requisitos de esta Norma Internacional si son aplicables en el alcance determinado de su sistema de gestión de la calidad. El alcance del sistema de gestión de la calidad de la organización debe estar disponible y mantenerse como información documentada. El alcance debe establecer los tipos de productos y servicios cubiertos, y proporcionar la justificación para cualquier requisito de esta Norma Internacional que la organización determine que no es aplicable para el alcance de su sistema de gestión de la calidad. La conformidad con esta Norma Internacional sólo se puede declarar si los requisitos determinados como no aplicables no afectan a la capacidad o a la responsabilidad de la organización de asegurarse de la conformidad de sus productos y servicios y del aumento de la satisfacción del cliente.",
+      "veredicto": "CUMPLE",
+      "confianza": 0.9,
+      "confianza_evidence": 0.9,
+      "justificacion": "La organización ha establecido el alcance del sistema de gestión de la calidad considerando las cuestiones externas e internas, los requisitos de las partes interesadas y los productos y servicios de la organización.",
+      "evidencias": [
+        {
+          "ref": "E2",
+          "fragmento_id": "Caracterización Gestión Gerencial_CIL ONG.xlsx#8d997e#sGESTIÓN GERENCIAL|tGESTIÓN GERENCIAL#2",
+          "documento": "Caracterización Gestión Gerencial_CIL ONG.xlsx",
+          "pagina": null,
+          "seccion": "GESTIÓN GERENCIAL",
+          "cita": "ESTABLECIMIENTO DEL ALCANCE DEL SISTEMA INTEGRADO DE GESTIÓN, TENIENDO EN CUENTA LAS CUESTIONES INTERNAS Y EXTERNAS; REQUISITOS, NECESIDADES Y EXPECTATIVAS DE LOS CLIENTES Y DEMÁS PARTES INTERESADAS, Y REQUISITOS LEGALES Y APLICABLES A LA NATURALEZA Y COMPLEJIDAD DE LA ACTIVIDAD ECONÓMICA DESARROLLADA POR LA ORGANIZACIÓN.",
+          "verificada": true,
+          "puntaje": 0.8104,
+          "motivo_fallo": ""
+        },
+        {
+          "ref": "E3",
+          "fragmento_id": "13.- Caracterización Gestión Gerencial_CIL ONG.xlsx#629f78#sGESTIÓN GERENCIAL|tGESTIÓN GERENCIAL#2",
+          "documento": "13.- Caracterización Gestión Gerencial_CIL ONG.xlsx",
+          "pagina": null,
+          "seccion": "GESTIÓN GERENCIAL",
+          "cita": "ESTABLECIMIENTO DEL ALCANCE DEL SISTEMA INTEGRADO DE GESTIÓN, TENIENDO EN CUENTA LAS CUESTIONES INTERNAS Y EXTERNAS; REQUISITOS, NECESIDADES Y EXPECTATIVAS DE LOS CLIENTES Y DEMÁS PARTES INTERESADAS, Y REQUISITOS LEGALES Y APLICABLES A LA NATURALEZA Y COMPLEJIDAD DE LA ACTIVIDAD ECONÓMICA DESARROLLADA POR LA ORGANIZACIÓN.",
+          "verificada": true,
+          "puntaje": 0.8104,
+          "motivo_fallo": ""
+        },
+        {
+          "ref": "E4",
+          "fragmento_id": "1. Procedimiento para la Revisión por la Gerencia.docx#d6e419#bloque#11",
+          "documento": "1. Procedimiento para la Revisión por la Gerencia.docx",
+          "pagina": null,
+          "seccion": "",
+          "cita": "Revisión: “Determinación de la conveniencia, adecuación o eficacia de un objeto para lograr unos objetivos establecidos” (Norma ISO 9000, 2015, p. 28",
+          "verificada": true,
+          "puntaje": 0.8028,
+          "motivo_fallo": ""
+        }
+      ],
+      "hallazgo": "",
+      "severidad": "",
+      "recomendacion": "",
+      "fragmentos_recuperados": [
+        "Plan de Auditoria_TNS.xlsx#621c91#sHoja1|tHoja1#1",
+        "Caracterización Gestión Gerencial_CIL ONG.xlsx#8d997e#sGESTIÓN GERENCIAL|tGESTIÓN GERENCIAL#2",
+        "13.- Caracterización Gestión Gerencial_CIL ONG.xlsx#629f78#sGESTIÓN GERENCIAL|tGESTIÓN GERENCIAL#2",
+        "1. Procedimiento para la Revisión por la Gerencia.docx#d6e419#bloque#11",
+        "Informe de Auditoria Interna Integral_TNS.pdf#4e805d#p4#7"
+      ],
+      "mejor_puntaje": 0.8287,
+      "traza_verificada": true,
+      "latencia_s": 13.066,
+      "tokens_entrada": 2534,
+      "tokens_salida": 516,
+      "costo_usd": 0.0,
+      "modelo": "llama3.1:8b",
+      "proveedor": "ollama",
+      "error": null
+    },
+    {
+      "requisito_id": "ISO9001-4.4.1",
+      "norma": "ISO9001",
+      "clausula": "4.4.1",
+      "ambito": "calidad",
+      "requisito_texto": "4.4.1 La organización debe establecer, implementar, mantener y mejorar continuamente un sistema de gestión de la calidad, incluidos los procesos necesarios y sus interacciones, de acuerdo con los requisitos de esta Norma Internacional. La organización debe determinar los procesos necesarios para el sistema de gestión de la calidad y su aplicación a través de la organización, y debe: a) determinar las entradas requeridas y las salidas esperadas de estos procesos; b) determinar la secuencia e interacción de estos procesos; c) determinar y aplicar los criterios y los métodos (incluyendo el seguimiento, las mediciones y los indicadores del desempeño relacionados) necesarios para asegurarse de la operación eficaz y el control de estos procesos; d) determinar los recursos necesarios para estos procesos y asegurarse de su disponibilidad; e) asignar las responsabilidades y autoridades para estos procesos; f) abordar los riesgos y oportunidades determinados de acuerdo con los requisitos del apartado 6.1; g) evaluar estos procesos e implementar cualquier cambio necesario para asegurarse de que estos procesos logran los resultados previstos; h) mejorar los procesos y el sistema de gestión de la calidad.",
+      "veredicto": "CUMPLE",
+      "confianza": 0.9,
+      "confianza_evidence": 0.9,
+      "justificacion": "La organización ha establecido y implementado un sistema de gestión de la calidad, como se desprende de la evidencia E2 y E3, que describe la planificación estratégica, implementación, mantenimiento y mejora continua del Sistema Integrado de Gestión.",
+      "evidencias": [
+        {
+          "ref": "E2",
+          "fragmento_id": "Plan de Auditoria_TNS.xlsx#621c91#sHoja1|tHoja1#1",
+          "documento": "Plan de Auditoria_TNS.xlsx",
+          "pagina": null,
+          "seccion": "Hoja1",
+          "cita": "Determinar el grado de conformidad, en términos de eficiencia y eficacia, en las etapas de planificación estratégica, implementación, mantenimiento, evaluación y mejora continua del Sistema Integrado de Gestión",
+          "verificada": true,
+          "puntaje": 0.8027,
+          "motivo_fallo": ""
+        },
+        {
+          "ref": "E3",
+          "fragmento_id": "Informe de Auditoria Interna Integral_TNS.pdf#4e805d#p4#7",
+          "documento": "Informe de Auditoria Interna Integral_TNS.pdf",
+          "pagina": 4,
+          "seccion": "",
+          "cita": "Determinar el grado de conformidad en la implementación, mantenimiento y mejora continua del Sistema de Gestión de la Calidad (SGC) articulado bajo la NTC ISO 9001 versión 2015",
+          "verificada": true,
+          "puntaje": 0.8018,
+          "motivo_fallo": ""
+        }
+      ],
+      "hallazgo": "",
+      "severidad": "",
+      "recomendacion": "",
+      "fragmentos_recuperados": [
+        "1. Procedimiento para la Revisión por la Gerencia.docx#d6e419#bloque#11",
+        "Plan de Auditoria_TNS.xlsx#621c91#sHoja1|tHoja1#1",
+        "Informe de Auditoria Interna Integral_TNS.pdf#4e805d#p4#7",
+        "Caracterizaciones de Procesos_CCGM.xlsx#f2c092#sGESTIÓN HSEQ|tGESTIÓN HSEQ#15",
+        "16.- Caracterizaciones de Procesos_CCGM.xlsx#4cfd00#sGESTIÓN HSEQ|tGESTIÓN HSEQ#15"
+      ],
+      "mejor_puntaje": 0.8038,
+      "traza_verificada": true,
+      "latencia_s": 8.242,
+      "tokens_entrada": 2448,
+      "tokens_salida": 303,
+      "costo_usd": 0.0,
+      "modelo": "llama3.1:8b",
+      "proveedor": "ollama",
+      "error": null
+    },
+    {
+      "requisito_id": "ISO9001-4.4.2",
+      "norma": "ISO9001",
+      "clausula": "4.4.2",
+      "ambito": "calidad",
+      "requisito_texto": "4.4.2 En la medida en que sea necesario, la organización debe: a) mantener información documentada para apoyar la operación de sus procesos; b) conservar la información documentada para tener la confianza de que los procesos se realizan según lo planificado.",
+      "veredicto": "CUMPLE",
+      "confianza": 0.9,
+      "confianza_evidence": 0.9,
+      "justificacion": "La organización ha establecido un procedimiento para el control de la información documentada, que incluye la identificación, creación, actualización, aprobación y control de los cambios de la información documentada.",
+      "evidencias": [
+        {
+          "ref": "E1",
+          "fragmento_id": "2. Manual del Sistema Integrado de Gestión.docx#3394df#bloque#122",
+          "documento": "2. Manual del Sistema Integrado de Gestión.docx",
+          "pagina": null,
+          "seccion": "",
+          "cita": "La organización ha establecido para el control de la información documentada un PROCEDIMIENTO PARA EL CONTROL DE LA INFORMACIÓN DOCUMENTADA, en el cual se detalla la identificación, creación, actualización, aprobación y control de los cambios de la información documentada.",
+          "verificada": true,
+          "puntaje": 0.8214,
+          "motivo_fallo": ""
+        },
+        {
+          "ref": "E2",
+          "fragmento_id": "2. Manual del Sistema Integrado de Gestión.docx#3394df#bloque#98",
+          "documento": "2. Manual del Sistema Integrado de Gestión.docx",
+          "pagina": null,
+          "seccion": "",
+          "cita": "El mantenimiento de este equipo se realiza por medio de proveedores confiables que certifican la calibración de estos. Esta información se controla de acuerdo a lo establecido en el PROCEDIMIENTO PARA EL CONTROL DE INFORMACIÓN DOCUMENTADA.",
+          "verificada": true,
+          "puntaje": 0.8139,
+          "motivo_fallo": ""
+        },
+        {
+          "ref": "E3",
+          "fragmento_id": "Control de Documentos y Registros_CIL ONG.docx#7138e0#bloque#42",
+          "documento": "Control de Documentos y Registros_CIL ONG.docx",
+          "pagina": null,
+          "seccion": "",
+          "cita": "Los manuales, procedimientos, matrices e instructivos que conformen la estructura documental del Sistema de Gestión de la Calidad, Seguridad y Salud En el Trabajo y Ambiente de la organización, se deben presentar en formato PDF; cuyo objetivo es evitar la modificación y/o actualizaciones no aprobadas.",
+          "verificada": true,
+          "puntaje": 0.7975,
+          "motivo_fallo": ""
+        },
+        {
+          "ref": "E4",
+          "fragmento_id": "Control de Documentos y Registros_CIL ONG.docx#9dc2e7#bloque#42",
+          "documento": "Control de Documentos y Registros_CIL ONG.docx",
+          "pagina": null,
+          "seccion": "",
+          "cita": "Los manuales, procedimientos, matrices e instructivos que conformen la estructura documental del Sistema de Gestión de la Calidad, Seguridad y Salud En el Trabajo y Ambiente de la organización, se deben presentar en formato PDF; cuyo objetivo es evitar la modificación y/o actualizaciones no aprobadas.",
+          "verificada": true,
+          "puntaje": 0.7975,
+          "motivo_fallo": ""
+        },
+        {
+          "ref": "E5",
+          "fragmento_id": "Control de Documentos y Registros_CIL ONG.docx#7138e0#bloque#45",
+          "documento": "Control de Documentos y Registros_CIL ONG.docx",
+          "pagina": null,
+          "seccion": "",
+          "cita": "En el momento en que el Director HSEQ en colaboración con el Representante Legal y Gerente General de la organización hayan aprobado la actualización y/o modificación de algún documento, su versión anterior se clasificará como obsoleta; por lo tanto, su soporte físico y digital serán actualizados inmediatamente, registrándose cada uno de los cambios aplicados tal y como se establece en el numeral 5.3 del presente procedimiento; permitiendo así prevenir el uso mal intencionado de documentos obsoletos.",
+          "verificada": true,
+          "puntaje": 0.7849,
+          "motivo_fallo": ""
+        }
+      ],
+      "hallazgo": "",
+      "severidad": "",
+      "recomendacion": "",
+      "fragmentos_recuperados": [
+        "2. Manual del Sistema Integrado de Gestión.docx#3394df#bloque#122",
+        "2. Manual del Sistema Integrado de Gestión.docx#3394df#bloque#98",
+        "Control de Documentos y Registros_CIL ONG.docx#7138e0#bloque#42",
+        "Control de Documentos y Registros_CIL ONG.docx#9dc2e7#bloque#42",
+        "Control de Documentos y Registros_CIL ONG.docx#7138e0#bloque#45"
+      ],
+      "mejor_puntaje": 0.8214,
+      "traza_verificada": true,
+      "latencia_s": 15.78,
+      "tokens_entrada": 1599,
+      "tokens_salida": 668,
+      "costo_usd": 0.0,
+      "modelo": "llama3.1:8b",
+      "proveedor": "ollama",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,634 @@
+{
+  "kpis": [
+    {
+      "id": "CAL-01",
+      "nombre": "Índice de cumplimiento del Sistema Integrado de Gestión",
+      "ambito": "calidad",
+      "norma": "ISO9001",
+      "clausula_fuente": "9.1.1",
+      "formula": "(Nº de requisitos ISO con evidencia verificada / Nº total de requisitos aplicables) × 100",
+      "unidad": "%",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "≥ 90 %",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Indicador global de la madurez del SIG. Es el que consolida el diagnóstico automatizado.",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "CAL-02",
+      "nombre": "Cumplimiento de acciones correctivas",
+      "ambito": "calidad",
+      "norma": "ISO9001",
+      "clausula_fuente": "10.2",
+      "formula": "(Acciones correctivas cerradas en plazo / Acciones correctivas abiertas) × 100",
+      "unidad": "%",
+      "frecuencia": "mensual",
+      "meta_sugerida": "≥ 95 %",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Mide la eficacia y el cierre oportuno de las acciones derivadas de no conformidades.",
+      "ambitos_relacionados": [
+        "acciones_correctivas"
+      ]
+    },
+    {
+      "id": "CAL-03",
+      "nombre": "Tasa de no conformidades internas",
+      "ambito": "calidad",
+      "norma": "ISO9001",
+      "clausula_fuente": "9.1.3",
+      "formula": "(Nº de no conformidades detectadas / Nº de auditorías internas ejecutadas)",
+      "unidad": "ratio",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "Tendencia descendente",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Detecta desviaciones del proceso antes de que las detecte el cliente.",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "CAL-04",
+      "nombre": "Satisfacción del cliente",
+      "ambito": "calidad",
+      "norma": "ISO9001",
+      "clausula_fuente": "9.1.2",
+      "formula": "(Clientes con satisfacción alta o muy alta / Total de respuestas) × 100",
+      "unidad": "%",
+      "frecuencia": "semestral",
+      "meta_sugerida": "≥ 85 %",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Vigila el cumplimiento de los requisitos del cliente (9.1.2).",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "CAL-05",
+      "nombre": "Cumplimiento de objetivos del SIG",
+      "ambito": "calidad",
+      "norma": "ISO9001",
+      "clausula_fuente": "6.2",
+      "formula": "(Nº de objetivos con KPI en meta / Nº total de objetivos del SIG) × 100",
+      "unidad": "%",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "≥ 80 %",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Verifica la eficacia de la planificación (6.2) y del seguimiento (9.1).",
+      "ambitos_relacionados": [
+        "cumplimiento_objetivos"
+      ]
+    },
+    {
+      "id": "CAL-06",
+      "nombre": "Control de información documentada",
+      "ambito": "calidad",
+      "norma": "ISO9001",
+      "clausula_fuente": "7.5",
+      "formula": "(Documentos revisados y vigentes / Documentos del listado maestro) × 100",
+      "unidad": "%",
+      "frecuencia": "semestral",
+      "meta_sugerida": "100 %",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Mide la salud de la documentación controlada.",
+      "ambitos_relacionados": [
+        "documentacion"
+      ]
+    },
+    {
+      "id": "CAL-07",
+      "nombre": "Eficacia de la revisión por la dirección",
+      "ambito": "calidad",
+      "norma": "ISO9001",
+      "clausula_fuente": "9.3",
+      "formula": "(Decisiones de la revisión ejecutadas / Decisiones registradas en acta) × 100",
+      "unidad": "%",
+      "frecuencia": "anual",
+      "meta_sugerida": "100 %",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Verifica el cierre de las decisiones de la alta dirección.",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "AMB-01",
+      "nombre": "Cumplimiento de objetivos ambientales",
+      "ambito": "ambiente",
+      "norma": "ISO14001",
+      "clausula_fuente": "6.2",
+      "formula": "(Nº de objetivos ambientales en meta / Total de objetivos ambientales) × 100",
+      "unidad": "%",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "≥ 85 %",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Mide la eficacia del programa de gestión ambiental.",
+      "ambitos_relacionados": [
+        "cumplimiento_objetivos"
+      ]
+    },
+    {
+      "id": "AMB-02",
+      "nombre": "Consumo de agua por unidad producida",
+      "ambito": "ambiente",
+      "norma": "ISO14001",
+      "clausula_fuente": "9.1.1",
+      "formula": "(m³ de agua consumida / Unidad de producto terminado)",
+      "unidad": "m³/u",
+      "frecuencia": "mensual",
+      "meta_sugerida": "Tendencia descendente",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Mide la eficiencia del uso del agua (programas de ahorro).",
+      "ambitos_relacionados": [
+        "consumo_agua"
+      ]
+    },
+    {
+      "id": "AMB-03",
+      "nombre": "Consumo de energía eléctrica por unidad producida",
+      "ambito": "ambiente",
+      "norma": "ISO14001",
+      "clausula_fuente": "9.1.1",
+      "formula": "(kWh consumidos / Unidad de producto terminado)",
+      "unidad": "kWh/u",
+      "frecuencia": "mensual",
+      "meta_sugerida": "Tendencia descendente",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Mide la eficiencia energética del proceso.",
+      "ambitos_relacionados": [
+        "consumo_energia"
+      ]
+    },
+    {
+      "id": "AMB-04",
+      "nombre": "Generación de residuos peligrosos",
+      "ambito": "ambiente",
+      "norma": "ISO14001",
+      "clausula_fuente": "8.1",
+      "formula": "(kg de residuos peligrosos generados / Unidad producida)",
+      "unidad": "kg/u",
+      "frecuencia": "mensual",
+      "meta_sugerida": "Tendencia descendente",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Vigila la gestión integral de residuos (8.1).",
+      "ambitos_relacionados": [
+        "residuos"
+      ]
+    },
+    {
+      "id": "AMB-05",
+      "nombre": "Cumplimiento de requisitos legales ambientales",
+      "ambito": "ambiente",
+      "norma": "ISO14001",
+      "clausula_fuente": "9.1.2",
+      "formula": "(Requisitos legales ambientales evaluados y conformes / Total de requisitos legales) × 100",
+      "unidad": "%",
+      "frecuencia": "semestral",
+      "meta_sugerida": "100 %",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Verifica el cumplimiento del marco legal (9.1.2 / 6.1.3).",
+      "ambitos_relacionados": [
+        "cumplimiento_legal"
+      ]
+    },
+    {
+      "id": "AMB-06",
+      "nombre": "Índice de significancia de aspectos ambientales",
+      "ambito": "ambiente",
+      "norma": "ISO14001",
+      "clausula_fuente": "6.1.2",
+      "formula": "(Nº de aspectos ambientales con controles implementados / Total de aspectos identificados) × 100",
+      "unidad": "%",
+      "frecuencia": "anual",
+      "meta_sugerida": "≥ 90 %",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Mide la cobertura de la matriz de aspectos e impactos.",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "SST-01",
+      "nombre": "Índice de frecuencia de accidentes (IF)",
+      "ambito": "seguridad",
+      "norma": "ISO45001",
+      "clausula_fuente": "9.1.2",
+      "formula": "(Nº de accidentes con tiempo perdido × 200 000) / Total de horas-hombre trabajadas",
+      "unidad": "índice",
+      "frecuencia": "mensual",
+      "meta_sugerida": "Tendencia descendente a 0",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Indicador estándar de Accidentabilidad para el seguimiento de 9.1.2.",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "SST-02",
+      "nombre": "Índice de gravedad (IG)",
+      "ambito": "seguridad",
+      "norma": "ISO45001",
+      "clausula_fuente": "9.1.2",
+      "formula": "(Nº de días de incapacidad × 100) / Total de horas-hombre trabajadas",
+      "unidad": "índice",
+      "frecuencia": "mensual",
+      "meta_sugerida": "Tendencia descendente a 0",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Complementa el IF con la severidad de las consecuencias.",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "SST-03",
+      "nombre": "Cumplimiento del plan de inspecciones",
+      "ambito": "seguridad",
+      "norma": "ISO45001",
+      "clausula_fuente": "9.1.2",
+      "formula": "(Inspecciones ejecutadas / Inspecciones programadas) × 100",
+      "unidad": "%",
+      "frecuencia": "mensual",
+      "meta_sugerida": "≥ 95 %",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Mide la ejecución del programa de inspecciones (9.1.2).",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "SST-04",
+      "nombre": "Cobertura de capacitación en SST",
+      "ambito": "seguridad",
+      "norma": "ISO45001",
+      "clausula_fuente": "7.2",
+      "formula": "(Personal capacitado en SST / Personal total expuesto) × 100",
+      "unidad": "%",
+      "frecuencia": "semestral",
+      "meta_sugerida": "100 %",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Verifica la competencia del personal (7.2) y reduce el riesgo por falta de formación.",
+      "ambitos_relacionados": [
+        "capacitacion"
+      ]
+    },
+    {
+      "id": "SST-05",
+      "nombre": "Cierre de acciones correctivas de seguridad",
+      "ambito": "seguridad",
+      "norma": "ISO45001",
+      "clausula_fuente": "10.2",
+      "formula": "(Acciones de seguridad cerradas en plazo / Acciones de seguridad abiertas) × 100",
+      "unidad": "%",
+      "frecuencia": "mensual",
+      "meta_sugerida": "≥ 95 %",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Mide la eficacia del ciclo de mejora continua (10.2).",
+      "ambitos_relacionados": [
+        "acciones_correctivas"
+      ]
+    },
+    {
+      "id": "SST-06",
+      "nombre": "Realización de simulacros de emergencia",
+      "ambito": "seguridad",
+      "norma": "ISO45001",
+      "clausula_fuente": "8.2",
+      "formula": "(Simulacros ejecutados / Simulacros programados) × 100",
+      "unidad": "%",
+      "frecuencia": "anual",
+      "meta_sugerida": "100 %",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Verifica la preparación para emergencias (8.2).",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "SST-07",
+      "nombre": "Cobertura de controles de riesgos prioritarios",
+      "ambito": "seguridad",
+      "norma": "ISO45001",
+      "clausula_fuente": "6.1.2",
+      "formula": "(Riesgos prioritarios con control implementado / Total de riesgos prioritarios) × 100",
+      "unidad": "%",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "≥ 95 %",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Mide la eficacia de la identificación y valoración de peligros (6.1.2).",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "SIG-01",
+      "nombre": "Trazabilidad requisito-evidencia",
+      "ambito": "integral",
+      "norma": "ISO9001",
+      "clausula_fuente": "7.5.3",
+      "formula": "(Citas verificadas contra el documento fuente / Citas declaradas en el diagnóstico) × 100",
+      "unidad": "%",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "≥ 95 %",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Indicador propio del sistema: mide la confianza del diagnóstico automatizado.",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "SIG-02",
+      "nombre": "Cobertura documental del SIG",
+      "ambito": "integral",
+      "norma": "ISO9001",
+      "clausula_fuente": "7.5.2",
+      "formula": "(Documentos del listado maestro vigentes / Total de documentos requeridos) × 100",
+      "unidad": "%",
+      "frecuencia": "semestral",
+      "meta_sugerida": "100 %",
+      "origen": "catalogo",
+      "requisito_asociado": "",
+      "descripcion": "Mide la suficiencia de la información documentada del SIG.",
+      "ambitos_relacionados": [
+        "documentacion"
+      ]
+    },
+    {
+      "id": "NORM-001",
+      "nombre": "8.1 Planificación y control operacional La organización debe planificar, implementar y controlar los procesos (véase...",
+      "ambito": "calidad",
+      "norma": "ISO9001",
+      "clausula_fuente": "8.1",
+      "formula": "A definir por la organización a partir del requisito",
+      "unidad": "-",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "A definir",
+      "origen": "normativo",
+      "requisito_asociado": "ISO9001-8.1",
+      "descripcion": "8.1 Planificación y control operacional La organización debe planificar, implementar y controlar los procesos (véase 4.4) necesarios para cumplir los requisitos para la provisión de productos y servicios, y para implementar las acciones determinadas en el capítulo 6, mediante: a) la determinación de los requisitos para los productos y servicios; b) el establecimiento de criterios para: 1) los...",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "NORM-002",
+      "nombre": "9.1.1 Generalidades La organización debe determinar: a) qué necesita seguimiento y medición; b) los métodos de...",
+      "ambito": "calidad",
+      "norma": "ISO9001",
+      "clausula_fuente": "9.1.1",
+      "formula": "A definir por la organización a partir del requisito",
+      "unidad": "-",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "A definir",
+      "origen": "normativo",
+      "requisito_asociado": "ISO9001-9.1.1",
+      "descripcion": "9.1.1 Generalidades La organización debe determinar: a) qué necesita seguimiento y medición; b) los métodos de seguimiento, medición, análisis y evaluación necesarios para asegurar resultados válidos; c) cuándo se deben llevar a cabo el seguimiento y la medición; d) cuándo se deben analizar y evaluar los resultados del seguimiento y la medición. La organización debe evaluar el desempeño y la...",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "NORM-003",
+      "nombre": "9.1.2 Satisfacción del cliente La organización debe realizar el seguimiento de las percepciones de los clientes del...",
+      "ambito": "calidad",
+      "norma": "ISO9001",
+      "clausula_fuente": "9.1.2",
+      "formula": "A definir por la organización a partir del requisito",
+      "unidad": "-",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "A definir",
+      "origen": "normativo",
+      "requisito_asociado": "ISO9001-9.1.2",
+      "descripcion": "9.1.2 Satisfacción del cliente La organización debe realizar el seguimiento de las percepciones de los clientes del grado en que se cumplen sus necesidades y expectativas. La organización debe determinar los métodos para obtener, realizar el seguimiento y revisar esta información. La organización debe determinar los métodos para obtener, realizar el seguimiento y revisar esta información. NOTA...",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "NORM-004",
+      "nombre": "9.1.3 Análisis y evaluación La organización debe analizar y evaluar los datos y la información apropiados que surgen...",
+      "ambito": "calidad",
+      "norma": "ISO9001",
+      "clausula_fuente": "9.1.3",
+      "formula": "A definir por la organización a partir del requisito",
+      "unidad": "-",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "A definir",
+      "origen": "normativo",
+      "requisito_asociado": "ISO9001-9.1.3",
+      "descripcion": "9.1.3 Análisis y evaluación La organización debe analizar y evaluar los datos y la información apropiados que surgen por el seguimiento y la medición. Los resultados del análisis deben utilizarse para evaluar: a) la conformidad de los productos y servicios; b) el grado de satisfacción del cliente; c) el desempeño y la eficacia del sistema de gestión de la calidad; d) si lo planificado se ha...",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "NORM-005",
+      "nombre": "8.1 Planificación y control operacional La organización debe establecer, implementar, controlar y mantener los procesos...",
+      "ambito": "ambiente",
+      "norma": "ISO14001",
+      "clausula_fuente": "8.1",
+      "formula": "A definir por la organización a partir del requisito",
+      "unidad": "-",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "A definir",
+      "origen": "normativo",
+      "requisito_asociado": "ISO14001-8.1-1",
+      "descripcion": "8.1 Planificación y control operacional La organización debe establecer, implementar, controlar y mantener los procesos necesarios para satisfacer los requisitos del sistema de gestión ambiental y para implementar las acciones determinadas en los apartados 6.1 y 6.2, mediante: – el establecimiento de criterios de operación para los procesos; – la implementación del control de los procesos de...",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "NORM-006",
+      "nombre": "En coherencia con la perspectiva del ciclo de vida, la organización debe: a) establecer los controles, según...",
+      "ambito": "ambiente",
+      "norma": "ISO14001",
+      "clausula_fuente": "8.1",
+      "formula": "A definir por la organización a partir del requisito",
+      "unidad": "-",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "A definir",
+      "origen": "normativo",
+      "requisito_asociado": "ISO14001-8.1-2",
+      "descripcion": "En coherencia con la perspectiva del ciclo de vida, la organización debe: a) establecer los controles, según corresponda, para asegurarse de que sus requisitos ambientales se aborden en el proceso de diseño y desarrollo del producto o servicio, considerando cada etapa de su ciclo de vida; b) determinar sus requisitos ambientales para la compra de productos y servicios, según corresponda; c)...",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "NORM-007",
+      "nombre": "9.1.1 Generalidades La organización debe hacer seguimiento, medir, analizar y evaluar su desempeño ambiental. La...",
+      "ambito": "ambiente",
+      "norma": "ISO14001",
+      "clausula_fuente": "9.1.1",
+      "formula": "A definir por la organización a partir del requisito",
+      "unidad": "-",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "A definir",
+      "origen": "normativo",
+      "requisito_asociado": "ISO14001-9.1.1",
+      "descripcion": "9.1.1 Generalidades La organización debe hacer seguimiento, medir, analizar y evaluar su desempeño ambiental. La organización debe determinar: a) qué necesita seguimiento y medición; b) los métodos de seguimiento, medición, análisis y evaluación, según corresponda, para asegurar resultados válidos; c) los criterios contra los cuales la organización evaluará su desempeño ambiental, y los...",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "NORM-008",
+      "nombre": "9.1.2 Evaluación del cumplimiento La organización debe establecer, implementar y mantener los procesos necesarios para...",
+      "ambito": "ambiente",
+      "norma": "ISO14001",
+      "clausula_fuente": "9.1.2",
+      "formula": "A definir por la organización a partir del requisito",
+      "unidad": "-",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "A definir",
+      "origen": "normativo",
+      "requisito_asociado": "ISO14001-9.1.2",
+      "descripcion": "9.1.2 Evaluación del cumplimiento La organización debe establecer, implementar y mantener los procesos necesarios para evaluar el cumplimiento de sus requisitos legales y otros requisitos. La organización debe: a) determinar la frecuencia con la que se evaluará el cumplimiento; b) evaluar el cumplimiento y emprender las acciones que fueran necesarias; c) mantener el conocimiento y la comprensión...",
+      "ambitos_relacionados": [
+        "cumplimiento_legal"
+      ]
+    },
+    {
+      "id": "NORM-009",
+      "nombre": "9.3 Revisión por la dirección La alta dirección debe revisar el sistema de gestión ambiental de la organización a...",
+      "ambito": "ambiente",
+      "norma": "ISO14001",
+      "clausula_fuente": "9.3",
+      "formula": "A definir por la organización a partir del requisito",
+      "unidad": "-",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "A definir",
+      "origen": "normativo",
+      "requisito_asociado": "ISO14001-9.3-1",
+      "descripcion": "9.3 Revisión por la dirección La alta dirección debe revisar el sistema de gestión ambiental de la organización a intervalos planificados, para asegurarse de su conveniencia, adecuación y eficacia continuas. La revisión por la dirección debe incluir consideraciones sobre: a) el estado de las acciones de las revisiones por la dirección previas; b) los cambios en: 1) las cuestiones externas e...",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "NORM-010",
+      "nombre": "Las salidas de la revisión por la dirección deben incluir: – las conclusiones sobre la conveniencia, adecuación y...",
+      "ambito": "ambiente",
+      "norma": "ISO14001",
+      "clausula_fuente": "9.3",
+      "formula": "A definir por la organización a partir del requisito",
+      "unidad": "-",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "A definir",
+      "origen": "normativo",
+      "requisito_asociado": "ISO14001-9.3-2",
+      "descripcion": "Las salidas de la revisión por la dirección deben incluir: – las conclusiones sobre la conveniencia, adecuación y eficacia continuas del sistema de gestión ambiental; – las decisiones relacionadas con las oportunidades de mejora continua; – las decisiones relacionadas con cualquier necesidad de cambio en el sistema de gestión ambiental, incluidas los recursos; – las acciones necesarias cuando no...",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "NORM-011",
+      "nombre": "9.1.1 Generalidades La organización debe establecer, implementar y mantener procesos para el seguimiento, la medición,...",
+      "ambito": "seguridad",
+      "norma": "ISO45001",
+      "clausula_fuente": "9.1.1",
+      "formula": "A definir por la organización a partir del requisito",
+      "unidad": "-",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "A definir",
+      "origen": "normativo",
+      "requisito_asociado": "ISO45001-9.1.1-1",
+      "descripcion": "9.1.1 Generalidades La organización debe establecer, implementar y mantener procesos para el seguimiento, la medición, el análisis y la evaluación del desempeño. La organización debe determinar: a) qué necesita seguimiento y medición, incluyendo: 1) el grado en que se cumplen los requisitos legales y otros requisitos;2) sus actividades y operaciones relacionadas con los peligros, los riesgos y...",
+      "ambitos_relacionados": [
+        "cumplimiento_legal"
+      ]
+    },
+    {
+      "id": "NORM-012",
+      "nombre": "La organización debe conservar la información documentada adecuada: — como evidencia de los resultados del seguimiento,...",
+      "ambito": "seguridad",
+      "norma": "ISO45001",
+      "clausula_fuente": "9.1.1",
+      "formula": "A definir por la organización a partir del requisito",
+      "unidad": "-",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "A definir",
+      "origen": "normativo",
+      "requisito_asociado": "ISO45001-9.1.1-2",
+      "descripcion": "La organización debe conservar la información documentada adecuada: — como evidencia de los resultados del seguimiento, la medición, el análisis y la evaluación del desempeño; — sobre el mantenimiento, calibración o verificación de los equipos de medición.",
+      "ambitos_relacionados": [
+        "documentacion"
+      ]
+    },
+    {
+      "id": "NORM-013",
+      "nombre": "9.1.2 Evaluación del cumplimiento La organización debe establecer, implementar y mantener procesos para evaluar el...",
+      "ambito": "seguridad",
+      "norma": "ISO45001",
+      "clausula_fuente": "9.1.2",
+      "formula": "A definir por la organización a partir del requisito",
+      "unidad": "-",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "A definir",
+      "origen": "normativo",
+      "requisito_asociado": "ISO45001-9.1.2",
+      "descripcion": "9.1.2 Evaluación del cumplimiento La organización debe establecer, implementar y mantener procesos para evaluar el cumplimiento con los requisitos legales y otros requisitos (véase 6.1.3). La organización debe: a) determinar la frecuencia y los métodos para la evaluación del cumplimiento; b) evaluar el cumplimiento y tomar acciones si es necesario (véase 10.2); c) mantener el conocimiento y la...",
+      "ambitos_relacionados": [
+        "cumplimiento_legal"
+      ]
+    },
+    {
+      "id": "NORM-014",
+      "nombre": "9.3 Revisión por la dirección La alta dirección debe revisar el sistema de gestión de la SST de la organización a...",
+      "ambito": "seguridad",
+      "norma": "ISO45001",
+      "clausula_fuente": "9.3",
+      "formula": "A definir por la organización a partir del requisito",
+      "unidad": "-",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "A definir",
+      "origen": "normativo",
+      "requisito_asociado": "ISO45001-9.3-1",
+      "descripcion": "9.3 Revisión por la dirección La alta dirección debe revisar el sistema de gestión de la SST de la organización a intervalos planificados, para asegurarse de su conveniencia, adecuación y eficacia continuas. La revisión por la dirección debe considerar: a) el estado de las acciones de las revisiones por la dirección previas; b) los cambios en las cuestiones externas e internas que sean...",
+      "ambitos_relacionados": []
+    },
+    {
+      "id": "NORM-015",
+      "nombre": "Las salidas de la revisión por la dirección deben incluir las decisiones relacionadas con: — la conveniencia,...",
+      "ambito": "seguridad",
+      "norma": "ISO45001",
+      "clausula_fuente": "9.3",
+      "formula": "A definir por la organización a partir del requisito",
+      "unidad": "-",
+      "frecuencia": "trimestral",
+      "meta_sugerida": "A definir",
+      "origen": "normativo",
+      "requisito_asociado": "ISO45001-9.3-2",
+      "descripcion": "Las salidas de la revisión por la dirección deben incluir las decisiones relacionadas con: — la conveniencia, adecuación y eficacia continuas del sistema de gestión de la SST en alcanzar sus resultados previstos; — las oportunidades de mejora continua; — cualquier necesidad de cambio en el sistema de gestión de la SST; — los recursos necesarios; — las acciones, si son necesarias; — las...",
+      "ambitos_relacionados": []
+    }
+  ],
+  "analisis": {
+    "total_kpis": 37,
+    "por_ambito": {
+      "calidad": 11,
+      "ambiente": 12,
+      "seguridad": 12,
+      "integral": 2
+    },
+    "cobertura_normas": {
+      "ISO9001": 13,
+      "ISO14001": 12,
+      "ISO45001": 12
+    },
+    "indicadores_transversales": {
+      "acciones_correctivas": [
+        "calidad",
+        "seguridad"
+      ],
+      "cumplimiento_objetivos": [
+        "ambiente",
+        "calidad"
+      ],
+      "documentacion": [
+        "calidad",
+        "integral",
+        "seguridad"
+      ],
+      "cumplimiento_legal": [
+        "ambiente",
+        "seguridad"
+      ]
+    },
+    "potenciales_redundancias": [
+      "acciones_correctivas",
+      "cumplimiento_legal",
+      "cumplimiento_objetivos",
+      "documentacion"
+    ],
+    "frecuencias": {
+      "anual": 3,
+      "mensual": 8,
+      "semestral": 5,
+      "trimestral": 21
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "generado": "2026-10-21T11:45:01-04:00",
+  "proveedor": "ollama",
+  "modelo": "llama3.1:8b",
+  "organizacion": "METUNIMET",
+  "resumen_ejecutivo": "**Resumen Ejecutivo del Diagnóstico de Cumplimiento Normativo**\n===========================================================\n\n**Panorama general**\n-------------------\n\nEl Sistema Integrado de Gestión (SIG) ha demostrado un buen estado de cumplimiento con las normas ISO 9001 y 14001, con un 100% de cumplimiento en las cláusulas evaluadas. Sin embargo, se han identificado algunas brechas críticas que requieren atención inmediata.\n\n**Brechas críticas**\n-------------------\n\n1. **No se identifican ni evalúan los requisitos legales y reglamentarios** ([ISO9001-2]): Esta brecha crítica afecta directamente a la cláusula 2 de la norma ISO 9001, que establece la necesidad de identificar y evaluar los requisitos legales y reglamentarios aplicables a la organización.\n2. **No se cumple la cláusula 0.4 de la norma ISO 9001** ([ISO9001-0.4-2]): Esta brecha crítica afecta a la cláusula 0.4 de la norma ISO 9001, que establece la necesidad de definir la política de calidad.\n3. **No se cumple la cláusula 2 de la norma ISO 9001** ([ISO9001-2]): Esta brecha crítica afecta a la cláusula 2 de la norma ISO 9001, que establece la necesidad de identificar y evaluar los requisitos legales y reglamentarios aplicables a la organización.\n\n**Riesgo de no conformidad**\n---------------------------\n\nLa norma ISO 9001 se ve más expuesta a un riesgo de no conformidad debido a las brechas críticas identificadas. Esto se debe a que la norma ISO 9001 es la base del Sistema Integrado de Gestión y cualquier falla en su cumplimiento puede tener un impacto significativo en la organización.\n\n**Plan de acción priorizado**\n---------------------------\n\n1. **Revisión y actualización de la política de calidad** ([ISO9001-0.4-2]): Se deberá revisar y actualizar la política de calidad para asegurar que cumpla con los requisitos de la norma ISO 9001.\n2. **Identificación y evaluación de requisitos legales y reglamentarios** ([ISO9001-2]): Se deberá identificar y evaluar los requisitos legales y reglamentarios aplicables a la organización y asegurar que se cumplan.\n3. **Implementación de un sistema de gestión de riesgos** ([ISO9001-1-1 y ISO9001-1-2]): Se deberá implementar un sistema de gestión de riesgos para asegurar que se identifiquen y evalúen los riesgos y oportunidades que puedan afectar la organización.\n4. **Capacitación del personal** ([ISO9001-1-1 y ISO9001-1-2]): Se deberá capacitar al personal para asegurar que comprendan y cumplan con los requisitos de la norma ISO 9001.\n5. **Revisión y actualización del sistema de gestión** ([ISO9001-2]): Se deberá revisar y actualizar el sistema de gestión para asegurar que cumpla con los requisitos de la norma ISO 9001.",
+  "advertencias": [],
+  "metricas": {
+    "requisitos_evaluados": 5,
+    "evaluables": 3,
+    "distribucion_veredictos": {
+      "CUMPLE": 3,
+      "CUMPLE_PARCIAL": 0,
+      "NO_CUMPLE": 0,
+      "NO_APLICA": 2
+    },
+    "tasa_cumplimiento": 0.6,
+    "tasa_cumplimiento_sobre_evaluables": 1.0,
+    "tasa_no_cumplimiento": 0.0,
+    "tasa_trazabilidad_verificada": 1.0,
+    "requisitos_con_evidencia_citada": 5,
+    "por_norma": {
+      "ISO9001": {
+        "total": 5,
+        "cumple": 3,
+        "parcial": 0,
+        "no_cumple": 0,
+        "na": 2
+      }
+    },
+    "por_ambito": {
+      "calidad": {
+        "total": 5,
+        "cumple": 3,
+        "parcial": 0,
+        "no_cumple": 0,
+        "na": 2
+      }
+    },
+    "latencia_media_s": 9.285,
+    "latencia_total_s": 46.424,
+    "tokens_entrada": 13159,
+    "tokens_salida": 1761,
+    "errores": 0
+  },
+  "resultados": [
+    {
+      "requisito_id": "ISO9001-0.4-1",
+      "norma": "ISO9001",
+      "clausula": "0.4",
+      "ambito": "calidad",
+      "requisito_texto": "- 13 - Las oportunidades pueden surgir como resultado de una situación favorable para lograr un resultado previsto, por ejemplo, un conjunto de circunstancias que permita a la organización atraer clientes, desarrollar nuevos productos y servicios, reducir los residuos o mejorar la productividad. Las acciones para abordar las oportunidades también pueden incluir la consideración de los riesgos asociados. El riesgo es el efecto de la incertidumbre y dicha incertidumbre puede tener efectos positivos o negativos. Una desviación positiva que surge de un riesgo puede proporcionar una oportunidad, pero no todos los efectos positivos del riesgo tienen como resultado oportunidades. 0.4 Relación con otras normas de sistemas de gestión Esta Norma Internacional aplica el marco de referencia desarrollado por ISO para mejorar el alineamiento entre sus Normas Internacionales para sistemas de gestión (véase el Capítulo A.1) . Esta Norma Internacional permite a una organización utilizar el enfoque a procesos, en conjunto con el ciclo PHVA y el pensamiento basado en riesgos, para alinear o integrar su sistema de gestión de la calidad con los requisitos de otras normas de sistemas de gestión. Esta Norma Internacional se relaciona con la Norma ISO 9000 y la Norma ISO 9004 como sigue: – ISO 9000 Sistemas de gestión de la calidad .",
+      "veredicto": "CUMPLE",
+      "confianza": 1.0,
+      "confianza_evidence": 1.0,
+      "justificacion": "La organización utiliza el enfoque a procesos, en conjunto con el ciclo PHVA y el pensamiento basado en riesgos, para alinear o integrar su sistema de gestión de la calidad con los requisitos de otras normas de sistemas de gestión.",
+      "evidencias": [
+        {
+          "ref": "E4",
+          "fragmento_id": "2. Manual del Sistema Integrado de Gestión.docx#3394df#bloque#31",
+          "documento": "2. Manual del Sistema Integrado de Gestión.docx",
+          "pagina": null,
+          "seccion": "",
+          "cita": "Promueve el uso de enfoque basado en procesos y el pensamiento basado en riesgos, teniendo en cuenta las consideraciones definidas en las CARACTERIZACIONES DE PROCESO.",
+          "verificada": true,
+          "puntaje": 0.8053,
+          "motivo_fallo": ""
+        }
+      ],
+      "hallazgo": "",
+      "severidad": "",
+      "recomendacion": "",
+      "fragmentos_recuperados": [
+        "Informe de Auditoria Interna Integral_TNS.pdf#4e805d#p8#14",
+        "Plan de Auditoria_TNS.xlsx#621c91#sHoja1|tHoja1#1",
+        "Caracterizaciones.xlsx#f52922#sGestión HSEQ|tGestión HSEQ#30",
+        "2. Manual del Sistema Integrado de Gestión.docx#3394df#bloque#31",
+        "Caracterizaciones.xlsx#f52922#sGestión Gerencial|tGestión Gerencial#0"
+      ],
+      "mejor_puntaje": 0.834,
+      "traza_verificada": true,
+      "latencia_s": 6.648,
+      "tokens_entrada": 2921,
+      "tokens_salida": 225,
+      "costo_usd": 0.0,
+      "modelo": "llama3.1:8b",
+      "proveedor": "ollama",
+      "error": null
+    },
+    {
+      "requisito_id": "ISO9001-0.4-2",
+      "norma": "ISO9001",
+      "clausula": "0.4",
+      "ambito": "calidad",
+      "requisito_texto": "Fundamentos y vocabulario, proporciona una referencia esencial para la comprensión e implementación adecuadas de esta Norma Internacional. – ISO 9004 Gestión para el éxito sostenido de una organización. . Enfoque de gestión de la calidad, proporciona orientación para las organizaciones que elijan ir más allá de los requisitos de esta Norma Internacional. El Anexo B proporciona detalles de otras Normas Internacionales sobre gestión de la calidad y sistemas de gestión de la calidad que han sido desarrolladas por el Comité Técnico ISO/TC 176 . Esta Norma Internacional no incluye requisitos específicos de otros sistemas de gestión, tales como aquellos para la gestión ambiental, la gestión de la salud y seguridad ocupacional o la gestión financiera. Para varios sectores se han desarrollado normas del sistema de gestión de la calidad específicas del sector, basadas en los requisitos de esta Norma Internacional. Algunas de estas normas especifican requisitos adicionales del sistema de gestión de la calidad, mientras que otras se limitan a proporcionar orientación para la aplicación de esta Norma Internacional dentro del sector particular. En la página web de acceso abierto del Comité Técnico ISO/TC 176/SC 2 en: www.iso.org/tc176/sc02/public, puede encontrarse una matriz que muestra la correlación entre los capítulos de esta Norma Internacional y la edición anterior (ISO 9001:2008)",
+      "veredicto": "NO_APLICA",
+      "confianza": 1.0,
+      "confianza_evidence": 1.0,
+      "justificacion": "La norma ISO 9001:2015 no incluye requisitos específicos de otros sistemas de gestión, tales como aquellos para la gestión ambiental, la gestión de la salud y seguridad ocupacional o la gestión financiera.",
+      "evidencias": [
+        {
+          "ref": "E1",
+          "fragmento_id": "1. Procedimiento para la Revisión por la Gerencia.docx#d6e419#ttabla_1#13",
+          "documento": "1. Procedimiento para la Revisión por la Gerencia.docx",
+          "pagina": null,
+          "seccion": "",
+          "cita": "NORMA | CONTENIDO\nNORMA ISO 9000:2015 | Sistemas de gestión de la calidad – fundamentos y vocabulario.\nNORMA ISO 9001:2015 | Sistema de gestión de la calidad – requisitos con orientación para su uso.\nNORMA ISO 14001:2015 | Sistema de gestión ambiental – requisitos con orientación para su uso.\nNORMA ISO 45001:2018 | Sistema de gestión de la seguridad y salud en el trabajo – requisitos con orientación para su uso.\nNORMA ISO 39001:2012 | Sistema de gestión de la seguridad vial – requisitos con orientación para su uso.\nDECRETO 1072 DE 2015 | Por medio del cual se emite el Decreto Único Reglamentario del Sector Trabajo.\nRESOLUCIÓN 0312 DE 2019 | Por la cual se definen los Estándares Mínimos del Sistema de Gestión de la Seguridad y Salud en el Trabajo.\nRESOLUCIÓN 40595 DE 2022 | Por la cual se adopta la metodología para el diseño, implementación y verificación de los Planes Estratégicos de Seguridad Vial y se dictan otras disposiciones.",
+          "verificada": true,
+          "puntaje": 0.8441,
+          "motivo_fallo": ""
+        }
+      ],
+      "hallazgo": "",
+      "severidad": "",
+      "recomendacion": "",
+      "fragmentos_recuperados": [
+        "1. Procedimiento para la Revisión por la Gerencia.docx#d6e419#ttabla_1#13",
+        "3. Acta de Revisión por la Dirección.docx#31e6a5#ttabla_2#3",
+        "14. Identificación, Evaluación y Cumplimiento de Requisitos Legales.docx#60ca25#ttabla_1#14",
+        "17. Programa de Auditoria Interna.docx#9f4fe4#ttabla_1#2",
+        "2. Manual del Sistema Integrado de Gestión.docx#3394df#ttabla_1#5"
+      ],
+      "mejor_puntaje": 0.8441,
+      "traza_verificada": true,
+      "latencia_s": 11.803,
+      "tokens_entrada": 2674,
+      "tokens_salida": 463,
+      "costo_usd": 0.0,
+      "modelo": "llama3.1:8b",
+      "proveedor": "ollama",
+      "error": null
+    },
+    {
+      "requisito_id": "ISO9001-1-1",
+      "norma": "ISO9001",
+      "clausula": "1",
+      "ambito": "calidad",
+      "requisito_texto": ". 1 Objeto y campo de aplicación Esta Norma Internacional especifica los requisitos para un sistema de gestión de la calidad cuando una organización: a) necesita demostrar su capacidad para proporcionar regularmente productos y servicios que satisfagan los requisitos del cliente y los legales y reglamentarios aplicables, y b) aspira a aumentar la satisfacción del cliente a través de la aplicación eficaz del sistema, incluidos los procesos para la mejora del sistema y el aseguramiento de la conformidad con los requisitos del cliente y los legales y reglamentarios aplicables. Todos los requisitos de esta Norma Internacional son genéricos y se pretende que sean aplicables a todas las organizaciones, sin importar su tipo o tamaño, o los productos y servicios suministrados. NOTA 1 En esta Norma Internacional, los términos “producto” o “servicio” se aplican únicamente a productos y servicios destinados a un cliente o solicitados por él. . NOTA 1 Las cuestiones pueden incluir factores positivos y negativos o condiciones para su consideración. NOTA 2 La comprensión del contexto externo puede verse facilitada al considerar cuestiones que surgen de los entornos legal, tecnológico, competitivo, de mercado, cultural, social y económico, ya sea internacional, nacional, regional o local.",
+      "veredicto": "CUMPLE",
+      "confianza": 1.0,
+      "confianza_evidence": 1.0,
+      "justificacion": "La organización tiene un sistema de gestión de la calidad implementado, como se desprende de la documentación de la organización.",
+      "evidencias": [
+        {
+          "ref": "E2",
+          "fragmento_id": "1. Procedimiento para la Revisión por la Gerencia.docx#d6e419#ttabla_1#13",
+          "documento": "1. Procedimiento para la Revisión por la Gerencia.docx",
+          "pagina": null,
+          "seccion": "",
+          "cita": "NORMA | CONTENIDO\nNORMA ISO 9001:2015 | Sistema de gestión de la calidad – requisitos con orientación para su uso.",
+          "verificada": true,
+          "puntaje": 0.8119,
+          "motivo_fallo": ""
+        }
+      ],
+      "hallazgo": "",
+      "severidad": "",
+      "recomendacion": "",
+      "fragmentos_recuperados": [
+        "14. Identificación, Evaluación y Cumplimiento de Requisitos Legales.docx#60ca25#bloque#10",
+        "1. Procedimiento para la Revisión por la Gerencia.docx#d6e419#ttabla_1#13",
+        "3. Acta de Revisión por la Dirección.docx#31e6a5#ttabla_2#3",
+        "14. Identificación, Evaluación y Cumplimiento de Requisitos Legales.docx#60ca25#ttabla_1#14",
+        "2. Manual del Sistema Integrado de Gestión.docx#3394df#ttabla_1#5"
+      ],
+      "mejor_puntaje": 0.8147,
+      "traza_verificada": true,
+      "latencia_s": 5.527,
+      "tokens_entrada": 2411,
+      "tokens_salida": 191,
+      "costo_usd": 0.0,
+      "modelo": "llama3.1:8b",
+      "proveedor": "ollama",
+      "error": null
+    },
+    {
+      "requisito_id": "ISO9001-1-2",
+      "norma": "ISO9001",
+      "clausula": "1",
+      "ambito": "calidad",
+      "requisito_texto": "NOTA 3 La comprensión del contexto interno puede verse facilitada al considerar cuestiones relativas a los valores, la cultura, los conocimientos y el desempeño de la organización . NOTA 1 Los conocimientos de la organización son conocimientos específicos que la organización adquiere generalmente con la experiencia. Es información que se utiliza y se comparte para lograr los objetivos de la organización. NOTA 2 Los conocimientos de la organización pueden basarse en: a) fuentes internas (por ejemplo, propiedad intelectual; conocimientos adquiridos con la experiencia; lecciones aprendidas de los fracasos y de proyectos de éxito; capturar y compartir conocimientos y experiencia no documentados; los resultados de las mejoras en los procesos, productos y servicios); b) fuentes externas (por ejemplo, normas; academia; conferencias; recopilación de conocimientos provenientes de clientes o proveedores externos).",
+      "veredicto": "CUMPLE",
+      "confianza": 1.0,
+      "confianza_evidence": 1.0,
+      "justificacion": "La organización ha definido la estructura adecuada para identificar, almacenar, proteger, recuperar y controlar el conjunto de documentos y registros asociados a la implementación, mantenimiento y mejora continua del SGI (E2, f120). Además, se cuenta con los mecanismos necesarios para la divulgación, aprobación, circulación, recuperación, almacenamiento, conservación, seguridad y confidencialidad de la información documentada del Sistema Integrado de Gestión (E1, f119).",
+      "evidencias": [
+        {
+          "ref": "E1",
+          "fragmento_id": "Matriz de Abordaje de Riesgos y Oportunidades_CIL ONG.xlsx#569b85#sM.A.R.O|tM.A.R.O#36",
+          "documento": "Matriz de Abordaje de Riesgos y Oportunidades_CIL ONG.xlsx",
+          "pagina": null,
+          "seccion": "M.A.R.O",
+          "cita": "Se cuentan con los mecanismos, suficientes y necesarios, para la divulgación, aprobación, circulación, recuperación, almacenamiento, conservación, seguridad y confidencialidad de la información documentada del Sistema Integrado de Gestión",
+          "verificada": true,
+          "puntaje": 0.8162,
+          "motivo_fallo": ""
+        },
+        {
+          "ref": "E2",
+          "fragmento_id": "Lista de Chequeo Integrada.xlsx#fbf2c2#sLISTA HSEQ|tLISTA HSEQ#0",
+          "documento": "Lista de Chequeo Integrada.xlsx",
+          "pagina": null,
+          "seccion": "LISTA HSEQ",
+          "cita": "Se ha definido la estructura adecuada para identificar, almacenar, proteger, recuperar y controlar el conjunto de documentos y registros asociados a la implementación, mantenimiento y mejora continua del SGI",
+          "verificada": false,
+          "puntaje": 0.7993,
+          "motivo_fallo": "La cita declarada no aparece textualmente en el fragmento recuperado."
+        }
+      ],
+      "hallazgo": "",
+      "severidad": "",
+      "recomendacion": "",
+      "fragmentos_recuperados": [
+        "Matriz de Abordaje de Riesgos y Oportunidades_CIL ONG.xlsx#569b85#sM.A.R.O|tM.A.R.O#36",
+        "Lista de Chequeo Integrada.xlsx#fbf2c2#sLISTA HSEQ|tLISTA HSEQ#0",
+        "Matriz de Abordaje de Riesgos y Oportunidades_CIL ONG.xlsx#569b85#sM.A.R.O|tM.A.R.O#20",
+        "Matriz de Abordaje de Riesgos y Oportunidades_CIL ONG.xlsx#569b85#sM.A.R.O|tM.A.R.O#24",
+        "Matriz de Abordaje de Riesgos y Oportunidades_CIL ONG.xlsx#569b85#sM.A.R.O|tM.A.R.O#34"
+      ],
+      "mejor_puntaje": 0.8162,
+      "traza_verificada": true,
+      "latencia_s": 9.842,
+      "tokens_entrada": 2671,
+      "tokens_salida": 377,
+      "costo_usd": 0.0,
+      "modelo": "llama3.1:8b",
+      "proveedor": "ollama",
+      "error": null
+    },
+    {
+      "requisito_id": "ISO9001-2",
+      "norma": "ISO9001",
+      "clausula": "2",
+      "ambito": "calidad",
+      "requisito_texto": "NOTA 2 El concepto que en la versión en inglés se expresa como “statutory and regulatory requirements” en esta versión en español se ha traducido como requisitos legales y reglamentarios. 2 Referencias normativas Los documentos indicados a continuación, en su totalidad o en parte, son normas para consulta indispensables para la aplicación de este documento. Para las referencias con fecha, sólo se aplica la edición citada. Para las referencias sin fecha se aplica la última edición (incluyendo cualquier modificación de ésta). ISO 9000:2015, Sistemas de gestión de la calidad. Fundamentos y vocabulario",
+      "veredicto": "NO_APLICA",
+      "confianza": 1.0,
+      "confianza_evidence": 1.0,
+      "justificacion": "La norma ISO 9001:2015 establece que los requisitos legales y reglamentarios deben ser identificados y evaluados. Sin embargo, en la evidencia proporcionada no se encuentra ninguna referencia a la identificación o evaluación de estos requisitos.",
+      "evidencias": [
+        {
+          "ref": "E1",
+          "fragmento_id": "1. Procedimiento para la Revisión por la Gerencia.docx#d6e419#ttabla_1#13",
+          "documento": "1. Procedimiento para la Revisión por la Gerencia.docx",
+          "pagina": null,
+          "seccion": "",
+          "cita": "NORMA | CONTENIDO\nNORMA ISO 9000:2015 | Sistemas de gestión de la calidad – fundamentos y vocabulario.\nNORMA ISO 9001:2015 | Sistema de gestión de la calidad – requisitos con orientación para su uso.\nNORMA ISO 14001:2015 | Sistema de gestión ambiental – requisitos con orientación para su uso.\nNORMA ISO 45001:2018 | Sistema de gestión de la seguridad y salud en el trabajo – requisitos con orientación para su uso.\nNORMA ISO 39001:2012 | Sistema de gestión de la seguridad vial – requisitos con orientación para su uso.\nDECRETO 1072 DE 2015 | Por medio del cual se emite el Decreto Único Reglamentario del Sector Trabajo.\nRESOLUCIÓN 0312 DE 2019 | Por la cual se definen los Estándares Mínimos del Sistema de Gestión de la Seguridad y Salud en el Trabajo.\nRESOLUCIÓN 40595 DE 2022 | Por la cual se adopta la metodología para el diseño, implementación y verificación de los Planes Estratégicos de Seguridad Vial y se dictan otras disposiciones.",
+          "verificada": true,
+          "puntaje": 0.8355,
+          "motivo_fallo": ""
+        }
+      ],
+      "hallazgo": "No se identifican ni evalúan los requisitos legales y reglamentarios.",
+      "severidad": "BAJA",
+      "recomendacion": "Identificar y evaluar los requisitos legales y reglamentarios y actualizar el procedimiento correspondiente.",
+      "fragmentos_recuperados": [
+        "1. Procedimiento para la Revisión por la Gerencia.docx#d6e419#ttabla_1#13",
+        "3. Acta de Revisión por la Dirección.docx#31e6a5#ttabla_2#3",
+        "14. Identificación, Evaluación y Cumplimiento de Requisitos Legales.docx#60ca25#ttabla_1#14",
+        "17. Programa de Auditoria Interna.docx#9f4fe4#ttabla_1#2",
+        "2. Manual del Sistema Integrado de Gestión.docx#3394df#ttabla_1#5"
+      ],
+      "mejor_puntaje": 0.8355,
+      "traza_verificada": true,
+      "latencia_s": 12.604,
+      "tokens_entrada": 2482,
+      "tokens_salida": 505,
+      "costo_usd": 0.0,
+      "modelo": "llama3.1:8b",
+      "proveedor": "ollama",
+      "error": null
+    }
+  ]
+}

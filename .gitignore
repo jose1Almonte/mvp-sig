@@ -1,27 +1,69 @@
-# Entorno virtual
-.venv/
-venv/
-env/
-
-# Configuración local (puede contener claves de API)
-.env
-
-# Datos generados: base vectorial, catálogos, informes y logs
-data/storage/
-data/catalog/
-data/reports/
-data/*.log
-
-# Python
+﻿# --- Python ---
 __pycache__/
 *.py[cod]
+*.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
-.pytest_cache/
-.ruff_cache/
-.mypy_cache/
+.installed.cfg
+*.egg
 
-# Sistema operativo / editores
-.DS_Store
+# --- Entornos ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+ventag
+venv.bak/
+
+# --- Tests / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.noscript
+.oscript
+
+# --- Archivos de sistema Windows ---
+desktop.ini
 Thumbs.db
-.idea/
+ehthumbs.db
+Dsv?
+:Zone.Identifier
+
+# --- IDEs ---
 .vscode/
+idea/
+.idea/
+*.swp
+*:cindent
+
+# --- Ollama / modelos ---
+*.gguf
+
+# --- Datos sensibles / locales ---
+data/storage/
+data/cache/
+
+# --- Logs / reports / temp ---
+*.log
+logs/
+tmp/
+temp/
+
+# --- Streamlit / misc ---
+.streamlit/secrets.toml

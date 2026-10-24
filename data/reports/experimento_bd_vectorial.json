@@ -1,0 +1,189 @@
+{
+  "fragmentos": 12669,
+  "consultas": 20,
+  "repeticiones": 20,
+  "mediciones": [
+    {
+      "motor": "ChromaDB",
+      "k": 5,
+      "ambito": "sin filtro",
+      "resultados_medios": 5.0,
+      "media_ms": 12.06,
+      "p50_ms": 11.58,
+      "p95_ms": 15.29,
+      "min_ms": 10.79
+    },
+    {
+      "motor": "Qdrant",
+      "k": 5,
+      "ambito": "sin filtro",
+      "resultados_medios": 5.0,
+      "media_ms": 120.95,
+      "p50_ms": 123.08,
+      "p95_ms": 130.09,
+      "min_ms": 107.59
+    },
+    {
+      "motor": "ChromaDB",
+      "k": 5,
+      "ambito": "calidad",
+      "resultados_medios": 5.0,
+      "media_ms": 37.43,
+      "p50_ms": 40.43,
+      "p95_ms": 49.18,
+      "min_ms": 12.32
+    },
+    {
+      "motor": "Qdrant",
+      "k": 5,
+      "ambito": "calidad",
+      "resultados_medios": 5.0,
+      "media_ms": 427.47,
+      "p50_ms": 428.38,
+      "p95_ms": 445.37,
+      "min_ms": 400.36
+    },
+    {
+      "motor": "ChromaDB",
+      "k": 5,
+      "ambito": "seguridad",
+      "resultados_medios": 5.0,
+      "media_ms": 107.51,
+      "p50_ms": 108.22,
+      "p95_ms": 124.41,
+      "min_ms": 94.24
+    },
+    {
+      "motor": "Qdrant",
+      "k": 5,
+      "ambito": "seguridad",
+      "resultados_medios": 5.0,
+      "media_ms": 374.1,
+      "p50_ms": 376.32,
+      "p95_ms": 425.64,
+      "min_ms": 316.33
+    },
+    {
+      "motor": "ChromaDB",
+      "k": 10,
+      "ambito": "sin filtro",
+      "resultados_medios": 10.0,
+      "media_ms": 11.44,
+      "p50_ms": 11.21,
+      "p95_ms": 12.71,
+      "min_ms": 10.42
+    },
+    {
+      "motor": "Qdrant",
+      "k": 10,
+      "ambito": "sin filtro",
+      "resultados_medios": 10.0,
+      "media_ms": 125.09,
+      "p50_ms": 123.9,
+      "p95_ms": 147.8,
+      "min_ms": 100.58
+    },
+    {
+      "motor": "ChromaDB",
+      "k": 10,
+      "ambito": "calidad",
+      "resultados_medios": 10.0,
+      "media_ms": 56.18,
+      "p50_ms": 55.16,
+      "p95_ms": 67.1,
+      "min_ms": 49.0
+    },
+    {
+      "motor": "Qdrant",
+      "k": 10,
+      "ambito": "calidad",
+      "resultados_medios": 10.0,
+      "media_ms": 350.14,
+      "p50_ms": 379.45,
+      "p95_ms": 479.66,
+      "min_ms": 183.62
+    },
+    {
+      "motor": "ChromaDB",
+      "k": 10,
+      "ambito": "seguridad",
+      "resultados_medios": 10.0,
+      "media_ms": 115.02,
+      "p50_ms": 113.15,
+      "p95_ms": 129.66,
+      "min_ms": 105.46
+    },
+    {
+      "motor": "Qdrant",
+      "k": 10,
+      "ambito": "seguridad",
+      "resultados_medios": 10.0,
+      "media_ms": 352.35,
+      "p50_ms": 364.75,
+      "p95_ms": 402.36,
+      "min_ms": 195.16
+    },
+    {
+      "motor": "ChromaDB",
+      "k": 20,
+      "ambito": "sin filtro",
+      "resultados_medios": 20.0,
+      "media_ms": 14.29,
+      "p50_ms": 13.83,
+      "p95_ms": 19.24,
+      "min_ms": 11.36
+    },
+    {
+      "motor": "Qdrant",
+      "k": 20,
+      "ambito": "sin filtro",
+      "resultados_medios": 20.0,
+      "media_ms": 121.99,
+      "p50_ms": 121.3,
+      "p95_ms": 135.08,
+      "min_ms": 112.64
+    },
+    {
+      "motor": "ChromaDB",
+      "k": 20,
+      "ambito": "calidad",
+      "resultados_medios": 20.0,
+      "media_ms": 63.71,
+      "p50_ms": 64.3,
+      "p95_ms": 68.87,
+      "min_ms": 57.31
+    },
+    {
+      "motor": "Qdrant",
+      "k": 20,
+      "ambito": "calidad",
+      "resultados_medios": 20.0,
+      "media_ms": 367.72,
+      "p50_ms": 367.63,
+      "p95_ms": 413.08,
+      "min_ms": 330.9
+    },
+    {
+      "motor": "ChromaDB",
+      "k": 20,
+      "ambito": "seguridad",
+      "resultados_medios": 20.0,
+      "media_ms": 112.04,
+      "p50_ms": 111.76,
+      "p95_ms": 125.71,
+      "min_ms": 94.63
+    },
+    {
+      "motor": "Qdrant",
+      "k": 20,
+      "ambito": "seguridad",
+      "resultados_medios": 20.0,
+      "media_ms": 377.84,
+      "p50_ms": 376.1,
+      "p95_ms": 391.32,
+      "min_ms": 368.3
+    }
+  ],
+  "solapamiento_promedio": 0.9073,
+  "solapamiento_min": 0.3333
+}
