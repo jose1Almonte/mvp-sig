@@ -74,8 +74,72 @@ def barra_lateral() -> None:
             options=["calidad", "ambiente", "seguridad"],
             default=["calidad", "ambiente", "seguridad"],
         )
+
+        st.subheader("Selección de requisitos")
+        modo_eval = st.radio(
+            "Modo de evaluación",
+            options=["Por límite", "Por cláusulas específicas", "Por requisitos concretos"],
+            index=0,
+            help="Por límite: toma los primeros N del listado. Por cláusulas: evalúa solo las cláusulas elegidas. Por requisitos concretos: elige IDs exactos.",
+        )
+
+        clausulas_sel = []
+        requisitos_ids_sel = []
+
+        try:
+            _p_side = obtener_pipeline()
+            _reqs_side = _p_side.cargar_requisitos(normas_sel or None)
+            if ambitos_sel:
+                _reqs_side = [r for r in _reqs_side if r.ambito in ambitos_sel]
+        except Exception:
+            _reqs_side = []
+
+        if modo_eval == "Por cláusulas específicas":
+            clausulas_unicas = sorted({r.clausula for r in _reqs_side})
+            if not clausulas_unicas:
+                st.warning("No hay cláusulas disponibles con los filtros actuales.")
+            clausulas_sel = st.multiselect(
+                "Selecciona cláusulas",
+                options=clausulas_unicas,
+                help="Ej. 4.1, 4.2, 5.1.1, 6.1, 8.2, 9.2...",
+            )
+            if clausulas_sel:
+                cnt = sum(1 for r in _reqs_side if r.clausula in clausulas_sel)
+                st.caption(f"Se evaluarán **{cnt}** requisito(s) con esta selección.")
+            else:
+                st.caption("Selecciona al menos una cláusula.")
+
+        elif modo_eval == "Por requisitos concretos":
+            if not _reqs_side:
+                st.warning("No hay requisitos disponibles con los filtros actuales.")
+            else:
+                opciones_req = [
+                    f"{r.id} | {r.norma} | cl.{r.clausula} | {r.ambito} | {r.texto[:70]}..."
+                    for r in _reqs_side
+                ]
+                seleccionados_ui = st.multiselect(
+                    "Selecciona requisitos exactos",
+                    options=opciones_req,
+                    help="Puedes buscar por ID, norma o cláusula escribiendo en el buscador.",
+                )
+                for s in seleccionados_ui:
+                    try:
+                        requisitos_ids_sel.append(s.split(" | ")[0])
+                    except Exception:
+                        pass
+                if requisitos_ids_sel:
+                    st.caption(f"Se evaluarán **{len(requisitos_ids_sel)}** requisito(s) seleccionado(s).")
+                else:
+                    st.caption("Selecciona al menos un requisito.")
+
         limite = st.number_input(
-            "Máximo de requisitos a evaluar", min_value=1, max_value=300, value=12, step=1
+            "Máximo de requisitos a evaluar",
+            min_value=1,
+            max_value=300,
+            value=12,
+            step=1,
+            disabled=(modo_eval != "Por límite"),
+            help="Solo se usa cuando el modo es 'Por límite'.",
         )
         top_k = st.slider("Fragmentos recuperados por requisito (k)", 1, 12, 5)
         organizacion = st.text_input("Organización evaluada", "METUNIMET — Manufacturas Metalmecánicas")
@@ -92,6 +156,9 @@ def barra_lateral() -> None:
         "organizacion": organizacion,
         "con_resumen": con_resumen,
         "raiz": raiz,
+        "modo_eval": modo_eval,
+        "clausulas_sel": clausulas_sel,
+        "requisitos_ids_sel": requisitos_ids_sel,
     }
 
 
@@ -142,14 +209,43 @@ with tabs[0]:
         if st.button("▶ Ejecutar diagnóstico", type="primary", use_container_width=True):
             with st.spinner("Procesando requisitos y verificando trazabilidad..."):
                 try:
-                    informe = pipeline.diagnosticar(
-                        normas=cfg["normas"] or None,
-                        ambitos=cfg["ambitos"] or None,
-                        limite=cfg["limite"],
-                        top_k=cfg["top_k"],
-                        organizacion=cfg["organizacion"],
-                        con_resumen=cfg["con_resumen"],
-                    )
+                    from mvp_sig.diagnosis.engine import MotorDiagnostico
+
+                    modo_eval = cfg.get("modo_eval", "Por límite")
+                    reqs_all = pipeline.cargar_requisitos(cfg["normas"] or None)
+                    if cfg.get("ambitos"):
+                        reqs_all = [r for r in reqs_all if r.ambito in cfg["ambitos"]]
+
+                    if modo_eval == "Por cláusulas específicas":
+                        claus = cfg.get("clausulas_sel") or []
+                        if not claus:
+                            st.warning("Selecciona al menos una cláusula para ejecutar el diagnóstico.")
+                            st.stop()
+                        reqs_eval = [r for r in reqs_all if r.clausula in claus]
+                        st.info(f"Evaluando {len(reqs_eval)} requisito(s) por cláusulas: {', '.join(claus)}")
+                        motor = MotorDiagnostico(pipeline.store, pipeline.llm, top_k=cfg["top_k"], organizacion=cfg["organizacion"])
+                        informe = motor.diagnosticar(reqs_eval, con_resumen=cfg["con_resumen"])
+
+                    elif modo_eval == "Por requisitos concretos":
+                        ids_sel = cfg.get("requisitos_ids_sel") or []
+                        if not ids_sel:
+                            st.warning("Selecciona al menos un requisito concreto para ejecutar el diagnóstico.")
+                            st.stop()
+                        reqs_eval = [r for r in reqs_all if r.id in ids_sel]
+                        st.info(f"Evaluando {len(reqs_eval)} requisito(s) por ID: {', '.join(ids_sel)}")
+                        motor = MotorDiagnostico(pipeline.store, pipeline.llm, top_k=cfg["top_k"], organizacion=cfg["organizacion"])
+                        informe = motor.diagnosticar(reqs_eval, con_resumen=cfg["con_resumen"])
+
+                    else:
+                        informe = pipeline.diagnosticar(
+                            normas=cfg["normas"] or None,
+                            ambitos=cfg["ambitos"] or None,
+                            limite=cfg["limite"],
+                            top_k=cfg["top_k"],
+                            organizacion=cfg["organizacion"],
+                            con_resumen=cfg["con_resumen"],
+                        )
+
                     st.session_state["informe"] = informe
                     st.session_state["informe_dict"] = informe.to_dict()
                 except Exception as exc:  # noqa: BLE001
