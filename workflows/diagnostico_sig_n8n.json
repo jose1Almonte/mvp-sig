@@ -1,0 +1,256 @@
+{
+  "name": "Diagnóstico SIG — ISO 9001/14001/45001",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "diagnostico-sig",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "b1f0a2c4-0001-4a10-9c01-000000000001",
+      "name": "Webhook: diagnóstico",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [-260, 300],
+      "webhookId": "b1f0a2c4-0001-4a10-9c01-000000000001",
+      "notes": "Punto de entrada. Cuerpo esperado: {organizacion, normas, limite, contexto_extra}"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/diagnostico",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ organizacion: $json.body.organizacion ?? 'Organización evaluada', normas: $json.body.normas ?? null, limite: $json.body.limite ?? null, contexto_extra: $json.body.contexto_extra ?? '' }) }}",
+        "options": {
+          "timeout": 900000
+        }
+      },
+      "id": "b1f0a2c4-0002-4a10-9c01-000000000002",
+      "name": "API: ejecutar diagnóstico",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-40, 300],
+      "notes": "Invoca el MVP: POST /diagnostico. El timeout se agota en 15 min porque la generación con LLM local es lenta."
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.resumen.veredictos['NO_CUMPLE'] ?? 0 }}",
+                    "rightValue": 0,
+                    "operator": {
+                      "type": "number",
+                      "operation": "gt"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "No cumple"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.resumen.veredictos['CUMPLE_PARCIAL'] ?? 0 }}",
+                    "rightValue": 0,
+                    "operator": {
+                      "type": "number",
+                      "operation": "gt"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Cumplimiento parcial"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.resumen.trazabilidad_verificada_pct }}",
+                    "rightValue": 99.9,
+                    "operator": {
+                      "type": "number",
+                      "operation": "gte"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Trazabilidad verificada"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra"
+        }
+      },
+      "id": "b1f0a2c4-0003-4a10-9c01-000000000003",
+      "name": "Ramificar por veredicto",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [200, 300],
+      "notes": "El flujo se encamina según el resultado: no conformidades, cumplimiento parcial o trazabilidad completa."
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "f1",
+              "name": "destino",
+              "value": "={{ $json.nombre ?? 'revision' }}",
+              "type": "string"
+            },
+            {
+              "id": "f2",
+              "name": "organizacion",
+              "value": "={{ $json.resumen.organizacion }}",
+              "type": "string"
+            },
+            {
+              "id": "f3",
+              "name": "cumplimiento_pct",
+              "value": "={{ $json.resumen.metricas.cumplimiento_pct ?? 0 }}",
+              "type": "number"
+            },
+            {
+              "id": "f4",
+              "name": "trazabilidad_pct",
+              "value": "={{ $json.resumen.trazabilidad_verificada_pct }}",
+              "type": "number"
+            },
+            {
+              "id": "f5",
+              "name": "no_conformidades",
+              "value": "={{ $json.resumen.veredictos['NO_CUMPLE'] ?? 0 }}",
+              "type": "number"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "b1f0a2c4-0004-4a10-9c01-000000000004",
+      "name": "Preparar reporte",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [460, 300],
+      "notes": "Normaliza la salida para que el destino (correo, ticket, tablero) consuma el mismo formato."
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify({ ok: true, destino: $json.destino, resumen: $json.resumen ?? $json.informe.resumen, informe: $json.informe }) }}",
+        "options": {}
+      },
+      "id": "b1f0a2c4-0005-4a10-9c01-000000000005",
+      "name": "Responder",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [720, 300]
+    }
+  ],
+  "connections": {
+    "Webhook: diagnóstico": {
+      "main": [
+        [
+          {
+            "node": "API: ejecutar diagnóstico",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "API: ejecutar diagnóstico": {
+      "main": [
+        [
+          {
+            "node": "Ramificar por veredicto",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ramificar por veredicto": {
+      "main": [
+        [
+          {
+            "node": "Preparar reporte",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Preparar reporte",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Preparar reporte",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Preparar reporte",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Preparar reporte": {
+      "main": [
+        [
+          {
+            "node": "Responder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "instanceId": "mvp-sig-diagnostico"
+  },
+  "tags": []
+}

@@ -1,0 +1,850 @@
+[
+    {
+        "contenido": "- 13 - Las oportunidades pueden surgir como resultado de una situación favorable para lograr un resultado previsto, por ejemplo, un conjunto de circunstancias que permita a la organización atraer clientes, desarrollar nuevos productos y servicios, reducir los residuos o mejorar la productividad. Las acciones para abordar las oportunidades también pueden incluir la consideración de los riesgos asociados. El riesgo es el efecto de la incertidumbre y dicha incertidumbre puede tener efectos positivos o negativos. Una desviación positiva que surge de un riesgo puede proporcionar una oportunidad, pero no todos los efectos positivos del riesgo tienen como resultado oportunidades. 0.4 Relación con otras normas de sistemas de gestión Esta Norma Internacional aplica el marco de referencia desarrollado por ISO para mejorar el alineamiento entre sus Normas Internacionales para sistemas de gestión (véase el Capítulo A.1)",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 12,
+            "clausula": "0.4"
+        }
+    },
+    {
+        "contenido": ". Esta Norma Internacional permite a una organización utilizar el enfoque a procesos, en conjunto con el ciclo PHVA y el pensamiento basado en riesgos, para alinear o integrar su sistema de gestión de la calidad con los requisitos de otras normas de sistemas de gestión. Esta Norma Internacional se relaciona con la Norma ISO 9000 y la Norma ISO 9004 como sigue: – ISO 9000 Sistemas de gestión de la calidad . Fundamentos y vocabulario, proporciona una referencia esencial para la comprensión e implementación adecuadas de esta Norma Internacional. – ISO 9004 Gestión para el éxito sostenido de una organización. . Enfoque de gestión de la calidad, proporciona orientación para las organizaciones que elijan ir más allá de los requisitos de esta Norma Internacional. El Anexo B proporciona detalles de otras Normas Internacionales sobre gestión de la calidad y sistemas de gestión de la calidad que han sido desarrolladas por el Comité Técnico ISO/TC 176",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 12,
+            "clausula": "0.4"
+        }
+    },
+    {
+        "contenido": ". Esta Norma Internacional no incluye requisitos específicos de otros sistemas de gestión, tales como aquellos para la gestión ambiental, la gestión de la salud y seguridad ocupacional o la gestión financiera. Para varios sectores se han desarrollado normas del sistema de gestión de la calidad específicas del sector, basadas en los requisitos de esta Norma Internacional. Algunas de estas normas especifican requisitos adicionales del sistema de gestión de la calidad, mientras que otras se limitan a proporcionar orientación para la aplicación de esta Norma Internacional dentro del sector particular. En la página web de acceso abierto del Comité Técnico ISO/TC 176/SC 2 en: www.iso.org/tc176/sc02/public, puede encontrarse una matriz que muestra la correlación entre los capítulos de esta Norma Internacional y la edición anterior (ISO 9001:2008)",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 12,
+            "clausula": "0.4"
+        }
+    },
+    {
+        "contenido": ". 1 Objeto y campo de aplicación Esta Norma Internacional especifica los requisitos para un sistema de gestión de la calidad cuando una organización: a) necesita demostrar su capacidad para proporcionar regularmente productos y servicios que satisfagan los requisitos del cliente y los legales y reglamentarios aplicables, y b) aspira a aumentar la satisfacción del cliente a través de la aplicación eficaz del sistema, incluidos los procesos para la mejora del sistema y el aseguramiento de la conformidad con los requisitos del cliente y los legales y reglamentarios aplicables. Todos los requisitos de esta Norma Internacional son genéricos y se pretende que sean aplicables a todas las organizaciones, sin importar su tipo o tamaño, o los productos y servicios suministrados. NOTA 1 En esta Norma Internacional, los términos “producto” o “servicio” se aplican únicamente a productos y servicios destinados a un cliente o solicitados por él.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 12,
+            "clausula": "0.4"
+        }
+    },
+    {
+        "contenido": "NOTA 2 El concepto que en la versión en inglés se expresa como “statutory and regulatory requirements” en esta versión en español se ha traducido como requisitos legales y reglamentarios. 2 Referencias normativas Los documentos indicados a continuación, en su totalidad o en parte, son normas para consulta indispensables para la aplicación de este documento. Para las referencias con fecha, sólo se aplica la edición citada. Para las referencias sin fecha se aplica la última edición (incluyendo cualquier modificación de ésta). ISO 9000:2015, Sistemas de gestión de la calidad. Fundamentos y vocabulario",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 13,
+            "clausula": "0.4"
+        }
+    },
+    {
+        "contenido": ". ISO 9000:2015, Sistemas de gestión de la calidad. Fundamentos y vocabulario. 3 Términos y definiciones Para los fines de este documento, se aplican los términos y definiciones incluidos en la Norma ISO 9000:2015 4 Contexto de la organización 4.1 Comprensión de la organización y de su contexto La organización debe determinar las cuestiones externas e internas que son pertinentes para su propósito y su dirección estratégica, y que afectan a su capacidad para lograr los resultados previstos de su sistema de gestión de la calidad. La organización debe realizar el seguimiento y la revisión de la información sobre estas cuestiones externas e internas. NOTA 1 Las cuestiones pueden incluir factores positivos y negativos o condiciones para su consideración",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 13,
+            "clausula": "4.1"
+        }
+    },
+    {
+        "contenido": ". NOTA 1 Las cuestiones pueden incluir factores positivos y negativos o condiciones para su consideración. NOTA 2 La comprensión del contexto externo puede verse facilitada al considerar cuestiones que surgen de los entornos legal, tecnológico, competitivo, de mercado, cultural, social y económico, ya sea internacional, nacional, regional o local. NOTA 3 La comprensión del contexto interno puede verse facilitada al considerar cuestiones relativas a los valores, la cultura, los conocimientos y el desempeño de la organización",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 13,
+            "clausula": "4.1"
+        }
+    },
+    {
+        "contenido": ". 4.2 Comprensión de las necesidades y expectativas de las partes interesadas Debido a su efecto o efecto potencial en la capacidad de la organización de proporcionar regularmente productos y servicios que satisfagan los requisitos del cliente y los legales y reglamentarios aplicables, la organización debe determinar: a) las partes interesadas que son pertinentes al sistema de gestión de la calidad; b) los requisitos pertinentes de estas partes interesadas para el sistema de gestión de la calidad. La organización debe realizar el seguimiento y la revisión de la información sobre estas partes interesadas y sus requisitos pertinentes. 4.3 Determinación del alcance del sistema de gestión de la calidad La organización debe determinar los límites y la aplicabilidad del sistema de gestión de la calidad para establecer su alcance. Cuando se determina este alcance, la organización debe considerar: a) las cuestiones externas e internas indicadas en el apartado 4.1;",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 13,
+            "clausula": "4.2"
+        }
+    },
+    {
+        "contenido": "- 15 - b) los requisitos de las partes interesadas pertinentes indicados en el apartado 4.2; c) los productos y servicios de la organización. La organización debe aplicar todos los requisitos de esta Norma Internacional si son aplicables en el alcance determinado de su sistema de gestión de la calidad. El alcance del sistema de gestión de la calidad de la organización debe estar disponible y mantenerse como información documentada. El alcance debe establecer los tipos de productos y servicios cubiertos, y proporcionar la justificación para cualquier requisito de esta Norma Internacional que la organización determine que no es aplicable para el alcance de su sistema de gestión de la calidad. La conformidad con esta Norma Internacional sólo se puede declarar si los requisitos determinados como no aplicables no afectan a la capacidad o a la responsabilidad de la organización de asegurarse de la conformidad de sus productos y servicios y del aumento de la satisfacción del cliente",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 14,
+            "clausula": "4.2"
+        }
+    },
+    {
+        "contenido": ". 4.4 Sistema de gestión de la calidad y sus procesos 4.4.1 La organización debe establecer, implementar, mantener y mejorar continuamente un sistema de gestión de la calidad, incluidos los procesos necesarios y sus interacciones, de acuerdo con los requisitos de esta Norma Internacional",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 14,
+            "clausula": "4.4"
+        }
+    },
+    {
+        "contenido": ". La organización debe determinar los procesos necesarios para el sistema de gestión de la calidad y su aplicación a través de la organización, y debe: a) determinar las entradas requeridas y las salidas esperadas de estos procesos; b) determinar la secuencia e interacción de estos procesos; c) determinar y aplicar los criterios y los métodos (incluyendo el seguimiento, las mediciones y los indicadores del desempeño relacionados) necesarios para asegurarse de la operación eficaz y el control de estos procesos; d) determinar los recursos necesarios para estos procesos y asegurarse de su disponibilidad; e) asignar las responsabilidades y autoridades para estos procesos; f) abordar los riesgos y oportunidades determinados de acuerdo con los requisitos del apartado 6.1; g) evaluar estos procesos e implementar cualquier cambio necesario para asegurarse de que estos procesos logran los resultados previstos; h) mejorar los procesos y el sistema de gestión de la calidad",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 14,
+            "clausula": "6.1"
+        }
+    },
+    {
+        "contenido": ". 4.4.2 En la medida en que sea necesario, la organización debe: a) mantener información documentada para apoyar la operación de sus procesos; b) conservar la información documentada para tener la confianza de que los procesos se realizan según lo planificado.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 14,
+            "clausula": "4.4.2"
+        }
+    },
+    {
+        "contenido": "5 Liderazgo 5.1 Liderazgo y compromiso 5.1.1 Generalidades La alta dirección debe demostrar liderazgo y compromiso con respecto al sistema de gestión de la calidad: a) asumiendo la responsabilidad y obligación de rendir cuentas con relación a la eficacia del sistema de gestión de la calidad; b) asegurándose de que se establezcan la política de la calidad y los objetivos de la calidad para el sistema de gestión de la calidad, y que éstos sean compatibles con el contexto y la dirección estratégica de la organización; c) asegurándose de la integración de los requisitos del sistema de gestión de la calidad en los procesos de negocio de la organización; d) promoviendo el uso del enfoque a procesos y el pensamiento basado en riesgos; e) asegurándose de que los recursos necesarios para el sistema de gestión de la calidad estén disponibles; f) comunicando la importancia de una gestión de la calidad eficaz y de la conformidad con los requisitos del sistema de gestión de la calidad",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 15,
+            "clausula": "5.1"
+        }
+    },
+    {
+        "contenido": "; f) comunicando la importancia de una gestión de la calidad eficaz y de la conformidad con los requisitos del sistema de gestión de la calidad; g) asegurándose de que el sistema de gestión de la calidad logre los resultados previstos; h) comprometiendo, dirigiendo y apoyando a las personas, para contribuir a la eficacia del sistema de gestión de la calidad; i) promoviendo la mejora; j) apoyando otros roles pertinentes de la dirección, para demostrar su liderazgo en la forma en la que aplique a sus áreas de responsabilidad",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 15,
+            "clausula": "5.1"
+        }
+    },
+    {
+        "contenido": ". NOTA En esta Norma Internacional se puede interpretar el término “negocio” en su sentido más amplio, es decir, referido a aquellas actividades que son esenciales para la existencia de la organización; tanto si la organización es pública, privada, con o sin fines de lucro. 5.1.2 Enfoque al cliente La alta dirección debe demostrar liderazgo y compromiso con respecto al enfoque al cliente asegurándose de que: a) se determinan, se comprenden y se cumplen regularmente los requisitos del cliente y los legales y reglamentarios aplicables; b) se determinan y se consideran los riesgos y oportunidades que pueden afectar a la conformidad de los productos y servicios y a la capacidad de aumentar la satisfacción del cliente; c) se mantiene el enfoque en el aumento de la satisfacción del cliente",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 15,
+            "clausula": "5.1.2"
+        }
+    },
+    {
+        "contenido": ". 5.2 Política 5.2.1 Establecimiento de la política de la calidad La alta dirección debe establecer, implementar y mantener una política de la calidad que: a) s ea apropiada al propósito y contexto de la organización y apoye su dirección estratégica;",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 15,
+            "clausula": "5.2"
+        }
+    },
+    {
+        "contenido": "- 17 - b) proporcione un marco de referencia para el establecimiento de los objetivos de la calidad; c) incluya un compromiso de cumplir los requisitos aplicables; d) incluya un compromiso de mejora continua del sistema de gestión de la calidad. 5.2.2 Comunicación de la política de la calidad La política de la calidad debe: a) estar disponible y mantenerse como información documentada; b) comunicarse, entenderse y aplicarse dentro de la organización; c) estar disponible para las partes interesadas pertinentes, según corresponda. 5.3 Roles, responsabilidades y autoridades en la organización La alta dirección debe asegurarse de que las responsabilidades y autoridades para los roles pertinentes se asignen, se comuniquen y se entiendan en toda la organización",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 16,
+            "clausula": "5.2.2"
+        }
+    },
+    {
+        "contenido": ". La alta dirección debe asignar la responsabilidad y autoridad para: a) asegurarse de que el sistema de gestión de la calidad es conforme con los requisitos de esta Norma Internacional; b) asegurarse de que los procesos están generando y proporcionando las salidas previstas; c) informar, en particular, a la alta dirección sobre el desempeño del sistema de gestión de la calidad y sobre las oportunidades de mejora (véase 10.1); d) asegurarse de que se promueve el enfoque al cliente en toda la organización; e) asegurarse de que la integridad del sistema de gestión de la calidad se mantiene cuando se planifican e implementan cambios en el sistema de gestión de la calidad",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 16,
+            "clausula": "5.2.2"
+        }
+    },
+    {
+        "contenido": ". 6 Planificación 6.1 Acciones para abordar riesgos y oportunidades 6.1.1 Al planificar el sistema de gestión de la calidad, la organización debe considerar las cuestiones referidas en el apartado 4.1 y los requisitos referidos en el apartado 4.2, y determinar los riesgos y oportunidades que es necesario abordar con el fin de: a) asegurar que el sistema de gestión de la calidad pueda lograr sus resultados previstos; b) aumentar los efectos deseables; c) prevenir o reducir efectos no deseados; d) lograr la mejora. 6.1.2 La organización debe planificar: a) las acciones para abordar estos riesgos y oportunidades;",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 16,
+            "clausula": "6.1"
+        }
+    },
+    {
+        "contenido": "b) la manera de: 1) integrar e implementar las acciones en sus procesos del sistema de gestión de la calidad (véase 4.4.); 2) evaluar la eficacia de estas acciones. Las acciones tomadas para abordar los riesgos y oportunidades deben ser proporcionales al impacto potencial en la conformidad de los productos y los servicios. NOTA 1 Las opciones para abordar los riesgos pueden incluir: evitar riesgos, asumir riesgos para perseguir una oportunidad, eliminar la fuente de riesgo, cambiar la probabilidad o las consecuencias, compartir el riesgo o mantener riesgos mediante decisiones informadas. NOTA 2 Las oportunidades pueden conducir a la adopción de nuevas prácticas, lanzamiento de nuevos productos, apertura de nuevos mercados, acercamiento a nuevos clientes, establecimiento de asociaciones, utilización de nuevas tecnologías y otras posibilidades deseables y viables para abordar las necesidades de la organización o las de sus clientes",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 17,
+            "clausula": "6.1"
+        }
+    },
+    {
+        "contenido": ". 6.2 Objetivos de la calidad y planificación para lograrlos 6.2.1 La organización debe establecer objetivos de la calidad para las funciones y niveles pertinentes y los procesos necesarios para el sistema de gestión de la calidad. Los objetivos de la calidad deben: a) ser coherentes con la política de la calidad; b) ser medibles; c) tener en cuenta los requisitos aplicables; d) ser pertinentes para la conformidad de los productos y servicios y para el aumento de la satisfacción del cliente; e) ser objeto de seguimiento; f) comunicarse; g) actualizarse, según corresponda. La organización debe mantener información documentada sobre los objetivos de la calidad. 6.2.2 Al planificar cómo lograr sus objetivos de la calidad, la organización debe determinar: a) qué se va a hacer; b) qué recursos se requerirán; c) quién será responsable; d) cuándo se finalizará; e) cómo se evaluarán los resultados",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 17,
+            "clausula": "6.2"
+        }
+    },
+    {
+        "contenido": ". 6.3 Planificación de los cambios Cuando la organización determine la necesidad de cambios en el sistema de gestión de la calidad, estos cambios se deben llevar a cabo de manera planificada (véase 4.4).",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 17,
+            "clausula": "6.3"
+        }
+    },
+    {
+        "contenido": "- 19 - La organización debe considerar: a) el propósito de los cambios y sus consecuencias potenciale s; b) la integridad del sistema de gestión de la calidad; c) la disponibilidad de recursos; d) la asignación o reasignación de responsabilidades y autoridades. 7 Apoyo 7.1 Recursos 7.1.1 Generalidades La organización debe determinar y proporcionar los recursos necesarios para el establecimiento, implementación, mantenimiento y mejora continua del sistema de gestión de la calidad. La organización debe considerar: a) las capacidades y limitaciones de los recursos internos existentes; b) qué se necesita obtener de los proveedores externos. 7.1.2 Personas La organización debe determinar y proporcionar las personas necesarias para la implementación eficaz de su sistema de gestión de la calidad y para la operación y control de sus procesos",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 18,
+            "clausula": "7.1"
+        }
+    },
+    {
+        "contenido": ". 7.1.3 Infraestructura La organización debe determinar, proporcionar y mantener la infraestructura necesaria para la operación de sus procesos y lograr la conformidad de los productos y servicios. NOTA La infraestructura puede incluir: a) edificios y servicios asociados; b) equipos, incluyendo hardware y software; c) recursos de transporte; d) tecnologías de la información y la comunicación. 7.1.4 Ambiente para la operación de los procesos La organización debe determinar, proporcionar y mantener el ambiente necesario para la operación de sus procesos y para lograr la conformidad de los productos y servicios",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 18,
+            "clausula": "7.1.3"
+        }
+    },
+    {
+        "contenido": ". NOTA Un ambiente adecuado puede ser una combinación de factores humanos y físicos, tales como: a) sociales (por ejemplo, no discriminatorio, ambiente tranquilo, libre de conflictos); b) psicológicos (por ejemplo, reducción del estrés, prevención del síndrome de agotamiento, cuidado de las emociones); c) físicos (por ejemplo, temperatura, calor, humedad, iluminación, circulación del aire, higiene, ruido). Estos factores pueden diferir sustancialmente dependiendo de los productos y servicios suministrados.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 18,
+            "clausula": "7.1.3"
+        }
+    },
+    {
+        "contenido": "7.1.5 Recursos de seguimiento y medición 7.1.5.1 Generalidades La organización debe determinar y proporcionar los recursos necesarios para asegurarse de la validez y fiabilidad de los resultados cuando se realice el seguimiento o la medición para verificar la conformidad de los productos y servicios con los requisitos. La organización debe asegurarse de que los recursos proporcionados: a) son apropiados para el tipo específico de actividades de seguimiento y medición realizadas; b) se mantienen para asegurarse de la idoneidad continua para su propósito. La organización debe conservar la información documentada apropiada como evidencia de que los recursos de seguimiento y medición son idóneos para su propósito",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 19,
+            "clausula": "7.1.5"
+        }
+    },
+    {
+        "contenido": ". 7.1.5.2 Trazabilidad de las mediciones Cuando la trazabilidad de las mediciones es un requisito, o es considera da por la organización como parte esencial para proporcionar confianza en la validez de los resultados de la medición, el equipo de medición debe: a) calibrarse o verificarse , o ambas, a intervalos especificados, o antes de su utilización, contra patrones de medición trazables a patrones de medición internacionales o nacionales; cuando no existan tales patrones, debe conservarse como información documentada la base utilizada para la calibración o la verificación; b) identificarse para determinar su estado; c) protegerse contra ajustes, daño o deterioro que pudieran invalidar el estado de calibración y los posteriores resultados de la medición",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 19,
+            "clausula": "7.1.5.2"
+        }
+    },
+    {
+        "contenido": ". La organización debe determinar si la validez de los resultados de medición previos se ha visto afectada de maner a adversa cuando el equipo de medición se considere no apto para su propósito previsto, y debe tomar las acciones adecuadas cuando sea necesario. 7.1.6 Conocimientos de la organización La organización debe determinar los conocimientos necesarios para la operación de sus procesos y para lograr la conformidad de los productos y servicios. Estos conocimientos deben mantenerse y ponerse a disposición en la medida en que sea necesario. Cuando se abordan las necesidades y tendencias cambiantes, la organización debe considerar sus conocimientos actuales y determinar cómo adquirir o acceder a los conocimientos adicionales necesarios y a las actualizaciones requeridas. NOTA 1 Los conocimientos de la organización son conocimientos específicos que la organización adquiere generalmente con la experiencia",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 19,
+            "clausula": "7.1.6"
+        }
+    },
+    {
+        "contenido": ". NOTA 1 Los conocimientos de la organización son conocimientos específicos que la organización adquiere generalmente con la experiencia. Es información que se utiliza y se comparte para lograr los objetivos de la organización. NOTA 2 Los conocimientos de la organización pueden basarse en: a) fuentes internas (por ejemplo, propiedad intelectual; conocimientos adquiridos con la experiencia; lecciones aprendidas de los fracasos y de proyectos de éxito; capturar y compartir conocimientos y experiencia no documentados; los resultados de las mejoras en los procesos, productos y servicios); b) fuentes externas (por ejemplo, normas; academia; conferencias; recopilación de conocimientos provenientes de clientes o proveedores externos).",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 19,
+            "clausula": "7.1.6"
+        }
+    },
+    {
+        "contenido": "- 21 - 7.2 Competenc ia La organización debe: a) determinar la competencia necesaria de las personas que realizan, bajo su control, un trabajo que afecta al desempeño y eficacia del sistema de gestión de la calidad; b) asegurarse de que estas personas sean competentes, basándose en la educación, formación o experiencia apropiadas; c) cuando sea aplicable, tomar acciones para adquirir la competencia necesaria y evaluar la eficacia de las acciones tomadas; d) conservar la información documentada apropiada como evidencia de la competencia. NOTA Las acciones aplicables pueden incluir, por ejemplo, la formación, la tutoría o la reasignación de las personas empleadas actualmente; o la contratación o subcontratación de personas competentes",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 20,
+            "clausula": "7.2"
+        }
+    },
+    {
+        "contenido": ". 7.3 Toma de conciencia La organización debe asegurarse de que las personas que realizan el trabajo bajo el control de la organización tomen conciencia de: a) la política de la calidad; b) los objetivos de la calidad pertinentes; c) su contribución a la eficacia del sistema de gestión de la calidad, incluidos los beneficios de una mejora del desempeño; d) las implicaciones del incumplimiento de los requisitos del sistema de gestión de la calidad. 7.4 Comunicación La organización debe determinar las comunicaciones internas y externas pertinentes al sistema de gestión de la calidad, que incluyan: a) qué comunicar; b) cuándo comunicar; c) a quién comunicar; d) cómo comunicar; e) quién comunica",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 20,
+            "clausula": "7.3"
+        }
+    },
+    {
+        "contenido": ". 7.5 Información documentada 7.5.1 Generalidades El sistema de gestión de la calidad de la organización debe incluir: a) la información documentada requerida por esta Norma Internacional; b) la información documentada que la organización determina como necesaria para la eficacia del sistema de gestión de la calidad.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 20,
+            "clausula": "7.5"
+        }
+    },
+    {
+        "contenido": "NOTA La extensión de la información documentada para un sistema de gestión de la calidad puede variar de una organización a otra, debido a: – el tamaño de la organización y su tipo de actividades, procesos, productos y servicios; – la complejidad de los procesos y sus interacciones; y – la competencia de las personas. 7.5.2 Creación y actualización Al crear y actualizar la información documentada, la organización debe asegurarse de que lo siguiente sea apropiado: a) la identificación y descripción (por ejemplo, título, fecha, autor o ); b) el formato (por ejemplo, idioma, versión del software, gráficos) y los medios de soporte (por ejemplo, papel, electrónico); c) la revisión y aprobación con respecto a la conveniencia y adecuación",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 21,
+            "clausula": "7.5.2"
+        }
+    },
+    {
+        "contenido": ". 7.5.3 Control de la información documentada 7.5.3.1 La información documentada requerida por el sistema de gestión de la calidad y por esta Norma Internacional se debe controlar para asegurarse de que: a) esté disponible y sea idónea para su uso, donde y cuando se necesite; b) esté protegida adecuadamente (por ejemplo, contra pérdida de la confidencialidad, uso inadecuado o pérdida de integridad). 7.5.3.2 Para el control de la información documentada, la organización debe abordar las siguientes actividades, según corresponda: a) distribución, acceso, recuperación y uso; b) almacenamiento y preservación, incluida la preservación de la legibilidad; c) control de cambios (por ejemplo, control de versión); d) conservación y disposición. La información documentada de origen externo, que la organización determina como necesaria para la planificación y operación del sistema de gestión de la calidad, se debe identificar, según sea apropiado, y controlar",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 21,
+            "clausula": "7.5.3"
+        }
+    },
+    {
+        "contenido": ". La información documentada conservada como evidencia de la conformidad debe protegerse contra modificaciones no intencionadas. NOTA El acceso puede implicar una decisión en relación al permiso, solamente para consultar la información documentada, o al permiso y a la autoridad para consultar y modificar la información documentada. 8 Operación 8.1 Planificación y control operacional La organización debe planificar, implementar y controlar los procesos (véase 4.4) necesarios para cumplir los requisitos para la provisión de productos y servicios, y para implementar las acciones determinadas en el capítulo 6, mediante: a) la determinación de los requisitos para los productos y servicios;",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 21,
+            "clausula": "8.1"
+        }
+    },
+    {
+        "contenido": "- 23 - b) el establecimiento de criterios para: 1) los procesos; 2) la aceptación de los productos y servicios; c) la determinación de los recursos necesarios para lograr la conformidad con los requisitos de los productos y servicios; d) la implementación del control de los procesos de acuerdo con los criterios; e) la determinación, el mantenimiento y la conservación de la información documentada en la extensión necesaria para: 1) tener confianza en que los procesos se han llevado a cabo según lo planificado; 2) demostrar la conformidad de los productos y servicios con sus requisitos. La salida de esta planificación debe ser adecuada para las operaciones de la organización. La organización debe controlar los cambios planificados y revisar las consecuencias de los cambios no previstos, tomando acciones para mitigar cualquier efecto adverso, según sea necesario. La organización debe asegurarse de que los procesos contratados externamente estén controlados (véase 8.4)",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 22,
+            "clausula": "8.1"
+        }
+    },
+    {
+        "contenido": ". La organización debe asegurarse de que los procesos contratados externamente estén controlados (véase 8.4). 8.2 Requisitos para los productos y servicios 8.2.1 Comunicación con el cliente La comunicación con los clientes debe incluir: a) proporcionar la información relativa a los productos y servicios; b) tratar las consultas, los contratos o los pedidos, incluyendo los cambios; c) ob tener la retroalimentación de los clientes relativa a los productos y servicios, incluyendo las quejas de los clientes; d) manipular o controlar la propiedad del cliente; e) establecer los requisitos específicos para las acciones de contingencia, cuando sea pertinente",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 22,
+            "clausula": "8.2"
+        }
+    },
+    {
+        "contenido": ". 8.2.2 Determinación de los requisitos para los productos y servicios Cuando se determinan los requisitos para los productos y servicios que se van a ofrecer a los clientes, la organización debe asegurarse de que: a) los requisitos para los productos y servicios se definen, incluyendo: 1) cualquier requisito legal y reglamentario aplicable; 2) aquellos considerados necesarios por la organización; b) la organización puede cumplir con las declaraciones acerca de los productos y servicios que ofrece.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 22,
+            "clausula": "8.2.2"
+        }
+    },
+    {
+        "contenido": "8.2.3 Revisión de los requisitos para los productos y servicios 8.2.3.1 La organización debe asegurarse de que tiene la capacidad de cumplir los requisitos para los productos y servicios que se van a ofrecer a los clientes. La organización debe llevar a cabo una revisión antes de comprometerse a suministrar productos y servicios a un cliente, para incluir: a) los requisitos especificados por el cliente, incluyendo los requisitos para las actividades de entrega y las posteriores a la misma; b) los requisitos no establecidos por el cliente, pero necesarios para el uso especificado o previsto, cuando sea conocido; c) los requisitos especificados por la organización; d) los requisitos legales y reglamentarios aplicables a los productos y servicios; e) las diferencias existentes entre los requisitos del contrato o pedido y los expresados previamente",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 23,
+            "clausula": "8.2.3"
+        }
+    },
+    {
+        "contenido": ". La organización debe asegurarse de que se resuelven las diferencias existentes entre los requisitos del contrato o pedido y los expresados previamente. La organización debe confirmar los requisitos del cliente antes de la aceptación, cuando el cliente no proporcione una declaración documentada de sus requisitos. NOTA En algunas ocasiones, como las ventas por internet, es irrealizable llevar a cabo una revisión formal para cada pedido. En su lugar la revisión puede cubrir la información del producto pertinente, como catálogos. 8.2.3.2 La organización debe conservar la información documentada, cuando sea aplicable: a) sobre los resultados de la revisión; b) sobre cualquier requisito nuevo para los productos y servicios",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 23,
+            "clausula": "8.2.3.2"
+        }
+    },
+    {
+        "contenido": ". 8.2.4 Cambios en los requisitos para los productos y servicios La organización debe asegurarse de que, cuando se cambien los requisitos para los productos y servicios, la información documentada pertinente sea modificada, y de que las personas pertinentes sean conscientes de los requisitos modificados. 8.3 Diseño y desarrollo de los productos y servicios 8.3.1 Generalidades La organización debe establecer, implementar y mantener un proceso de diseño y desarrollo que sea adecuado para asegurarse de la posterior provisión de productos y servicios",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 23,
+            "clausula": "8.2.4"
+        }
+    },
+    {
+        "contenido": ". 8.3.2 Planificación del diseño y desarrollo Al determinar las etapas y controles para el diseño y desarrollo, la organización debe considerar: a) la naturaleza, duración y complejidad de las actividades de diseño y desarrollo; b) las etapas del proceso requeridas, incluyendo las revisiones del diseño y desarrollo aplicables; c) las actividades requeridas de verificación y validación del diseño y desarrollo; d) las responsabilidades y autoridades involucradas en el proceso de diseño y desarrollo;",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 23,
+            "clausula": "8.3.2"
+        }
+    },
+    {
+        "contenido": "- 25 - e) las necesidades de recursos internos y externos para el diseño y desarrollo de los productos y servicios; f) la necesidad de controlar las interfaces entre las personas que participan activamente en el proceso de diseño y desarrollo; g) la necesidad de la participación activa de los clientes y usuarios en el proceso de diseño y desarrollo; h) los requisitos para la posterior provisión de productos y servicios; i) el nivel de control del proceso de diseño y desarrollo esperado por los clientes y otras partes interesadas pertinentes; j) la información documentada necesaria para demostrar que se han cumplido los requisitos del diseño y desarrollo. 8.3.3 Entradas para el diseño y desarrollo La organización debe determinar los requisitos esenciales para los tipos específicos de productos y servicios a diseñar y desarrollar",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 24,
+            "clausula": "8.3.3"
+        }
+    },
+    {
+        "contenido": ". La organización debe considerar: a) los requisitos funcionales y de desempeño; b) la información proveniente de actividades previas de diseño y desarrollo similares; c) los requisitos legales y reglamentarios; d) normas o códigos de prácticas que la organización se ha comprometido a implementar; e) las consecuencias potenciales de fallar debido a la naturaleza de los productos y servicios. Las entradas deben ser adecuadas para los fines del diseño y desarrollo, estar completas y sin ambigüedades. Las entradas del diseño y desarrollo contradictorias deben resolverse. La organización debe conservar la información documentada sobre las entradas del diseño y desarrollo",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 24,
+            "clausula": "8.3.3"
+        }
+    },
+    {
+        "contenido": ". La organización debe conservar la información documentada sobre las entradas del diseño y desarrollo. 8.3.4 Controles del diseño y desarrollo La organización debe aplicar controles al proceso de diseño y desarrollo para asegurarse de que: a) se definen los resultados a lograr; b) se realizan las revisiones para evaluar la capacidad de los resultados del diseño y desarrollo para cumplir los requisitos; c) se realizan actividades de verificación para asegurarse de que las salidas del diseño y desarrollo cumplen los requisitos de las entradas; d) se realizan actividades de validación para asegurarse de que los productos y servicios resultantes satisfacen los requisitos para su aplicación especificada o uso previsto; e) se toma cualquier acción necesaria sobre los problemas determinados durante las revisiones, o las actividades de verificación y validación; f) se conserva la información documentada de estas actividades",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 24,
+            "clausula": "8.3.4"
+        }
+    },
+    {
+        "contenido": ". NOTA Las revisiones, la verificación y la validación del diseño y desarrollo tienen propósitos distintos. Pueden realizarse de forma separada o en cualquier combinación, según sea idóneo para los productos y servicios de la organización.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 24,
+            "clausula": "8.3.4"
+        }
+    },
+    {
+        "contenido": "8.3.5 Salidas del diseño y desarrollo La organización debe asegurarse de que las salidas del diseño y desarrollo: a) cumplen los requisitos de las entradas; b) son adecuadas para los procesos posteriores para la provisión de productos y servicios; c) incluyen o hacen referencia a los requisitos de seguimiento y medición, cuando sea apropiado, y a los criterios de aceptación; d) especifican las características de los productos y servicios que son esenciales para su propósito previsto y su provisión segura y correcta. La organización debe conservar información documentada sobre las salidas del diseño y desarrollo. 8.3.6 Cambios del diseño y desarrollo La organización debe identificar, revisar y controlar los cambios hechos durante el diseño y desarrollo de los productos y servicios, o posteriormente en la medida necesaria para asegurarse de que no haya un impacto adverso en la conformidad con los requisitos",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 25,
+            "clausula": "8.3.5"
+        }
+    },
+    {
+        "contenido": ". La organización debe conservar la información documentada sobre: a) los cambios del diseño y desarrollo; b) los resultados de las revisiones; c) la autorización de los cambios; d) las acciones tomadas para prevenir los impactos adversos. 8.4 Control de los procesos, productos y servicios suministrados externamente 8.4.1 Generalidades La organización debe asegurarse de que los procesos, productos y servicios suministrados externamente son conformes a los requisitos",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 25,
+            "clausula": "8.4"
+        }
+    },
+    {
+        "contenido": ". La organización debe determinar los controles a aplicar a los procesos, productos y servicios suministrados externamente cuando: a) los productos y servicios de proveedores externos están destinados a incorporarse dentro de los propios productos y servicios de la organización; b) los productos y servicios son proporcionados directamente a los clientes por proveedores externos en nombre de la organización; c) un proceso, o una parte de un proceso, es proporcionado por un proveedor externo como resultado de una decisión de la organización. La organización debe determinar y aplicar criterios para la evaluación, la selección, el seguimiento del desempeño y la reevaluación de los proveedores externos, basándose en su capacidad para proporcionar procesos o productos y servicios de acuerdo con los requisitos. La organización debe conservar la información documentada de estas actividades y de cualquier acción necesaria que surja de las evaluaciones.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 25,
+            "clausula": "8.4"
+        }
+    },
+    {
+        "contenido": "- 27 - 8.4.2 Tipo y alcance del control La organización debe asegurarse de que los procesos, productos y servicios suministrados externamente no afectan de manera adversa a la capacidad de la organización de entregar productos y servicios conformes de manera coherente a sus clientes",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 26,
+            "clausula": "8.4.2"
+        }
+    },
+    {
+        "contenido": ". La organización debe: a) asegurarse de que los procesos suministrados externamente permanecen dentro del control de su sistema de gestión de la calidad; b) definir los controles que pretende aplicar a un proveedor externo y los que pretende aplicar a las salidas resultantes; c) tener en consideración: 1) el impacto potencial de los procesos, productos y servicios suministrados externamente en la capacidad de la organización de cumplir regularmente los requisitos del cliente y los legales y reglamentarios aplicables; 2) la eficacia de los controles aplicados por el proveedor externo; d) determinar la verificación u otras actividades necesarias para asegurarse de que los procesos, productos y servicios suministrados externamente cumplen los requisitos. 8.4.3 Información para los proveedores externos La organización debe asegurarse de la adecuación de los requisitos antes de su comunicación al proveedor externo",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 26,
+            "clausula": "8.4.3"
+        }
+    },
+    {
+        "contenido": ". La organización debe comunicar a los proveedores externos sus requisitos para: a) los procesos, productos y servicios a proporcionar; b) la aprobación de: 1) productos y servicios; 2) métodos, procesos y equipos; 3) la liberación de productos y servicios; c) la competencia, incluyendo cualquier calificación requerida de las personas; d) las interacciones del proveedor externo con la organización; e) el control y el seguimiento del desempeño del proveedor externo a aplicar por parte de la organización; f) las actividades de verificación o validación que la organización, o su cliente, pretende llevar a cabo en las instalaciones del proveedor externo. 8.5 Producción y provisión del servicio 8.5.1 Control de la producción y de la provisión del servicio La organización debe implementar la producción y provisión del servicio bajo condiciones controladas.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 26,
+            "clausula": "8.5"
+        }
+    },
+    {
+        "contenido": "Las condiciones controladas deben incluir, cuando sea aplicable: a) la disponibilidad de información documentada que defina: 1) las características de los productos a producir, los servicios a prestar, o las actividades a desempeñar; 2) los resultados a alcanzar; b) la disponibilidad y el uso de los recursos de seguimiento y medición adecuados; c) la implementación de actividades de seguimiento y medición en las etapas apropiadas para verificar que se cumplen los criterios para el control de los procesos o sus salidas, y los criterios de aceptación para los productos y servicios; d) el uso de la infraestructura y el entorno adecuados para la operación de los procesos; e) la designación de personas competentes, incluyendo cualquier calificación requerida",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 27,
+            "clausula": "8.5"
+        }
+    },
+    {
+        "contenido": "; e) la designación de personas competentes, incluyendo cualquier calificación requerida; f) la validación y revalidación periódica de la capacidad para alcanzar los resultados planificados de los procesos de producción y de prestación del servicio, cuando las salidas resultantes no puedan verificarse mediante actividades d e seguimiento o medición posteriores; g) la implementación de acciones para prevenir los errores humanos; h) la implementación de actividades de liberación, entrega y posteriores a la entrega",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 27,
+            "clausula": "8.5"
+        }
+    },
+    {
+        "contenido": ". 8.5.2 Identificación y trazabilidad La organización debe utilizar los medios apropiados para identificar las salidas, cuando sea necesario, para asegurar la conformidad de los productos y servicios. La organización debe identificar el estado de las salidas con respecto a los requisitos de seguimiento y medición a través de la producción y prestación del servicio. La organización debe controlar la identificación única de las salidas cuando la trazabilidad sea un requisito, y debe conservar la información documentada necesaria para permitir la trazabilidad. 8.5.3 Propiedad perteneciente a los clientes o proveedores externos La organización debe cuidar la propiedad perteneciente a los clientes o a proveedores externos mientras esté bajo el control de la organización o esté siendo utilizado por la misma",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 27,
+            "clausula": "8.5.2"
+        }
+    },
+    {
+        "contenido": ". La organización debe identificar, verificar, proteger y salvaguardar la propiedad de los clientes o de los proveedores externos suministrada para su utilización o incorporación dentro de los productos y servicios. Cuando la propiedad de un cliente o de un proveedor externo se pierda, deteriore o de algún otro modo se considere inadecuada para su uso, la organización debe informar de esto al cliente o proveedor externo y conservar la información documentada sobre lo ocurrido. NOTA La propiedad de un cliente o de un proveedor externo puede incluir materiales, componentes, herramientas y equipos, instalaciones, propiedad intelectual y datos personales. 8.5.4 Preservación La organización debe preservar las salidas durante la producción y prestación del servicio, en la medida necesaria para asegurarse de la conformidad con los requisitos",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 27,
+            "clausula": "8.5.4"
+        }
+    },
+    {
+        "contenido": ". NOTA La preservación puede incluir la identificación, la manipulación, el control de la contaminación, el embalaje, el almacenamiento, la transmisión de la información o el transporte, y la protección.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 27,
+            "clausula": "8.5.4"
+        }
+    },
+    {
+        "contenido": "- 29 - 8.5.5 Actividades posteriores a la entrega La organización debe cumplir los requisitos para las actividades posteriores a la entrega asociadas con los productos y servicios. Al determinar el alcance de las actividades posteriores a la entrega que se requieren, la organización debe considerar: a) los requisitos legales y reglamentarios; b) las consecuencias potenciales no deseadas asociadas a sus productos y servicios; c) la naturaleza, el uso y la vida útil prevista de sus productos y servicios; d) los requisitos del cliente; e) la retroalimentación del cliente. NOTA Las actividades posteriores a la entrega pueden incluir acciones cubiertas por las condiciones de la garantía, obligaciones contractuales como servicios de mantenimiento, y servicios suplementarios como el reciclaje o la disposición final",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 28,
+            "clausula": "8.5.5"
+        }
+    },
+    {
+        "contenido": ". 8.5.6 Control de los cambios La organización debe revisar y controlar los cambios para la producción o la prestación del servicio, en la extensión necesaria para asegurarse de la continuidad en la conformidad con los requisitos. La organización debe conservar información documentada que describa los resultados de la revisión de los cambios, las personas que autorizan el cambio y de cualquier acción necesaria que surja de la revisión. 8.6 Liberación de los productos y servicios La organización debe implementar las disposiciones planificadas, en las etapas adecuadas, para verificar que se cumplen los requisitos de los productos y servicios. La liberación de los productos y servicios al cliente no debe llevarse a cabo hasta que se hayan completado satisfactoriamente las disposiciones planificadas, a menos que sea aprobado de otra manera por una autoridad pertinente y, cuando sea aplicable, por el cliente",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 28,
+            "clausula": "8.5.6"
+        }
+    },
+    {
+        "contenido": ". La organización debe conservar la información documentada sobre la liberación de los productos y servicios. La información documentada debe incluir: a) evidencia de la conformidad con los criterios de aceptación; b) trazabilidad a las personas que autorizan la liberación. 8.7 Control de las salidas no conformes 8.7.1 La organización debe asegurarse de que las salidas que no sean conformes con sus requisitos se identifican y se controlan para prevenir su uso o entrega no intencionada. La organización debe tomar las acciones adecuadas basándose en la naturaleza de la no conformidad y en su efecto sobre la conformidad de los productos y servicios. Esto se debe aplicar también a los productos y servicios no conformes detectados después de la entrega de los productos, durante o después de la provisión de los servicios.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 28,
+            "clausula": "8.7"
+        }
+    },
+    {
+        "contenido": "La organización debe tratar las salidas no conformes de una o más de las siguientes maneras: a) corrección; b) separación, contención, devolución o suspensión de provisión de productos y servicios; c) información al cliente; d) obtención de autorización para su aceptación bajo concesión. Debe verificarse la conformidad con los requisitos cuando se corrigen las salidas no conformes. 8.7.2 La organización debe conservar la información documentada que: a) describa la no conformidad; b) describa las acciones tomadas; c) describa todas las concesiones obtenidas; d) identifique la autoridad que decide la acción con respecto a la no conformidad",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 29,
+            "clausula": "8.7.2"
+        }
+    },
+    {
+        "contenido": ". 9 Evaluación del desempeño 9.1 Seguimiento, medición, análisis y evaluación 9.1.1 Generalidades La organización debe determinar: a) qué necesita seguimiento y medición; b) los métodos de seguimiento, medición, análisis y evaluación necesarios para asegurar resultados válidos; c) cuándo se deben llevar a cabo el seguimiento y la medición; d) cuándo se deben analizar y evaluar los resultados del seguimiento y la medición. La organización debe evaluar el desempeño y la eficacia del sistema de gestión de la calidad. La organización debe conservar la información documentada apropiada como evidencia de los resultados. 9.1.2 Satisfacción del cliente La organización debe realizar el seguimiento de las percepciones de los clientes del grado en que se cumplen sus necesidades y expectativas. La organización debe determinar los métodos para obtener, realizar el seguimiento y revisar esta información",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 29,
+            "clausula": "9.1"
+        }
+    },
+    {
+        "contenido": ". La organización debe determinar los métodos para obtener, realizar el seguimiento y revisar esta información. NOTA Los ejemplos de seguimiento de las percepciones del cliente pueden incluir las encuestas al cliente, la retroalimentación del cliente sobre los productos y servicios entregados, las reuniones con los clientes, el análisis de las cuotas de mercado, las felicitaciones, las garantías utilizadas y los informes de agentes comerciales. 9.1.3 Análisis y evaluación La organización debe analizar y evaluar los datos y la información apropiados que surgen por el seguimiento y la medición.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 29,
+            "clausula": "9.1.3"
+        }
+    },
+    {
+        "contenido": "- 31 - Los resultados del análisis deben utilizarse para evaluar: a) la conformidad de los productos y servicios; b) el grado de satisfacción del cliente; c) el desempeño y la eficacia del sistema de gestión de la calidad; d) si lo planificado se ha implementado de forma eficaz; e) la eficacia de las acciones tomadas para abordar los riesgos y oportunidades; f) el desempeño de los proveedores externos; g) la necesidad de mejoras en el sistema de gestión de la calidad. NOTA Los métodos para analizar los datos pueden incluir técnicas estadísticas. 9.2 Auditoría interna 9.2.1 La organización debe llevar a cabo auditorías internas a intervalos planificados para proporcionar información acerca de si el sistema de gestión de la calidad: a) es conforme con: 1) los requisitos propios de la organización para su sistema de gestión de la calidad; 2) los requisitos de esta Norma Internacional; b) se implementa y mantiene eficazmente",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 30,
+            "clausula": "9.2"
+        }
+    },
+    {
+        "contenido": ". 9.2.2 La organización debe: a) planificar, establecer, implementar y mantener uno o varios programas de auditoría que incluyan la frecuencia, los métodos, las responsabilidades, los requisitos de planificación y la elaboración de informes, que deben tener en consideración la importancia de los procesos involucrados, los cambios que afecten a la organización y los resultados de las auditorías previas; b) definir los criterios de la auditoría y el alcance para cada auditoría; c) seleccionar los auditores y llevar a cabo auditorías para asegurarse de la objetividad y la imparcialidad del proceso de auditoría; d) asegurarse de que los resultados de las auditorías se informen a la dirección pertinente; e) realizar las correcciones y tomar las acciones correctivas adecuadas sin demora injustificada; f) conservar información documentada como evidencia de la implementación del programa de auditoría y de los resultados de las auditorías. NOTA Véase la Norma ISO 19011 a modo de orientación.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 30,
+            "clausula": "9.2.2"
+        }
+    },
+    {
+        "contenido": "9.3 Revisión por la dirección 9.3.1 Generalidades La alta dirección debe revisar el sistema de gestión de la calidad de la organización a intervalos planificados, para asegurarse de su conveniencia, adecuación, eficacia y alineación continuas con la dirección estratégica de la organización",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 31,
+            "clausula": "9.3"
+        }
+    },
+    {
+        "contenido": ". 9.3.2 Entradas de la revisión por la dirección La revisión por la dirección debe planificarse y llevarse a cabo incluyendo consideraciones sobre: a) el estado de las acciones de las revisiones por la dirección previas; b) los cambios en las cuestiones externas e internas que sean pertinentes al sistema de gestión de la calidad; c) la información sobre el desempeño y la eficacia del sistema de gestión de la calidad, incluidas las tendencias relativas a: 1) la satisfacción del cliente y la retroalimentación de las partes interesadas pertinentes; 2) el grado en que se han logrado los objetivos de la calidad; 3) el desempeño de los procesos y conformidad de los productos y servicios; 4) las no conformidades y acciones correctivas; 5) los resultados de seguimiento y medición; 6) los resultados de las auditorías; 7) el desempeño de los proveedores externos; d) la adecuación de los recursos; e) la eficacia de las acciones tomadas para abordar los riesgos y las oportunidades (véase 6.1 )",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 31,
+            "clausula": "9.3.2"
+        }
+    },
+    {
+        "contenido": "; d) la adecuación de los recursos; e) la eficacia de las acciones tomadas para abordar los riesgos y las oportunidades (véase 6.1 ); f) las oportunidades de mejora",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 31,
+            "clausula": "9.3.2"
+        }
+    },
+    {
+        "contenido": ". 9.3.3 Salidas de la revisión por la dirección Las salidas de la revisión por la dirección deben incluir las decisiones y acciones relacionadas con: a) las oportunidades de mejora; b) cualquier necesidad de cambio en el sistema de gestión de la calidad; c) las necesidades de recursos. La organización debe conservar información documentada como evidencia de los resultados de las revisiones por la dirección.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 31,
+            "clausula": "9.3.3"
+        }
+    },
+    {
+        "contenido": "- 33 - 10 Mejora 10.1 Generalidades La organización debe determinar y seleccionar las oportunidades de mejora e implementar cualquier acción necesaria para cumplir los requisitos del cliente y aumentar la satisfacción del cliente. Éstas deben incluir: a) mejorar los productos y servicios para cumplir los requisitos, así como considerar las necesidades y expectativas futuras; b) corregir, prevenir o reducir los efectos no deseados; c) mejorar el desempeño y la eficacia del sistema de gestión de la calidad. NOTA Los ejemplos de mejora pueden incluir corrección, acción correctiva, mejora continua, cambio abrupto, innovación y reorganización",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 32,
+            "clausula": "10.1"
+        }
+    },
+    {
+        "contenido": ". 10.2 No conformidad y acción correctiva 10.2.1 Cuando ocurra una no conformidad, incluida cualquiera originada por quejas, la organización debe: a) reaccionar ante la no conformidad y, cuando sea aplicable: 1) tomar acciones para controlarla y corregirla; 2) hacer frente a las consecuencias; b) evaluar la necesidad de acciones para eliminar las causas de la no conformidad, con el fin de que no vuelva a ocurrir ni ocurra en otra parte, mediante: 1) la revisión y el análisis de la no conformidad; 2) la determinación de las causas de la no conformidad; 3) la determinación de si existen no conformidades similares, o que potencialmente puedan ocurrir; c) implementar cualquier acción necesaria; d) revisar la eficacia de cualquier acción correctiva tomada; e) si fuera necesario, actualizar los riesgos y oportunidades determinados durante la planificación; y f) si fuera necesario, hacer cambios al sistema de gestión de la calidad",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 32,
+            "clausula": "10.2"
+        }
+    },
+    {
+        "contenido": ". Las acciones correctivas deben ser apropiadas a los efectos de las no conformidades encontradas. 10.2.2 La organización debe conservar información documentada como evidencia de: a) la naturaleza de las no conformidades y cualquier acción tomada posteriormente; b) los resultados de cualquier acción correctiva.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 32,
+            "clausula": "10.2.2"
+        }
+    },
+    {
+        "contenido": "10.3 Mejora continua La organización debe mejorar continuamente la conveniencia, adecuación y eficacia del sistema de gestión de la calidad. La organización debe considerar los resultados del análisis y la evaluación, y las salidas de la revisión por la dirección, para determinar si hay necesidades u oportunidades que deben considerarse como parte de la mejora continua.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 33,
+            "clausula": "10.3"
+        }
+    },
+    {
+        "contenido": "- 35 - Anexo A (Informativo) Aclaración de la nueva estructura, terminología y conceptos A.1 Estructura y terminología La estructura de los capítulos (es decir, la secuencia de capítulos) y parte de la terminología de la presente edición de esta Norma Internacional, en comparación con la edición anterior (Norma ISO 9001:2008), han cambiado para mejorar la alineación con otras normas de sistemas de gestión. Esta Norma Internacional no establece requisitos en su estructura y terminología para aplicarse en la información documentada del sistema de gestión de la calidad de una organización. La estructura de los capítulos pretende proporcionar una presentación coherente de los requisitos, más que un modelo para documentar las políticas, objetivos y procesos de una organización",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 34,
+            "clausula": "10.3"
+        }
+    },
+    {
+        "contenido": ". A menudo la estructura y el contenido de la información documentada relacionada con un sistema de gestión de la calidad puede ser más pertinente para sus usuarios si relaciona tanto los procesos operados por la organización como la información mantenida para otros propósitos. No hay ningún requisito para que los términos utilizados por una organización se reemplacen por los términos utilizados en esta Norma Internacional para especificar requisitos del sistema de gestión de la calidad. Las organizaciones pueden elegir utilizar términos que se adecuen a sus operaciones (por ejemplo: utilizar “registros”, “documentación” o “protocolos” en lugar de “información documentada ”; o ”proveedor”, “socio” o vendedor en lugar de “proveedor externo”). La tabla A.1 muestra las principales diferencias en terminología entre esta edición de esta Norma Internacional y la edición anterior",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 34,
+            "clausula": "10.3"
+        }
+    },
+    {
+        "contenido": ". La tabla A.1 muestra las principales diferencias en terminología entre esta edición de esta Norma Internacional y la edición anterior. Tabla A.1 – Principales diferencias en terminología entre las Normas ISO 9001:2008 e ISO 9001:2008 Productos Productos y servicios Exclusiones No se utiliza (Véase el Capítulo A.5 para aclarar su aplicabilidad) Representante de la dirección No se utiliza (Se asignan responsabilidades y autoridades similares pero ningún requisito para un único representante de la dirección) Documentación, manual de la calidad, procedimientos documentados, registros Información documentada Ambiente de trabajo Ambiente para la operación de los procesos Equipo de seguimiento y medición Recursos de seguimiento y medición Productos comprados Productos y servicios suministrados externamente Proveedor Proveedor externo",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 34,
+            "clausula": "10.3"
+        }
+    },
+    {
+        "contenido": "A.2 Productos y servicios La Norma ISO 9001:2008 usaba el término “producto” para incluir todas las categorías de salidas. La presente edición de esta Norma Internacional utiliza “productos y servicios”. Los “productos y servicios” incluye n todas las categorías de salidas (hardware, servicios, software y materiales procesados). La inclusión específ ica de “servicios” pretende destacar las diferencias entre productos y servicios en la aplicación de algunos requisitos. La característica de los servicios es que al menos parte de las salidas se realiza en la interfaz con el cliente. Esto significa, por ejemplo, que la conformidad con los requisitos no puede confirmarse necesariamente antes de la entrega del servicio. En la mayoría de los casos, productos y servicios se usan juntos. La mayoría de las salidas que las organizaciones proporcionan a los clientes, o que les suministran los proveedores externos, incluyen tanto productos como servicios",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 35,
+            "clausula": "10.3"
+        }
+    },
+    {
+        "contenido": ". Por ejemplo, un producto tangible o intangible puede tener algún servicio asociado o un servicio puede tener algún producto tangible o intangible asociado. A.3 Comprensión de las necesidades y expectativas de las partes interesadas El apartado 4.2 especifica requisitos para que la organización determine las partes interesadas que son pertinentes para el sistema de gestión de la calidad y los requisitos de esas partes interesadas. Sin embargo, el apartado 4.2 no implica la ampliación de los requisitos del sistema de gestión de la calidad más allá del objeto y campo de aplicación de esta Norma Internacional. Como se establece en el objeto y campo de aplicación, esta Norma Internacional es aplicable cuando una organización necesita demostrar su capacidad para proporcionar regularmente productos y servicios que cumplen los requisitos del cliente y los legales y reglamentarios aplicables, y que aspira a aumentar la satisfacción del cliente",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 35,
+            "clausula": "Anexo 4.2"
+        }
+    },
+    {
+        "contenido": ". Esta Norma Internacional no establece requisitos para que la organización considere partes interesadas cuando ha decidido que esas partes no son pertinentes para su sistema de gestión de la calidad. La organización es la que decide si es pertinente para su sistema de gestión de la calidad un requisito particular de una parte interesada pertinente. A.4 Pensamiento basado en riesgos El concepto de pensamiento basado en riesgos ha estado implícito en ediciones previas de esta Norma Internacional, por ejemplo, mediante requisitos para la planificación, la revisión y la mejora. Esta Norma Internacional especifica requisitos para que la organización entienda su contexto (véase 4.1) y determine los riesgos como base para la planificación (véase 6.1). Esto representa la aplicación del pensamiento basado en riesgos a la planificación e implementación de los procesos del sistema de gestión de la calidad (véase 4.4) y ayudará a determinar la extensión de la información documentada",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 35,
+            "clausula": "Anexo 4.2"
+        }
+    },
+    {
+        "contenido": ". Uno de los propósitos fundamentales de un sistema de gestión de la calidad es actuar como una herramienta preventiva. Consecuentemente, esta Norma Internacional no tiene un capítulo o apartado separado sobre acciones preventivas. El concepto de acción preventiva se expresa mediante el uso del pensamiento basado en riesgos al formular requisitos del sistema de gestión de la calidad. El pensamiento basado en riesgos aplicado en esta Norma Internacional ha permitido alguna reducción en los requisitos prescriptivos y su sustitución por requisitos basados en el desempeño. Existe una mayor flexibilidad que en la Norma ISO 9001:2008 en los requisitos para los procesos, la información documentada y las responsabilidades de la organización. Aunque el apartado 6.1 especifica que la organización debe planificar acciones para abordar los riesgos, no hay ningún requisito en cuanto a métodos formales para la gestión del riesgo ni un proceso documentado de la gestión del riesgo",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 35,
+            "clausula": "Anexo 6.1"
+        }
+    },
+    {
+        "contenido": ". Las organizaciones pueden decidir si desarrollar o no una metodología de la gestión del riesgo más amplia de lo que requiere esta Norma Internacional, por ejemplo mediante la aplicación de otra orientación u otras normas.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 35,
+            "clausula": "Anexo 6.1"
+        }
+    },
+    {
+        "contenido": "- 37 - No todos los procesos de un sistema de gestión de la calidad representan el mismo nivel de riesgo en términos de la capacidad de la organización para cumplir sus objetivos, y los efectos de la incertidumbre no son los mismos para todas las organizaciones. Bajo los requisitos del apartado 6.1, la organización es responsable de la aplicación del pensamiento basado en riesgos y de las acciones que toma para abordar los riesgos, incluyendo si conserva o no información documentada como evidencia de su determinación de riesgos. A.5 Aplicabilidad Esta Norma Internacional no hace una referencia a las “exclusiones” en relación con la aplicabilidad de sus requisitos para el sistema de gestión de la calidad de la organización",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 36,
+            "clausula": "Anexo 6.1"
+        }
+    },
+    {
+        "contenido": ". Sin embargo, una organización puede revisar la aplicabilidad de los requisitos debido al tamaño o la complejidad de la organización, el modelo de gestión que adopte, el rango de las actividades de la organización y la naturaleza de los riesgos y oportunidades que encuentre. Los requisitos para la aplicabilidad se tratan en el apartado 4.3, que define las condiciones bajo las que una organización puede decidir que un requisito no se puede aplicar a ninguno de los procesos dentro del alcance de su sistema de gestión de la calidad. La organización sólo puede decidir que un requisito no es aplicable si su decisión no tuviera como resultado el fracaso a la hora de alcanzar la conformidad de los productos y servicios. A.6 Información documentada Como parte de la alineación con otras normas de sistemas de gestión, se ha adoptado un capítulo común sobre “información documentada” sin ningún cambio o adición significativa (véase 7.5)",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 36,
+            "clausula": "Anexo 4.3"
+        }
+    },
+    {
+        "contenido": ". Cuando sea apropiado, e l texto de esta Norma Internacional se ha alineado con sus requisitos. Consecuentemente, “información documentada” se utiliza para todos los requisitos de documentos. Donde la Norma ISO 9001:2008 utilizaba una terminología específica como “documento” o “procedimientos documentados”, “manual de la calidad” o “plan de la calidad”, la presente edición de esta Norma Internacional define requisitos para “mantener la información documentada”. Donde la Norma ISO 9001:2008 utilizaba el término “registros” para denotar los documentos necesarios para proporcionar evidencia de la conformidad con los requisitos, esto ahora se expresa como un requisito para “conservar la información documentada”. La organización es responsable de determinar qué información documentad a se necesita conservar, el periodo de tiempo por el que se va a conservar y qué medios se van a utilizar para su conservación",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 36,
+            "clausula": "Anexo 4.3"
+        }
+    },
+    {
+        "contenido": ". Un requisito para “mantener” información documentada no excluye la posibilidad de que la organización también podría necesitar “conservar” la misma información documentada para un propósito particular, por ejemplo, para conservar versiones anteriores de ella. Donde esta Norma Internacional hace referencia a “información” en lugar de “información documentada” (por ejemplo, en el apartado 4.1: “La organización debe realizar el seguimiento y la revisión de la información sobre estas cuestiones externas e internas”), no hay ningún requisito de que esa información se tenga que documentar. En tales situaciones, la organización puede decidir si es necesario o no, o si es apropiado mantener información documentada",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 36,
+            "clausula": "Anexo 4.1"
+        }
+    },
+    {
+        "contenido": ". En tales situaciones, la organización puede decidir si es necesario o no, o si es apropiado mantener información documentada. A.7 Conocimientos de la organización En el apartado 7.1.6 de esta Norma Internacional se considera la necesidad de determinar y gestionar los conocimientos mantenidos por la organización, para asegurarse de la operación de sus procesos y que puede lograr la conformidad de sus productos y servicios. Los requisitos relativos a los conocimientos de la organización se introdujeron con el propósito de: a) salvaguardar a la organización de la pérdida de conocimientos, por ejemplo: – por causa de rotación de personal; – fracaso a la hora de capturar y compartir información;",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 36,
+            "clausula": "Anexo 7.1.6"
+        }
+    },
+    {
+        "contenido": "b) fomentar que la organización adquiera conocimientos, por ejemplo: – aprendiendo de la experiencia; – tutorías; – estudios comparativos con las mejores prácticas. A.8 Control de los procesos, productos y servicios suministrados externamente Todas las formas de provisión externa de procesos, productos y servicios se tratan en el apartado 8.4, por ejemplo, mediante: a) compra a un proveedor, o; b) un acuerdo con una compañía asociada, o; c) procesos contratados externamente a un proveedor externo. La contratación externa siempre tiene la característica esencial de un servicio, ya que tendrá al menos una actividad desempeñada necesariamente en la interfaz entre el proveedor y la organización. Los controles requeridos para la prestación externa pueden variar ampliamente dependiendo de la naturaleza de los procesos, productos y servicios",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 37,
+            "clausula": "Anexo 8.4"
+        }
+    },
+    {
+        "contenido": ". Los controles requeridos para la prestación externa pueden variar ampliamente dependiendo de la naturaleza de los procesos, productos y servicios. La organización puede aplicar el pensamiento basado en riesgos para determinar el tipo y la extensión de los controles apropiados para los proveedores externos particulares y para procesos, productos y servicios suministrados externamente.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 37,
+            "clausula": "Anexo 8.4"
+        }
+    },
+    {
+        "contenido": "- 39 - Anexo B (Informativo) Otras Normas Internacionales sobre gestión de la calidad y sistemas de gestión de la calidad desarrolladas por el Comité Técnico ISO/TC 176 Las Normas Internacionales descritas en este anexo han sido desarrolladas por el Comité Técnico ISO/TC 176 para proporcionar información de apoyo para las organizaciones que apliquen esta Norma Internacional, y para proporcionar orientación para las organizaciones que elijan ir más allá de sus requisitos. La orientación o los requisitos contenidos en los documentos citados en este anexo no aumentan, o modifican, los requisitos de esta Norma Internacional. La tabla B.1 muestra la relación entre estas normas y los capítulos pertinentes de esta Norma Internacional. Este anexo no incluye la referencia a normas del sistema de gestión de la calidad específicas de un sector desarrolladas por el Comité Técnico ISO/TC 176",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 38,
+            "clausula": "Anexo 8.4"
+        }
+    },
+    {
+        "contenido": ". Esta Norma Internacional es una de las tres normas fundamentales desarrolladas por el Comité Técnico ISO/TC 176. – ISO 9000 Sistemas de gestión de la calidad. Fundamentos y vocabulario proporciona una referencia esencial para la comprensión e implementación adecuadas de esta Norma Internacional. Los principios de la gestión de la calidad se describen en detalle en la Norma ISO 9000 y se han tenido en cuenta en el desarrollo de esta Norma Internacional. Estos principios no son requisitos por sí mismos, pero constituyen la base de los requisitos especificados en esta Norma Internacional. La Norma ISO 9000 también define los términos, definiciones y conceptos utilizados en esta Norma Internacional. – ISO 9001 (esta Norma Internacional) especifica requisitos orientados principalmente a dar confianza en los productos y servicios proporcionados por una organización y por lo tanto a aumentar la satisfacción del cliente",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 38,
+            "clausula": "Anexo 8.4"
+        }
+    },
+    {
+        "contenido": ". También se puede esperar que su adecuada implementación aporte otros beneficios a la organización tales como la mejora de la comunicación interna, mejor comprensión y control de los procesos de la organización. – ISO 9004 Gestión para el éxito sostenido de una organización. Enfoque de gestión de la calidad proporciona orientación para las organizaciones que elijan ir más allá de los requisitos de esta Norma Internacional, para considerar un rango más amplio de temas que pueden conducir a la mejora del desempeño global de la organización. La Norma ISO 9004 incluye orientación sobre una metodología de autoevaluación para que una organización sea capaz de evaluar el nivel de madurez de su sistema de gestión de la calidad. Las Normas Internacionales que figuran a continuación pueden proporcionar asistencia a las organizaciones cuando establecen o buscan mejorar sus sistemas de gestión de la calidad, sus procesos o sus actividades. – ISO 10001 Gestión de la Calidad",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 38,
+            "clausula": "Anexo 8.4"
+        }
+    },
+    {
+        "contenido": ". – ISO 10001 Gestión de la Calidad. Satisfacción del cliente. Directrices para los códigos de conducta de las organizaciones proporciona orientación a una organización para determinar que sus disposiciones para lograr la satisfacción del cliente cumplen las necesidades y expectativas del cliente. Su uso puede aumentar la confianza del cliente en una organización y mejorar la comprensión del cliente sobre lo que espera de una organización, reduciendo por lo tanto la probabilidad de malentendidos y quejas. – ISO 10002 Gestión de la Calidad. Satisfacción del cliente. Directrices para el tratamiento de las quejas en las organizaciones proporciona orientación sobre el proceso de tratamiento de quejas al reconocer y tratar las necesidades y expectativas de quienes reclaman y al resolver cualquier queja recibida. La Norma ISO 10002 proporciona un proceso de quejas abierto, eficaz y de uso fácil, incluyendo la formación de las personas. También proporciona orientación para negocios pequeños.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 38,
+            "clausula": "Anexo 8.4"
+        }
+    },
+    {
+        "contenido": "– ISO 10003 Gestión de la Calidad. Satisfacción del cliente. Directrices para la resolución de conflictos de forma externa a las organizaciones proporciona orientación para la resolución eficaz y eficiente de los conflictos de forma externa por quejas relacionadas con productos. La resolución de conflictos proporciona una vía de reparación cuando las organizaciones no ponen remedio a las quejas de forma interna. La mayoría de las quejas pueden resolverse exitosamente dentro de la organización, sin procedimientos de confrontación. – ISO 10004 Gestión de la Calidad. Satisfacción del cliente. Directrices para el seguimiento y la medición proporciona directrices sobre acciones para aumentar la satisfacción del cliente y para determinar oportunidades de mejora de los productos, procesos y atributos valorados por los clientes. Tales acciones pueden fortalecer la lealtad del cliente y ayudar a conservar clientes. – ISO 10005 Sistemas de gestión de la Calidad",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 39,
+            "clausula": "Anexo 8.4"
+        }
+    },
+    {
+        "contenido": ". Tales acciones pueden fortalecer la lealtad del cliente y ayudar a conservar clientes. – ISO 10005 Sistemas de gestión de la Calidad . Directrices para los planes de la calidad proporciona orientación para establecer y utilizar planes de la calidad como un medio de relacionar los requisitos del proceso, producto, proyecto o contrato con los métodos y prácticas de trabajo que apoyan la realización del producto. Los beneficios de establecer un plan de la calidad suponen una mayor confianza en que los requisitos se cumplirán, de que los procesos están bajo control y de la motivación que esto puede dar a los que participan activamente. – ISO 10006 Sistemas de gestión de la Calidad. Directrices para la gestión de la calidad en los proyectos es aplicable a proyectos desde pequeños hasta grandes, de simples a complejos, desde un proyecto individual a uno que es parte de un portafolio de proyectos",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 39,
+            "clausula": "Anexo 8.4"
+        }
+    },
+    {
+        "contenido": ". La Norma ISO 10006 se utiliza por el personal que gestiona proyectos y que necesita asegurarse de que su organización está aplicando las prácticas contenidas en las normas de sistemas de gestión de la calidad de ISO. – ISO 10007 Sistemas de gestión de la Calidad . Directrices para la gestión de la configuración asiste a las organizaciones a aplicar la gestión de la configuración para la dirección técnica y administrativa a lo largo del ciclo de vida de un producto. La gestión de la configuración puede utilizarse para cumplir los requisitos de identificación y trazabilidad del producto especificados en esta Norma Internacional. – ISO 10008 Gestión de la Calidad . Satisfacción del cliente",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 39,
+            "clausula": "Anexo 8.4"
+        }
+    },
+    {
+        "contenido": ". – ISO 10008 Gestión de la Calidad . Satisfacción del cliente . Directrices para las transacciones de comercio electrónico entre empresa y consumidor proporciona orientación sobre cómo las organizaciones pueden implementar un sistema eficaz y eficiente de transacciones de comercio electrónico entre empresa y consumidor (B2C ECT, por sus siglas en inglés) y por lo tanto proporcionar una base para que los consumidores aumenten su confianza en las B2C ECT, las organizaciones aumenten la capacidad para satisfacer a los consumidores y ayuden a reducir las quejas y los conflictos. – ISO 10012 Sistemas de gestión de las mediciones . Requisitos para los procesos de medición y los equipos de medición proporciona orientación para la gestión de los procesos de medición y la confirmación metrológica del equipo de medición utilizado para apoyar y demostrar el cumplimiento con los requisitos metrológicos",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 39,
+            "clausula": "Anexo 8.4"
+        }
+    },
+    {
+        "contenido": ". La Norma ISO 10012 proporciona criterios de gestión de la calidad para un sistema de gestión de las mediciones para asegurarse de que se cumplen los requisitos metrológicos. – ISO/TR 10013 Directrices para la documentación del sistema de gestión de la calidad proporciona directrices para el desarrollo y el mantenimiento de la documentación necesaria para el sistema de gestión de la calidad. El ISO/TR 10013 puede utilizarse para documentar sistemas de gestión distintos de los de las normas de sistemas de gestión de la calidad de ISO, por ejemplo, sistemas de gestión ambiental y sistemas de gestión de la seguridad. – ISO 10014 Gestión de la calidad. Directrices para la obtención de beneficios financieros y económicos está dirigida a la alta dirección. Proporciona directrices para la obtención de los beneficios financieros y económicos a través de la aplicación de los principios de la gestión de la calidad",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 39,
+            "clausula": "Anexo 8.4"
+        }
+    },
+    {
+        "contenido": ". Facilita la aplicación de los principios de la gestión y la selección de métodos y herramientas que permitan el éxito sostenido de una organización. – ISO 10015 Gestión de la calidad . Directrices para la formación proporciona directrices para asistir a las organizaciones y tratar cuestiones relacionadas con la formación. La Norma ISO 10015 puede aplicarse cuando se requiera orientación para interpretar referencias a “educación” y “formación” dentro de las normas de sistemas de gestión de la calidad de ISO. Cualquier referencia a “formación” incluye todos los tipos de educación y formación.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 39,
+            "clausula": "Anexo 8.4"
+        }
+    },
+    {
+        "contenido": "- 41 - – ISO/TR 10017 Orientación sobre las técnicas estadísticas para la Norma ISO 9001:2000 explica las técnicas estadísticas que se derivan de la variabilidad que puede observarse en el comportamiento y en los resultados de los procesos, incluso bajo condiciones de aparente estabilidad. Las técnicas estadísticas permiten un mejor uso de los datos disponibles para asistir en la toma de decisiones, y por tanto, ayudar a mejorar continuamente la calidad de los productos y los procesos para lograr la satisfacción del cliente. – ISO 10018 Gestión de la calidad . Directrices para la participación activa y la competencia de las personas proporciona directrices que influyen en la participación activa y la competencia de las personas. Un sistema de gestión de la calidad depende de la participación activa de personas competentes y la forma en la que hayan sido introducidas e integradas en la organización",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 40,
+            "clausula": "Anexo 8.4"
+        }
+    },
+    {
+        "contenido": ". Es crítico determinar, desarrollar y evaluar los conocimientos, las habilidades, el comportamiento y el ambiente de trabajo requerido. – ISO 10019 Directrices para la selección de consultores de sistemas de gestión de la calidad y la utilización de sus servicios proporciona orientación para la selección de consultores del sistema de gestión de la calidad y el uso de sus servicios. Proporciona orientación sobre el proceso para evaluar la competencia de un consultor del sistema de gestión de la calidad y proporciona confianza en que los servicios del consultor cumplirán las necesidades y expectativas de la organización.. – ISO 19011 Directrices para la auditoría de los sistemas de gestión proporciona orientación sobre la gestión de un programa de auditoría, sobre la planificación y realización de una auditoría del sistema de gestión, así como sobre la competencia y la evaluación de un auditor y de un equipo de auditoría",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 40,
+            "clausula": "Anexo 8.4"
+        }
+    },
+    {
+        "contenido": ". La Norma ISO 19011 pretende que sea aplicada a los auditores, a las organizaciones que implementan sistemas de gestión y a las organizaciones que necesitan realizar auditorías de sistemas de gestión",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 40,
+            "clausula": "Anexo 8.4"
+        }
+    },
+    {
+        "contenido": ". Tabla B.1 – Relación entre otras Normas Internacionales sobre la gestión de la calidad y los sistemas de gestión de la calidad y los capítulos de esta Norma Internacional Otra Norma Internacional Capítulo en esta Norma Internacional 4 5 6 7 8 9 10 ISO 9000 Todo Todo Todo Todo Todo Todo Todo ISO 9004 Todo Todo Todo Todo Todo Todo Todo ISO 10001 8.2.2, 8.5.1 9.1.2 ISO 10002 8.2.1, 9.1.2 10.2.1 ISO 10003 9.1.2 ISO 10004 9.1.2, 9.1.3 ISO 10005 5.3 6.1, 6.2 Todo Todo 9.1 10.2 ISO 10006 Todo Todo Todo Todo Todo Todo Todo ISO 10007 8.5.2 ISO 10008 Todo Todo Todo Todo Todo Todo Todo ISO 10012 7.1.5 ISO/TR 10013 7.5 ISO 10014 Todo Todo Todo Todo Todo Todo Todo ISO 10015 7.2 ISO/TR 10017 6.1 7.1.5 9.1 ISO 10018 Todo Todo Todo Todo Todo Todo Todo ISO 10019 8.4 ISO 19011 9.2 NOTA \"Todo\" indica que todos los apartados en el capítulo específico de esta Norma Internacional están relacionados con la otra No rma Internacional.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 40,
+            "clausula": "Anexo 4"
+        }
+    },
+    {
+        "contenido": "Bibliografía [1] ISO 9004, Gestión para el éxito sostenido de una organización. Enfoque de gestión de la calidad [2] ISO 10001, Gestión de la calidad . Satisfacción del cliente . Directrices para los códigos de conducta de las organizaciones [3] ISO 10002, Gestión de la calidad . Satisfacción del cliente . Directrices para el tratamiento de las quejas en las organizaciones [4] ISO 10003, Gestión de la calidad. Satisfacción del cliente. Directrices para la resolución de conflictos de forma externa a las organizaciones [5] ISO 10004, Gestión de la calidad. Satisfacción del cliente. Directrices para el seguimiento y la medición [6] ISO 10005, Sistemas de gestión de la calidad. Directrices para los planes de la calidad [7] ISO 10006, Sistemas de gestión de la calidad. Directrices para la gestión de la calidad en los proyectos [8] ISO 10007, Sistemas de gestión de la calidad. Directrices para la gestión de la configuración [9] ISO 10008, Quality management . Customer satisfaction",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 41,
+            "clausula": "Bibliografía"
+        }
+    },
+    {
+        "contenido": ". Directrices para la gestión de la configuración [9] ISO 10008, Quality management . Customer satisfaction . Guidelines for business- to-consumer electronic commerce transactions [10] ISO 10012, Sistemas de gestión de las mediciones . Requisitos para los procesos de medición y los equipos de medición [11] ISO/TR 10013, Directrices para la documentación de sistemas de gestión de la calidad [12] ISO 10014, Gestión de la calidad. Directrices para la obtención de beneficios financieros y económicos [13] ISO 10015, Gestión de la calidad. Directrices para la formación [14] ISO/TR 10017, Orientación sobre las técnicas estadísticas para la Norma ISO 9001:2000 [15] ISO 10018, Gestión de la calidad. Directrices para la participación activa y la competencia de las personas [16] ISO 10019, Directrices para la selección de consultores de sistemas de gestión de la calidad y la utilización de sus servicios [17] ISO 14001, Sistemas de gestión ambiental",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 41,
+            "clausula": "Bibliografía"
+        }
+    },
+    {
+        "contenido": ". Requisitos con orientación para su uso [18] ISO 19011, Directrices para la auditoría de los sistemas de gestión [19] ISO 31000, Risk management. Principles and guidelines [20] ISO 37500, Guidance on outsourcing [21] ISO/IEC 90003, Software engineering. Guidelines for the application of ISO 9001:2008 to computer software [22] IEC 60300-1, Gestión de la confiabilidad. Parte 1: Directrices para su gestión y aplicación [23] IEC 61160, Revisión de diseño",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 41,
+            "clausula": "Bibliografía"
+        }
+    },
+    {
+        "contenido": "- 43 - [24] Quality management principles, ISO 1) [25] Selection and use of the ISO 9000 family of standards, ISO 1) [26] ISO 9001 for Small Businesses . What to do, ISO1) [27] Integrated use of management system standards, ISO 1) [28] www.iso.org/tc176/sc02/public [29] www.iso.org/tc176/ISO9001AuditingPracticesGroup 1) Disponible en : http://www.iso.org.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 9001 2015",
+            "pagina": 42,
+            "clausula": "Bibliografía"
+        }
+    }
+]

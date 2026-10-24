@@ -1,0 +1,1034 @@
+[
+    {
+        "contenido": "1 Objeto y campo de aplicación Esta Norma Internacional especifica los requisitos para un sistema de gestión ambiental que una organización puede usar para mejorar su desempeño ambiental. La presente norma internacional está prevista para uso por una organización que busque gestionar sus responsabilidades ambientales de una forma sistemática que contribuya al pilar ambiental de la sostenibilidad. Esta Norma Internacional ayuda a una organización a lograr los resultados previstos de su sistema de gestión ambiental, con lo que aporta valor al medio ambiente, a la propia organización y a sus partes interesadas. En coherencia con la política ambiental de la organización, los resultados previstos de un sistema de gestión ambiental incluyen: – la mejora del desempeño ambiental; – el cumplimiento de los requisitos legales y otros requisitos; – el logro de los objetivos ambientales",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 11,
+            "clausula": "General/Contexto"
+        }
+    },
+    {
+        "contenido": ". Esta Norma Internacional es aplicable a cualquier organización, independientemente de su tamaño, tipo y naturaleza, y se aplica a los aspectos ambientales de sus actividades, productos y servicios que la organización determine que puede controlar o influir en ellos, considerando una perspectiva de ciclo de vida. Esta Norma Internacional no establece criterios de desempeño ambiental específicos. Esta Norma Internacional se puede usar en su totalidad o en parte para mejorar sistemáticamente la gestión ambiental. Sin embargo, las declaraciones de conformidad con esta Norma Internacional no son aceptables a menos que todos los requisitos estén incorporados en el sistema de gestión ambiental de una organización, y que se cumplan sin exclusiones. 2 Referencias normativas No se citan referencias normativas",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 11,
+            "clausula": "General/Contexto"
+        }
+    },
+    {
+        "contenido": ". 2 Referencias normativas No se citan referencias normativas. 3 Términos y definiciones Para los propósitos de este documento, se aplican los términos y definiciones siguientes: 3.1 Términos relacionados con organización y liderazgo 3.1.1 sistema de gestión: Conjunto de elementos de una organización (3.1.4) interrelacionados o que interactúan para establecer políticas, y objetivos (3.2.5) y procesos (3.3.5) para el logro de estos objetivos. Nota 1 a la entrada Un sistema de gestión puede abordar una sola disciplina o varias disciplinas (por ejemplo, calidad, medio ambiente, salud y seguridad ocupacional, gestión de energía, gestión financiera). Nota 2 a la entrada Los elementos del sistema incluyen la estructura de la organización, los roles y las responsabilidades, la planificación y la operación, la evaluación y la mejora del desempeño",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 11,
+            "clausula": "3.1"
+        }
+    },
+    {
+        "contenido": ". Nota 3 a la entrada El alcance de un sistema de gestión puede incluir la totalidad de la organización, funciones específicas e identificadas de la organización, secciones específicas e identificadas de la organización, o una o más funciones dentro de un grupo de organizaciones. 3.1.2 sistema de gestión ambiental: Parte del sistema de gestión (3.1.1) usada para gestionar aspectos ambientales (3.2.2), cumplir los requisitos legales y otros requisitos (3.2.9), y abordar los riesgos y oportunidades (3.2.11).",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 11,
+            "clausula": "3.1.2"
+        }
+    },
+    {
+        "contenido": "- 13 - 3.1.3 política ambiental: Intenciones y dirección de una organización (3.1.4), relacionadas con el desempeño ambiental (3.4.11),como las expresa formalmente su alta dirección (3.1.5). 3.1.4 organización: Persona o grupo de personas que tienen sus propias funciones y responsabilidades, autoridades y relaciones para el logro de sus objetivos (3.2.5). Nota 1 a la entrada El concepto de organización incluye, entre otros, un trabajador independiente, compañía, corporación, firma, empresa, autoridad, sociedad, organización benéfica o institución, o una parte o combinación de éstas, ya estén constituidas o no, públicas o privadas. 3.1.5 alta dirección: Persona o grupo de personas que dirige y controla una organización (3.1.4) al más alto nivel. Nota 1 a la entrada La alta dirección tiene el poder para delegar autoridad y proporcionar recursos dentro de la organización",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 12,
+            "clausula": "3.1.3"
+        }
+    },
+    {
+        "contenido": ". Nota 1 a la entrada La alta dirección tiene el poder para delegar autoridad y proporcionar recursos dentro de la organización. Nota 2 a la entrada Si el alcance del sistema de gestión (3.1.1) comprende solo una parte de una organización, entonces “alta dirección” se refiere a quienes dirigen y controlan esa parte de la organización. 3.1.6 parte interesada: Persona u organización (3.1.4) que puede afectar, verse afectada, o percibirse como afectada por una decisión o actividad. EJEMPLO Clientes, comunidades, proveedores, entes reguladores, organizaciones no gubernamentales, inversionistas, empleados. Nota 1 a la entrada “Percibirse como afectado” significa que esta percepción se ha dado a conocer a la organización. 3.2 Términos relacionados con planificación 3.2.1 medio ambiente: Entorno en el cual una organización (3.1.4) opera, incluidos el aire, el agua, el suelo, los recursos naturales, la flora, la fauna, los seres humanos y sus interrelaciones",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 12,
+            "clausula": "3.1"
+        }
+    },
+    {
+        "contenido": ". Nota 1 a la entrada El entorno puede abarcar desde el interior de una organización hasta el sistema local, regional y global. Nota 2 a la entrada El entorno se puede describir en términos de biodiversidad, ecosistemas, clima u otras características. 3.2.2 aspecto ambiental: Elemento de las actividades, productos o servicios de una organización (3.1.4) que interactúa o puede interactuar con el medio ambiente (3.2.1). Nota 1 a la entrada Un aspecto ambiental puede causar uno o varios impactos ambientales (3.2.4). Un aspecto ambiental significativo es aquel que tiene o puede tener uno o más impactos ambientales significativos. Nota 2 a la entrada La organización determina los aspectos ambientales significativos mediante la aplicación de uno o más criterio s. 3.2.3 condición ambiental: Estado o característica del medio ambiente (3.2.1), determinado en un punto específico en el tiempo",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 12,
+            "clausula": "3.2.2"
+        }
+    },
+    {
+        "contenido": ". 3.2.3 condición ambiental: Estado o característica del medio ambiente (3.2.1), determinado en un punto específico en el tiempo. 3.2.4 impacto ambiental: Cambio en el medio ambiente (3.2.1), ya sea adverso o beneficioso, como resultado total o parcial de los aspectos ambientales (3.2.2) de una organización (3.1.4).",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 12,
+            "clausula": "3.2.3"
+        }
+    },
+    {
+        "contenido": "3.2.5 objetivo: Resultado a lograr. Nota 1 a la entrada Un objetivo puede ser estratégico, táctico u operacional. Nota 2 a la entrada Los objetivos pueden referirse a diferentes disciplinas (tales como, financieras, de salud y seguridad y ambientales) y se pueden aplicar en diferentes niveles (tales como estratégicos, para toda la organización, para proyectos, productos, servicios y procesos (3.3.5). Nota 3 a la entrada Un objetivo se puede expresar de otras maneras, por ejemplo, como un resultado previsto, un propósito, un criterio operacional, un objetivo ambiental (3.2.6), o mediante el uso de otros términos con un significado similar (por ejemplo, finalidad o meta). 3.2.6 objetivo ambiental: Objetivo (3.2.5) establecido por la organización (3.1.4), coherente con su política ambiental (3.1.3)",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 13,
+            "clausula": "3.2.5"
+        }
+    },
+    {
+        "contenido": ". 3.2.6 objetivo ambiental: Objetivo (3.2.5) establecido por la organización (3.1.4), coherente con su política ambiental (3.1.3). 3.2.7 prevención de la contaminación: Utilización de procesos (3.3.5), prácticas, técnicas, materiales, productos, servicios o energía para evitar, reducir o controlar (en forma separada o en combinación) la generación, emisión o descarga de cualquier tipo de contaminante o residuo, con el fin de reducir impactos ambientales (3.2.4) adversos. Nota 1 a la entrada La prevención de la contaminación puede incluir la reducción o la eliminación en la fuente; cambios en el proceso, producto o servicio; uso eficiente de recursos, sustitución de materiales y energía; reutilización; recuperación; reciclaje, regeneración o tratamiento. 3.2.8 requisito: Necesidad o expectativa establecida, generalmente implícita u obligatoria",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 13,
+            "clausula": "3.2.6"
+        }
+    },
+    {
+        "contenido": ". 3.2.8 requisito: Necesidad o expectativa establecida, generalmente implícita u obligatoria. Nota 1 a la entrada \"Generalmente implícita\" significa que es habitual o práctica común para la organización (3.1.4) y las partes interesadas (3.1.6), que la necesidad o expectativa bajo consideración está implícita. Nota 2 a la entrada Un requisito especificado es el que está declarado, por ejemplo, en información documentada (3.3.2). Nota 3 a la entrada Los requisitos diferentes de los legales se convierten en obligatorios cuando la organización decide cumplirlos. 3.2.9 requisitos legales y otros requisitos: Requisitos (3.2.8) legales que una organización (3.1.4) debe cumplir y otros requisitos que una organización decide cumplir. Nota 1 a la entrada Los requisitos legales y otros requisitos están relacionados con el sistema de gestión ambiental (3.1.2)",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 13,
+            "clausula": "3.2.8"
+        }
+    },
+    {
+        "contenido": ". Nota 1 a la entrada Los requisitos legales y otros requisitos están relacionados con el sistema de gestión ambiental (3.1.2). Nota 2 a la entrada Los requisitos legales y otros requisitos pueden surgir de requisitos obligatorios, tales como las leyes y reglamentaciones aplicables, o de compromisos voluntarios, tales como las normas de organizaciones o de la industria, relaciones contractuales , códigos de buenas prácticas y acuerdos con grupos de la comunidad u organizaciones no gubernamentales. 3.2.10 riesgo: Efecto de la incertidumbre. Nota 1 a la entrada Un efecto es una desviación de lo esperado, ya sea positivo o negativo. Nota 2 a la entrada Incertidumbre es el estado, incluso parcial, de deficiencia de información relacionada con la comprensión o conocimiento de un evento, su consecuencia o su probabilidad",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 13,
+            "clausula": "3.1"
+        }
+    },
+    {
+        "contenido": ". Nota 3 a la entrada Con frecuencia el riesgo se caracteriza por referencia a “eventos” potenciales (como se definen en la Guía ISO 73:2009, 3.5.1.3) y \"consecuencias\" (según se definen en la Guía ISO 73:2009, 3.6.1.3), o a una combinación de estos. Nota 4 a la entrada Con frecuencia el riesgo se expresa en términos de una combinación de las consecuencias de un evento (incluidos cambios en las circunstancias) y la “”probabilidad” (como se define en la Guía ISO 73:2009, 3.6.1.1) asociada de que ocurra. 3.2.11 riesgos y oportunidades: Efectos potenciales adversos (amenazas) y efectos potenciales beneficiosos (oportunidades).",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 13,
+            "clausula": "3.5.1"
+        }
+    },
+    {
+        "contenido": "- 15 - 3.3 Términos relacionados con soporte y operación 3.3.1 competencia: Capacidad para aplicar conocimientos y habilidades con el fin de lograr los resultados previstos. 3.3.2 información documentada: Información que una organización (3.1.4) tiene que controlar y mantener, y el medio que la contiene. Nota 1 a la entrada La información documentada puede estar en cualquier formato y medio, y puede provenir de cualquier fuente. Nota 2 a la entrada La información documentada puede hacer referencia a: – el sistema de gestión ambiental (3.1.2), incluidos los procesos (3.3.5) relacionados; – la información generada para que la organización opere (documentación); – la evidencia de los resultados alcanzados (registros). 3.3.3 ciclo de vida: Etapas consecutivas e interrelacionadas de un sistema de producto (o servicio), desde la adquisición de materia prima o su generación a partir de recursos naturales hasta la disposición final",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 14,
+            "clausula": "3.3"
+        }
+    },
+    {
+        "contenido": ". Nota 1 a la entrada Las etapas del ciclo de vida incluyen la adquisición de materias primas, el diseño, la producción, el transporte/entrega, el uso, el tratamiento al finalizar la vida y la disposición final. [FUENTE: ISO 14044:2006, 3.1, modificada . Las palabras “(o servicio)” se han agregado a la definición y se h a agregado la Nota 1 a la entrada.] 3.3.4 contratar externamente: Establecer un acuerdo mediante el cual una organización (3.1.4) externa realiza parte de una función o proceso (3.3.5) de una organización. Nota 1 a la entrada Una organización externa está fuera del alcance del sistema de gestión (3.1.1) aunque la función o proceso contratado externamente forme parte del alcance. 3.3.5 proceso: Conjunto de actividades interrelacionadas o que interactúan, que transforman las entradas en salidas. Nota 1 a la entrada Un proceso puede estar documentado o no",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 14,
+            "clausula": "3.1"
+        }
+    },
+    {
+        "contenido": ". Nota 1 a la entrada Un proceso puede estar documentado o no. 3.4 Términos relacionados con la evaluación del desempeño y con la mejora 3.4.1 auditoría: Proceso (3.3.5) sistemático, independiente y documentado para obtener las evidencias de auditoría y evaluarlas de manera objetiva con el fin de determinar el grado en el que se cumplen los criterios de auditoría. Nota 1 a la entrada Una auditoría interna la realiza la propia organización (3.1.4) o una parte externa en su nombre. Nota 2 a la entrada Una auditoría puede ser combinada (combinando dos o más disciplinas). Nota 3 a la entrada La independencia se puede demostrar por la ausencia de responsabilidad con relación a la actividad que se audita, o ausencia de sesgo y conflicto de intereses",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 14,
+            "clausula": "3.4"
+        }
+    },
+    {
+        "contenido": ". Nota 4 a la entrada La “evidencia de auditoría” consiste en registros, declaraciones de hechos y demás información pertinente a los criterios de auditoría, que son verificables; los “criterios de auditoría” son el conjunto de políticas, procedim ientos o requisitos (3.2.8) usados como referencia, frente a los cuales se compara la evidencia de auditoría, como se define en la Norma ISO 19011:2011, apartados 3.3 y 3.2 respectivamente.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 14,
+            "clausula": "3.2"
+        }
+    },
+    {
+        "contenido": "3.4.2 conformidad: Cumplimiento de un requisito (3.2.8). 3.4.3 no conformidad: Incumplimiento de un requisito (3.2.8). Nota 1 a la entrada La no conformidad se relaciona con los requisitos de esta Norma Internacional y con los requisitos adicionales del sistema de gestión ambiental (3.1.2) que una organización (3.1.4) establece para sí misma. 3.4.4 acción correctiva: Acción para eliminar la causa de una no conformidad (3.4.3) y evitar que vuelva a ocurrir. Nota 1 a la entrada Puede haber más de una causa para una no conformidad. 3.4.5 mejora continua: Actividad recurrente para mejorar el desempeño (3.4.10). Nota 1 a la entrada La mejora del desempeño se relaciona con el uso del sistema de gestión ambiental (3.1.2) para mejorar el desempeño ambiental (3.4.11), en coherencia con la política ambiental (3.1.3) de la organización (3.1.4). Nota 2 a la entrada No es necesario que la actividad ocurra simultáneamente en todas las áreas, o sin interrupción",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 15,
+            "clausula": "3.4.2"
+        }
+    },
+    {
+        "contenido": ". Nota 2 a la entrada No es necesario que la actividad ocurra simultáneamente en todas las áreas, o sin interrupción. 3.4.6 eficacia: Grado en el que se realizan las actividades planificadas y se logran los resultados planificados. 3.4.7 indicador: Representación medible de la condición o el estado de las operaciones, la gestión, o las condiciones. [FUENTE: ISO 14031:2013, 3.15] 3.4.8 seguimiento: Determinación del estado de un sistema, un proceso (3.3.5) o una actividad. Nota 1 a la entrada Para determinar el estado puede ser necesario verificar, supervisar u observar de forma crítica. 3.4.9 medición: Proceso (3.3.5) para determinar un valor. 3.4.10 desempeño: Resultado medible. Nota 1 a la entrada El desempeño se puede relacionar con hallazgos cuantitativos o cualitativos. Nota 2 a la entrada El desempeño se puede relacionar con la gestión de actividades, procesos (3.3.5), productos (incluidos servicios), sistemas u organizaciones (3.1.4)",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 15,
+            "clausula": "3.4.6"
+        }
+    },
+    {
+        "contenido": ". 3.4.11 desempeño ambiental Desempeño (3.4.10) relacionado con la gestión de aspectos ambientales (3.2.2). Nota 1 a la entrada En el contexto de un sistema de gestión ambiental (3.1.2), los resultados se pueden medir con respecto a la política ambiental (3.1.3) de la organización (3.1.4), sus objetivos ambientales (3.2.6) u otros criterios, mediante el uso de indicadores (3.4.7).",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 15,
+            "clausula": "3.4.11"
+        }
+    },
+    {
+        "contenido": "- 17 - 4 Contexto de la organización 4.1 Comprensión de la organización y de su contexto La organización debe determinar las cuestiones externas e internas que son pertinentes para su propósito y que afectan a su capacidad para lograr los resultados previstos de su sistema de gestión ambiental. Estas cuestiones incluyen las condiciones ambientales capaces de afectar o de verse afectadas por la organización. 4.2 Comprensión de las necesidades y expectativas de las partes interesadas La organización debe determinar: a) las partes interesadas que son pertinentes al sistema de gestión ambiental; b) las necesidades y expectativas pertinentes (es decir, requisitos) de estas partes interesadas; c) cuáles de estas necesidades y expectativas se convierten en requisitos legales y otros requisitos. 4.3 Determinación del alcance del sistema de gestión ambiental La organización debe determinar los límites y la aplicabilidad del sistema de gestión ambiental para establecer su alcance",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 16,
+            "clausula": "4.1"
+        }
+    },
+    {
+        "contenido": ". Cuando se determina este alcance, la organización debe considerar: a) las cuestiones externas e internas a que se hace referencia en el apartado 4.1; b) los requisitos legales y otros requisitos a que se hace referencia en el apartado 4.2; c) las unidades, funciones y límites físicos de la organización; d) sus actividades, productos y servicios; e) su autoridad y capacidad para ejercer control e influencia. Una vez que se defina el alcance, se deben incluir en el sistema de gestión ambiental todas las actividades, productos y servicios de la organización que estén dentro de este alcance. El alcance se debe mantener como información documentada y debe estar disponible para las partes interesadas",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 16,
+            "clausula": "4.1"
+        }
+    },
+    {
+        "contenido": ". El alcance se debe mantener como información documentada y debe estar disponible para las partes interesadas. 4.4 Sistema de gestión ambiental Para lograr los resultados previstos, incluida la mejora de su desempeño ambiental, la organización debe establecer, implementar, mantener y mejorar continuamente un sistema de gestión ambiental, que incluya los procesos necesarios y sus interacciones, de acuerdo con los requisitos de esta Norma Internacional. Al establecer y mantener el sistema de gestión ambiental, la organización debe considerar el conocimiento obtenido en los apartados 4.1 y 4.2.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 16,
+            "clausula": "4.4"
+        }
+    },
+    {
+        "contenido": "5 Liderazgo 5.1 Liderazgo y compromiso La alta dirección debe demostrar liderazgo y compromiso con respecto al sistema de gestión ambiental: a) asumiendo la responsabilidad y la rendición de cuentas con relación a la eficacia del sistema de gestión ambiental; b) asegurándose de que se establezcan la política ambiental y los objetivos ambientales, y que éstos sean compatibles con la dirección estratégica y el contexto de la organización; c) asegurándose de la integración de los requisitos del sistema de gestión ambiental en los procesos de negocio de la organización; d) asegurándose de que los recursos necesarios para el sistema de gestión ambiental estén disponibles; e) comunicando la importancia de una gestión ambiental eficaz y conforme con los requisitos del sistema de gestión ambiental; f) asegurándose de que el sistema de gestión ambiental logre los resultados previstos; g) dirigiendo y apoyando a las personas, para contribuir a la eficacia del sistema de gestión ambiental",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 17,
+            "clausula": "5.1"
+        }
+    },
+    {
+        "contenido": "; g) dirigiendo y apoyando a las personas, para contribuir a la eficacia del sistema de gestión ambiental; h) promoviendo la mejora continua; i) apoyando otros roles pertinentes de la dirección, para demostrar su liderazgo en la forma en la que aplique a sus áreas de responsabilidad",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 17,
+            "clausula": "5.1"
+        }
+    },
+    {
+        "contenido": ". NOTA En esta Norma Internacional se puede interpretar el término “negocio” en su sentido más amplio, es decir, referido a aquellas actividades que son esenciales para los propósitos de la existencia de la organización",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 17,
+            "clausula": "5.1"
+        }
+    },
+    {
+        "contenido": ". 5.2 Política ambiental La alta dirección debe establecer, implementar y mantener una política ambiental que, dentro del alcance definido de su sistema de gestión ambiental: a) sea apropiada al propósito y contexto de la organización, incluida la naturaleza, magnitud e impactos ambientales de sus actividades, productos y servicios; b) proporcione un marco de referencia para el establecimiento de los objetivos ambientales; c) incluya un compromiso para la protección del medio ambiente, incluida la prevención de la contaminación, y otros compromisos específicos pertinentes al contexto de la organización; NOTA Otros compromisos específicos de protección del medio ambiente pueden incluir el uso sostenible de recursos, la mitigación y adaptación al cambio climático y la protección de la biodiversidad y de los ecosistemas",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 17,
+            "clausula": "5.2"
+        }
+    },
+    {
+        "contenido": ". d) incluya un compromiso de cumplir con los requisitos legales y otros requisitos; e) incluya un compromiso de mejora continua del sistema de gestión ambiental para la mejora del desempeño ambiental. La política ambiental debe: – mantenerse como información documentada; – comunicarse dentro de la organización; – estar disponible para las partes interesadas.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 17,
+            "clausula": "5.2"
+        }
+    },
+    {
+        "contenido": "- 19 - 5.3 Roles, responsabilidades y autoridades en la organización La alta dirección debe asegurarse de que las responsabilidades y autoridades para los roles pertinentes se asignen y comuniquen dentro de la organización. La alta dirección debe asignar la responsabilidad y autoridad para: a) asegurarse de que el sistema de gestión ambiental es conforme con los requisitos de esta Norma Internacional, e b) informar a la alta dirección sobre el desempeño del sistema de gestión ambiental, incluyendo su desempeño ambiental. 6 Planificación 6.1 Acciones para abordar riesgos y oportunidades 6.1.1 Generalidades La organización debe establecer, implementar y mantener los procesos necesarios para cumplir los requisitos de los apartados 6.1.1 a 6.1.4",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 18,
+            "clausula": "5.3"
+        }
+    },
+    {
+        "contenido": ". Al planificar el sistema de gestión ambiental, la organización debe considerar: a) las cuestiones referidas en el apartado 4.1; b) los requisitos referidos en el apartado 4.2; c) el alcance de su sistema de gestión ambiental; y determinar los riesgos y oportunidades relacionados con sus: – aspectos ambientales (véase 6.1.2); – requisitos legales y otros requisitos (véase 6.1.3); – otras cuestiones y requisitos identificados en los apartados 4.1 y 4.2; que necesitan abordarse para: – asegurar que el sistema de gestión ambiental puede lograr sus resultados previstos; – prevenir o reducir los efectos no deseados, incluida la posibilidad de que condiciones ambientales externas afecten a la organización; – lograr la mejora continua. Dentro del alcance del sistema de gestión ambiental, la organización debe determinar las situaciones de emergencia potenciales, incluidas las que pueden tener un impacto ambiental",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 18,
+            "clausula": "4.1"
+        }
+    },
+    {
+        "contenido": ". La organización debe mantener la información documentada de sus: – riesgos y oportunidades que es necesario abordar; – procesos necesarios especificados desde el apartado 6.1.1 al apartado 6.1.4, en la medida necesaria para tener confianza de que se llevan a cabo de la manera planificada.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 18,
+            "clausula": "6.1.1"
+        }
+    },
+    {
+        "contenido": "6.1.2 Aspectos ambientales Dentro del alcance definido del sistema de gestión ambiental, la organización debe determinar los aspectos ambientales de sus actividades, productos y servicios que puede controlar y de aquellos en los que puede influir, y sus impactos ambientales asociados, desde una perspectiva de ciclo de vida. Cuando se determinan los aspectos ambientales, la organización debe tener en cuenta: a) los cambios, incluidos los desarrollos nuevos o planificados, y las actividades, productos y servicios nuevos o modificados; b) las condiciones anormales y las situaciones de emergencia razonablemente previsibles. La organización debe determinar aquellos aspectos que tengan o puedan tener un impacto ambiental significativo, es decir, los aspectos ambientales significativos, mediante el uso de criterios establecidos. La organización debe comunicar sus aspectos ambientales significativos entre los diferentes niveles y funciones de la organización, según corresponda",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 19,
+            "clausula": "6.1.2"
+        }
+    },
+    {
+        "contenido": ". La organización debe mantener información documentada de sus: – aspectos ambientales e impactos ambientales asociados; – criterios usados para determinar sus aspectos ambientales significativos; – aspectos ambientales significativos. NOTA Los aspectos ambientales significativos pueden dar como resultado riesgos y oportunidades asociados tanto con impactos ambientales adversos (amenazas) como con impactos ambientales beneficiosos (oportunidades). 6.1.3 Requisitos legales y otros requisitos La organización debe: a) determinar y tener acceso a los requisitos legales y otros requisitos relacionados con sus aspectos ambientales; b) determinar cómo estos requisitos legales y otros requisitos se aplican a la organización. c) tener en cuenta estos requisitos legales y otros requisitos cuando se establezca, implemente, mantenga y mejore continuamente su sistema de gestión ambiental. La organización debe mantener información documentada de sus requisitos legales y otros requisitos",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 19,
+            "clausula": "6.1.3"
+        }
+    },
+    {
+        "contenido": ". La organización debe mantener información documentada de sus requisitos legales y otros requisitos. NOTA Los requisitos legales y otros requisitos pueden dar como resultado riesgos y oportunidades para la organización. 6.1.4 Planificación de acciones La organización debe planificar: a) la toma de acciones para abordar sus: 1) aspectos ambientales significativos; 2) requisitos legales y otros requisitos; 3) riesgos y oportunidades identificados en el apartado 6.1.1;",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 19,
+            "clausula": "6.1.4"
+        }
+    },
+    {
+        "contenido": "- 21 - b) la manera de: 1) integrar e implementar las acciones en los procesos de su sistema de gestión ambiental (véanse 6.2, 7, 8 y 9.1) o en otros procesos de negocio; 2) evaluar la eficacia de estas acciones (véase 9.1). Cuando se planifiquen estas acciones, la organización debe considerar sus opciones tecnológicas y sus requisitos financieros, operacionales y de negocio. 6.2 Objetivos ambientales y planificación para lograrlos 6.2.1 Objetivos ambientales La organización debe establecer objetivos ambientales para las funciones y niveles pertinentes, teniendo en cuenta los aspectos ambientales significativos de la organización y sus requisitos legales y otros requisitos asociados, y considerando sus riesgos y oportunidades. Los objetivos ambientales deben: a) ser coherentes con la política ambiental; b) ser medibles (si es factible); c) ser objeto de seguimiento; d) comunicarse; e) actualizarse, según corresponda",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 20,
+            "clausula": "6.2"
+        }
+    },
+    {
+        "contenido": ". La organización debe conservar información documentada sobre los objetivos ambientales. 6.2.2 Planificación de acciones para lograr los objetivos ambientales Al planificar cómo lograr sus objetivos ambientales, la organización debe determinar: a) qué se va a hacer; b) qué recursos se requerirán; c) quién será responsable; d) cuándo se finalizará; e) cómo se evaluarán los resultados, incluidos los indicadores de seguimiento de los avances para el logro de sus objetivos ambientales medibles (véase 9.1.1). La organización debe considerar cómo se pueden integrar las acciones para el logro de sus objetivos ambientales a los procesos de negocio de la organización.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 20,
+            "clausula": "6.2.2"
+        }
+    },
+    {
+        "contenido": "7 Apoyo 7.1 Recursos La organización debe determinar y proporcionar los recursos necesarios para el establecimiento, implementación, mantenimiento y mejora continua del sistema de gestión ambiental. 7.2 Competencia La organización debe: a) determinar la competencia necesaria de las personas que realizan trabajos bajo su control, que afecte a su desempeño ambiental y su capacidad para cumplir sus requisitos legales y otros requisitos; b) asegurarse de que estas personas sean competentes, con base en su educación, formación o experiencia apropiadas; c) determinar las necesidades de formación asociadas con sus aspectos ambientales y su sistema de gestión ambiental; d) cuando sea aplicable, tomar acciones para adquirir la competencia necesaria y evaluar la eficacia de las acciones tomadas. NOTA Las acciones aplicables pueden incluir, por ejemplo, la formación, la tutoría o la reasignación de las personas empleadas actualmente, o la contratación o subcontratación de personas competentes",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 21,
+            "clausula": "7.1"
+        }
+    },
+    {
+        "contenido": ". La organización debe conservar información documentada apropiada, como evidencia de la competencia. 7.3 Toma de conciencia La organización debe asegurarse de que las personas que realicen el trabajo bajo el control de la organización tomen conciencia de: a) la política ambiental; b) los aspectos ambientales significativos y los impactos ambientales reales o potenciales relacionados, asociados con su trabajo; c) su contribución a la eficacia del sistema de gestión ambiental, incluidos los beneficios de una mejora del desempeño ambiental; d) las implicaciones de no satisfacer los requisitos del sistema de gestión ambiental, incluido el incumplimiento de los requisitos legales y otros requisitos de la organización",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 21,
+            "clausula": "7.3"
+        }
+    },
+    {
+        "contenido": ". 7.4 Comunicación 7.4.1 Generalidades La organización debe establecer, implementar y mantener los procesos necesarios para las comunicaciones internas y externas pertinentes al sistema de gestión ambiental, que incluyan: a) qué comunicar; b) cuándo comunicar; c) a quién comunicar; d) cómo comunicar.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 21,
+            "clausula": "7.4"
+        }
+    },
+    {
+        "contenido": "- 23 - Cuando establece sus procesos de comunicación, la organización debe: – tener en cuenta sus requisitos legales y otros requisitos; – asegurarse de que la información ambiental comunicada sea coherente con la información generada dentro del sistema de gestión ambiental, y que sea fiable. La organización debe responder a las comunicaciones pertinentes sobre su sistema de gestión ambiental. La organización debe conservar información documentada como evidencia de sus comunicaciones, según corresponda. 7.4.2 Comunicación interna La organización debe: a) comunicar internamente la información pertinente del sistema de gestión ambiental entre los diversos niveles y funciones de la organización, incluidos los cambios en el sistema de gestión ambiental, según corresponda; b) asegurarse de que sus procesos de comunicación permitan que las personas que realicen trabajos bajo el control de la organización contribuyan a la mejora continua",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 22,
+            "clausula": "7.4.2"
+        }
+    },
+    {
+        "contenido": ". 7.4.3 Comunicación externa La organización debe comunicar externamente información pertinente al sistema de gestión ambiental, según se establezca en los procesos de comunicación de la organización y según lo requieran sus requisitos legales y otros requisitos. 7.5 Información documentada 7.5.1 Generalidades El sistema de gestión ambiental de la organización debe incluir: a) la información documentada requerida por esta Norma Internacional ; b) la información documentada que la organización determina como necesaria para la eficacia del sistema de gestión ambiental",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 22,
+            "clausula": "7.4.3"
+        }
+    },
+    {
+        "contenido": ". NOTA La extensión de la información documentada para un sistema de gestión ambiental puede variar de una organización a otra, debido a: – el tamaño de la organización y su tipo de actividades, procesos, productos y servicios; – la necesidad de demostrar el cumplimiento de sus requisitos legales y otros requisitos; – la complejidad de los procesos y sus interacciones, y – la competencia de las personas que realizan trabajos bajo el control de la organización. 7.5.2 Creación y actualización Al crear y actualizar la información documentada, la organización debe asegurarse de que lo siguiente sea apropiado: a) la identificación y descripción (por ejemplo, título, fecha, autor o ); b) el formato (por ejemplo, idioma, versión del software, gráficos) y los medios de soporte (por ejemplo, papel, electrónico); c) la revisión y aprobación con respecto a la conveniencia y adecuación.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 22,
+            "clausula": "7.5.2"
+        }
+    },
+    {
+        "contenido": "7.5.3 Control de la información documentada La información documentada requerida por el sistema de gestión ambiental y por esta Norma Internacional se debe controlar para asegurarse de que: a) esté disponible y sea idónea para su uso, dónde y cuándo se necesite; b) esté protegida adecuadamente (por ejemplo, contra pérdida de confidencialidad, uso inadecuado, o pérdida de integridad). Para el control de la información documentada, la organización debe abordar las siguientes actividades, según corresponda: – distribución, acceso, recuperación y uso; – almacenamiento y preservación, incluida la preservación de la legibilidad; – control de cambios (por ejemplo, control de versión); – conservación y disposición. La información documentada de origen externo, que la organización determina como necesaria para la planificación y operación del sistema de gestión ambiental, se debe determinar, según sea apropiado, y controlar",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 23,
+            "clausula": "7.5.3"
+        }
+    },
+    {
+        "contenido": ". NOTA El acceso puede implicar una decisión en relación al permiso, solamente para consultar la información documentada, o al permiso y a la autoridad para consultar y modificar la información documentada. 8 Operación 8.1 Planificación y control operacional La organización debe establecer, implementar, controlar y mantener los procesos necesarios para satisfacer los requisitos del sistema de gestión ambiental y para implementar las acciones determinadas en los apartados 6.1 y 6.2, mediante: – el establecimiento de criterios de operación para los procesos; – la implementación del control de los procesos de acuerdo con los criterios de operación. NOTA Los controles pueden incluir controles de ingeniería y procedimientos. Los controles se pueden implementar siguiendo una jerarquía (por ejemplo, de eliminación, de sustitución, administrativa) y se pueden usar solos o combinados",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 23,
+            "clausula": "8.1"
+        }
+    },
+    {
+        "contenido": ". La organización debe controlar los cambios planificados y examinar las consecuencias de los cambios no previstos, tomando acciones para mitigar los efectos adversos, cuando sea necesario. La organización debe asegurarse de que los procesos contratados externamente estén controlados o que se tenga influencia sobre ellos. Dentro del sistema de gestión ambiental se debe definir el tipo y grado de control o influencia que se va a aplicar a estos procesos. En coherencia con la perspectiva del ciclo de vida, la organización debe: a) establecer los controles, según corresponda, para asegurarse de que sus requisitos ambientales se aborden en el proceso de diseño y desarrollo del producto o servicio, considerando cada etapa de su ciclo de vida; b) determinar sus requisitos ambientales para la compra de productos y servicios, según corresponda; c) comunicar sus requisitos ambientales pertinentes a los proveedores externos, incluidos los contratistas;",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 23,
+            "clausula": "8.1"
+        }
+    },
+    {
+        "contenido": "- 25 - d) considerar la necesidad de suministrar información acerca de los impactos ambientales potenciales significativos asociados con el transporte o la entrega, el uso, el tratamiento al fin de la vida útil y la disposición final de sus productos o servicios. La organización debe mantener la información documentada en la medida necesaria para tener la confianza en que los procesos se han llevado a cabo según lo planificado. 8.2 Preparación y respuesta ante emergencias La organización debe establecer, implementar y mantener los procesos necesarios acerca de cómo prepararse y responder a situaciones potenciales de emergencia identificadas en el apartado 6.1.1",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 24,
+            "clausula": "8.2"
+        }
+    },
+    {
+        "contenido": ". La organización debe: a) prepararse para responder, mediante la planificación de acciones para prevenir o mitigar los impactos ambientales adversos provocados por situaciones de emergencia; b) responder a situaciones de emergencia reales; c) tomar acciones para prevenir o mitigar las consecuencias de las situaciones de emergencia , apropiadas a la magnitud de la emergencia y al impacto ambiental potencial; d) poner a prueba periódicamente las acciones de respuesta planificadas, cuando sea factible; e) evaluar y revisar periódicamente los procesos y las acciones de respuesta planificadas, en particular, después de que hayan ocurrido situaciones de emergencia o de que se hayan realizado pruebas. f) proporcionar información y formación pertinentes, con relación a la preparación y respuesta ante emergencias, según corresponda, a las partes interesadas pertinentes, incluidas las personas que trabajan bajo su control",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 24,
+            "clausula": "8.2"
+        }
+    },
+    {
+        "contenido": ". La organización debe mantener la información documentada en la medida necesaria para tener confianza en que los procesos se llevan a cabo de la manera planificada. 9 Evaluación del desempeño 9.1 Seguimiento, medición, análisis y evaluación 9.1.1 Generalidades La organización debe hacer seguimiento, medir, analizar y evaluar su desempeño ambiental. La organización debe determinar: a) qué necesita seguimiento y medición; b) los métodos de seguimiento, medición, análisis y evaluación, según corresponda, para asegurar resultados válidos; c) los criterios contra los cuales la organización evaluará su desempeño ambiental, y los indicadores apropiados; d) cuándo se deben llevar a cabo el seguimiento y la medición; e) cuándo se deben analizar y evaluar los resultados del seguimiento y la medición. La organización debe asegurarse de que se usan y mantienen equipos de seguimiento y medición calibrados o verificados, según corresponda.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 24,
+            "clausula": "9.1"
+        }
+    },
+    {
+        "contenido": "La organización debe evaluar su desempeño ambiental y la eficacia del sistema de gestión ambiental. La organización debe comunicar externa e internamente la información pertinente a su desempeño ambiental, según esté identificado en sus procesos de comunicación y como se exija en sus requisitos legales y otros requisitos. La organización debe conservar información documentada apropiada como evidencia de los resultados del seguimiento, la medición, el análisis y la evaluación. 9.1.2 Evaluación del cumplimiento La organización debe establecer, implementar y mantener los procesos necesarios para evaluar el cumplimiento de sus requisitos legales y otros requisitos. La organización debe: a) determinar la frecuencia con la que se evaluará el cumplimiento; b) evaluar el cumplimiento y emprender las acciones que fueran necesarias; c) mantener el conocimiento y la comprensión de su estado de cumplimiento",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 25,
+            "clausula": "9.1.2"
+        }
+    },
+    {
+        "contenido": ". La organización debe conservar información documentada como evidencia de los resultados de la evaluación del cumplimiento. 9.2 Auditoría interna 9.2.1 Generalidades La organización debe llevar a cabo auditorías internas a intervalos planificados para proporcionar información acerca de si el sistema de gestión ambiental: a) es conforme con: 1) los requisitos propios de la organización para su sistema de gestión ambiental; 2) los requisitos de esta Norma Internacional; b) se implementa y mantiene eficazmente. 9.2.2 Programa de auditoría interna La organización debe establecer, implementar y mantener uno o varios programas de auditoría interna que incluyan la frecuencia, los métodos, las responsabilidades, los requisitos de planificación y la elaboración de informes de sus auditorías internas",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 25,
+            "clausula": "9.2"
+        }
+    },
+    {
+        "contenido": ". Cuando se establezca el programa de auditoría interna, la organización debe tener en cuenta la importancia ambiental de los procesos involucrados, los cambios que afectan a la organización y los resultados de las auditorías previas. La organización debe: a) definir los criterios de auditoría y el alcance para cada auditoría; b) seleccionar los auditores y llevar a cabo auditorías para asegurarse de la objetividad y la imparcialidad del proceso de auditoría; c) asegurarse de que los resultados de las auditorías se informen a la dirección pertinente.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 25,
+            "clausula": "9.2"
+        }
+    },
+    {
+        "contenido": "- 27 - La organización debe conservar información documentada como evidencia de la implementación del programa de auditoría y de los resultados de ésta. 9.3 Revisión por la dirección La alta dirección debe revisar el sistema de gestión ambiental de la organización a intervalos planificados, para asegurarse de su conveniencia, adecuación y eficacia continuas",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 26,
+            "clausula": "9.3"
+        }
+    },
+    {
+        "contenido": ". La revisión por la dirección debe incluir consideraciones sobre: a) el estado de las acciones de las revisiones por la dirección previas; b) los cambios en: 1) las cuestiones externas e internas que sean pertinentes al sistema de gestión ambiental; 2) las necesidades y expectativas de las partes interesadas, incluidos los requisitos legales y otros requisitos; 3) sus aspectos ambientales significativos; 4) los riesgos y oportunidades; c) el grado en el que se han logrado los objetivos ambientales; d) la información sobre el desempeño ambiental de la organización, incluidas las tendencias relativas a: 1) no conformidades y acciones correctivas; 2) resultados de seguimiento y medición; 3) cumplimiento de los requisitos legales y otros requisitos; 4) resultados de las auditorías; e) adecuación de los recursos; f) las comunicaciones pertinentes de las partes interesadas, incluidas las quejas; g) las oportunidades de mejora continua",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 26,
+            "clausula": "9.3"
+        }
+    },
+    {
+        "contenido": "; f) las comunicaciones pertinentes de las partes interesadas, incluidas las quejas; g) las oportunidades de mejora continua; Las salidas de la revisión por la dirección deben incluir: – las conclusiones sobre la conveniencia, adecuación y eficacia continuas del sistema de gestión ambiental; – las decisiones relacionadas con las oportunidades de mejora continua; – las decisiones relacionadas con cualquier necesidad de cambio en el sistema de gestión ambiental, incluidas los recursos; – las acciones necesarias cuando no se hayan logrado los objetivos ambientales; – las oportunidades de mejorar la integración del sistema de gestión ambiental a otros procesos de negocio, si fuera necesario; – cualquier implicación para la dirección estratégica de la organización.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 26,
+            "clausula": "9.3"
+        }
+    },
+    {
+        "contenido": "La organización debe conservar información documentada como evidencia de los resultados de las revisiones por la dirección. 10 Mejora 10.1 Generalidades La organización debe determinar las oportunidades de mejora (véanse 9.1, 9.2 y 9.3) e implementar las acciones necesarias para lograr los resultados previstos en su sistema de gestión ambiental",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 27,
+            "clausula": "10.1"
+        }
+    },
+    {
+        "contenido": ". 10.2 No conformidad y acción correctiva Cuando ocurra una no conformidad, la organización debe: a) reaccionar ante la no conformidad, y cuando sea aplicable: 1) tomar acciones para controlarla y corregirla; 2) hacer frente a las consecuencias, incluida la mitigación de los impactos ambientales adversos; b) evaluar la necesidad de acciones para eliminar las causas de la no conformidad, con el fin de que no vuelva a ocurrir en ese mismo lugar ni ocurra en otra parte, mediante: 1) la revisión de la no conformidad; 2) la determinación de las causas de la no conformidad; 3) la determinación de si existen no conformidades similares, o que potencialmente puedan ocurrir; c) implementar cualquier acción necesaria; d) revisar la eficacia de cualquier acción correctiva tomada; y e) si fuera necesario, hacer cambios al sistema de gestión ambiental. Las acciones correctivas deben ser apropiadas a la importancia de los efectos de las no conformidades encontradas, incluidos los impactos ambientales",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 27,
+            "clausula": "10.2"
+        }
+    },
+    {
+        "contenido": ". La organización debe conservar información documentada como evidencia de: – la naturaleza de las no conformidades y cualquier acción tomada posteriormente, y – los resultados de cualquier acción correctiv a. 10.3 Mejora continua La organización debe mejorar continuamente la conveniencia, adecuación y eficacia del sistema de gestión ambiental para mejorar el desempeño ambiental.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 27,
+            "clausula": "10.3"
+        }
+    },
+    {
+        "contenido": "- 29 - Anexo A (Informativo) Orientaciones para el uso de esta Norma Internacional A.1 Generalidades La información explicativa presentada en este anexo está prevista para evitar la interpretación equivocada de los requisitos contenidos en esta Norma Internacional. Aunque esta información aborda estos requisitos y es coherente con ellos, no está prevista para añadir, restar o modificarlos de alguna manera. Los requisitos de esta Norma Internacional necesitan considerarse desde una perspectiva sistemática u holística. El usuario no debería leer ningún capítulo ni oración de esta Norma Internacional aislado de otros capítulos. Hay interrelación entre los requisitos de algunos capítulos y los de otros capítulos. Por ejemplo, la organización necesita comprender la relación entre los compromisos de su política ambiental y los requisitos que se especifican en otros capítulos",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 28,
+            "clausula": "10.3"
+        }
+    },
+    {
+        "contenido": ". La gestión del cambio es una parte importante de mantener un sistema de gestión ambiental que asegure que la organización puede lograr con regularidad los resultados previstos de su sistema de gestión ambiental. La gestión del cambio se aborda en diferentes requisitos de esta Norma Internacional, incluyendo: – el mantenimiento del sistema de gestión ambiental (véase 4.4), – los aspectos ambientales (véase 6.1.2), – la comunicación interna (véase 7.4.2), – el control operacional (véase 8.1), – el programa de auditoría interna (véase 9.2.2), y – la revisión por la dirección (véase 9.3). Como parte de la gestión del cambio, la organización debería abordar los cambios planificados y no planificados, para asegurarse de que las consecuencias imprevistas de estos cambios no tengan un efecto negativo sobre los resultados previstos del sistema de gestión ambiental",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 28,
+            "clausula": "10.3"
+        }
+    },
+    {
+        "contenido": ". Los ejemplos de cambio incluyen: – los cambios planificados en los productos, procesos, operaciones, equipos o instalaciones; – los cambios en el personal o proveedores externos, incluidos los contratistas; – la información nueva relacionada con los aspectos ambientales, impactos ambientales y tecnologías relacionadas; – los cambios en los requisitos legales y otros requisitos. A.2 Aclaración de la estructura y la terminología La estructura de los capítulos y parte de la terminología de esta Norma Internacional han cambiado para mejorar la alineación con otras normas de sistemas de gestión. Sin embargo, en esta Norma Internacional no hay ningún requisito acerca de la terminología o estructura de los capítulos que se aplique a la documentación del sistema de gestión ambiental de una organización. No hay un requisito acerca de reemplazar los términos usados en una organización, por los términos usados en esta Norma Internacional",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 28,
+            "clausula": "10.3"
+        }
+    },
+    {
+        "contenido": ". No hay un requisito acerca de reemplazar los términos usados en una organización, por los términos usados en esta Norma Internacional. Las organizaciones pueden usar los términos que se ajusten a su negocio, como por ejemplo: “registros”, “documentación” o “protocolos”, en vez de “información documentada”.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 28,
+            "clausula": "10.3"
+        }
+    },
+    {
+        "contenido": "A.3 Aclaración de conceptos Además de los términos y definiciones presentados en el capítulo 3, a continuación se proporciona aclaración de los conceptos seleccionados, para evitar malas interpretaciones. – En la pre sente Norma Internacional el uso de la palabra “cualquier” implica selección u opción. – Las palabras “apropiado” y “aplicable” no son intercambiables. “Apropiado” significa adecuado e implica algún grado de libertad, mientras que “aplicable” significa pe rtinente o que se puede aplicar, e implica que si se puede hacer, es necesario hacerlo. – La palabra “considerar” significa que es necesario pensar acerca de un tema pero se puede excluir; mientras que “tener en cuenta” significa que es necesario pensar acerca de un tema, pero no se puede excluir. – La palabra “continua”, en la definición de mejora continua, indica duración en un período de tiempo dado, con intervalos de interrupción",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 29,
+            "clausula": "10.3"
+        }
+    },
+    {
+        "contenido": ". – La palabra “continua”, en la definición de mejora continua, indica duración en un período de tiempo dado, con intervalos de interrupción. En la versión en inglés de la presente norma se utiliza el término “continual” para indicar este hecho, al contrario del término “continous” en inglés que tiene la connotación de no interrupción. – En esta Norma Internacional la palabra “efecto” se usa para describir el resultado de un cambio en la organización. La frase “impacto ambiental” hace referencia específicamente al resultado que tiene un cambio para el medio ambiente. – La palabra “asegurarse” significa que la responsabilidad se puede delegar, pero no la obligación de responsabilizarse y rendir cuentas. – En es ta Norma Internacional se usa el término “parte interesada”. NOTA a la versión en español Los términos en inglés “interested party” y “stakeholder” tienen una traducción única al español como “parte interesada”. En esta Norma Internacional se usan algunos términos nuevos",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 29,
+            "clausula": "10.3"
+        }
+    },
+    {
+        "contenido": ". En esta Norma Internacional se usan algunos términos nuevos. A continuación se proporciona una breve explicación para ayudar a los usuarios nuevos y a los que han usado ediciones anteriores de esta Norma Internacional. – La frase “requisitos legales y otros requisitos” sustituye a la frase “requi sitos legales y otros requisitos que la organización suscriba”, usada en ediciones anteriores de esta Norma Internacional. La intención de esta nueva frase no difiere de la frase de la edición anterior. – “Información documentada” sustituye a los sustantivos “documentación”, “documentos” y “registros”, usados en las ediciones anteriores de esta Norma Internacional. Para diferenciar la intención del término genérico “información documentada”, en esta Norma Internacional se usa ahora la frase “conservar inf ormación documentada como evidencia de…” que significa registros, y “mantener información documentada” que significa otra documentación distinta de registros",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 29,
+            "clausula": "10.3"
+        }
+    },
+    {
+        "contenido": ". La frase “como evidencia de…” no es un requisito de cumplimiento de requisitos legales probatorios; su intención es únicamente indicar la evidencia objetiva que es necesario conservar. – La frase “proveedor externo” hace referencia a una organización proveedora externa (incluido un contratista) que suministra un producto o servicio. – El cambio de “identificar” a “determinar” está previsto para armonizar la terminología normalizada de los sistemas de gestión. La palabra “determinar” implica un proceso de descubrimiento que da como resultado conocimiento. La intención no es diferente de la de ediciones anteriores. – La frase “resultado previsto” hace referencia a lo que la organización tiene la intención de lograr mediante la implementación de su sistema de gestión ambiental. Los resultados mínimos previstos incluyen la mejora del desempeño ambiental, el cumplimiento de los requisitos legales y otros, y el logro de objetivos ambientales",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 29,
+            "clausula": "10.3"
+        }
+    },
+    {
+        "contenido": ". Las organizaciones pueden fijar resultados adicionales previstos para su sistema de gestión ambiental. Por ejemplo, en coherencia con su compromiso para la protección del medio ambiente, una organización puede establecer un resultado previsto para trabajar hacia el desarrollo sostenible.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 29,
+            "clausula": "10.3"
+        }
+    },
+    {
+        "contenido": "- 31 - – La frase “personas que realizan trabajos bajo su control” incluye a las personas que trabajan para la organización y aquellas que trabajan en su nombre y de las cuales la organización es responsable (por ejemplo, contratistas). Reemplaza a la frase “personas que trabajan para ella o en su nombre” y “personas que trabajan para la organización o en su nombre”, usadas en la edición anterior de esta Norma Internacional. La intención de esta nueva frase no es diferente de la de la edición anterior. – El concepto de “meta” usado en las ediciones anteriores de esta Norma Internacional está incluido dentro del término “objetivo ambiental”. A.4 Contexto de la organización A.4.1 Comprensión de la organización y de su contexto La intención del apartado 4.1 es proporcionar comprensión conceptual de nivel superior de las cuestiones importantes que pueden afectar, ya sea positiva o negativamente, a la forma en que la organización gestiona sus responsabilidades ambientales",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 30,
+            "clausula": "Anexo 4.1"
+        }
+    },
+    {
+        "contenido": ". Las cuestiones son los temas importantes para la organización, los problemas para debatir y discutir o las circunstancias cambiantes que afectan a la capacidad de la organización para lograr los resultados previstos que establece para su sistema de gestión ambiental",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 30,
+            "clausula": "Anexo 4.1"
+        }
+    },
+    {
+        "contenido": ". Las cuestiones internas y externas que pueden ser pertinentes al contexto de la organización incluyen, por ejemplo: a) las condiciones ambientales relacionadas con el clima, la calidad del aire, la calidad del agua, el uso del suelo, la contaminación existente, la disponibilidad de recursos naturales y la biodiversidad, que pueden afectar al propósito de la organización o ser afectadas por sus aspectos ambientales; b) el contexto cultural, social, político, legal, reglamentario, financiero, tecnológico, económico, natural y competitivo externo, ya sea internacional, nacional, regional o local; c) las características o condiciones internas de la organización, tales como sus actividades, productos y servicios, dirección estratégica, cultura y capacidades (es decir, personas, conocimiento, procesos, sistemas). La comprensión del contexto de una organización se usa para establecer, implementar, mantener y mejorar continuamente su sistema de gestión ambiental (véase 4.4)",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 30,
+            "clausula": "Anexo 4.1"
+        }
+    },
+    {
+        "contenido": ". Las cuestiones internas y externas que se determinan en el aparado 4.1 dan lugar a riesgos y oportunidades para la organización o para el sistema de gestión ambiental (véanse 6.1.1 a 6.1.3). La organización determina aquellas que son necesarias abordar y gestionar (véanse 6.1.4, 6.2, 7, 8 y 9.1). A.4.2 Comprensión de las necesidades y expectativas de las partes interesadas Se espera que una organización tenga una comprensión general (es decir, de nivel superior, no detallada) de las necesidades y expectativas expresadas por las partes interesadas internas y externas que la organización ha determinado que son pertinentes. La organización considera el conocimiento adquirido cuando determina qué necesidades y expectativas de éstas debe o ha decidido satisfacer, es decir, sus requisitos legales y otros requisitos (véase 6.1.1)",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 30,
+            "clausula": "Anexo 4.1"
+        }
+    },
+    {
+        "contenido": ". En el caso de que una parte interesada se perciba como afectada por las decisiones o actividades de la organización relacionadas con el desempeño ambiental, la organización considera las necesidades y expectativas pertinentes que dicha parte interesada expresa o divulga de alguna manera a la organización. Los requisitos de las partes interesadas no son necesariamente requisitos de la organización. Algunos requisitos de las partes interesadas reflejan necesidades y expectativas que son obligatorias porque han sido incorporadas a las leyes, reglamentaciones, permisos y licencias gubernamentales, o incluso decisiones de tribunales. La organización puede decidir aceptar o adoptar voluntariamente otros requisitos de las partes interesadas (por ejemplo, establecer una relación contractual o suscribir una iniciativa voluntaria)",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 30,
+            "clausula": "Anexo 4.1"
+        }
+    },
+    {
+        "contenido": ". Una vez que la organización los adopte, se convierten en requisitos de la organización (es decir, requisitos legales y otros requisitos que se deben cumplir), y se tienen en cuenta para la planificación del sistema de gestión ambiental (véase 4.4). En el apartado 6.1.3 se presenta un análisis más detallado de los requisitos legales y otros requisitos.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 30,
+            "clausula": "Anexo 6.1.3"
+        }
+    },
+    {
+        "contenido": "A.4.3 Determinación del alcance de un sistema de gestión ambiental El alcance de un sistema de gestión ambiental está previsto para aclarar los límites físicos y organizacionales a los que se aplica el sistema de gestión ambiental, especialmente si la organización es parte de una organización más grande. Una organización tiene la libertad y la flexibilidad para definir sus límites. Puede decidir implementar esta Norma Internacional en toda la organización, o solo en partes específicas de ella, en tanto la alta dirección de esa parte de la organización posea la autoridad para establecer un sistema de gestión ambiental. Al establecer el alcance, la credibilidad del sistema de gestión ambiental depende de la elección de los límites de la organización. La organización considera el grado de control o influencia que puede ejercer sobre sus actividades, productos y servicios desde una perspectiva de ciclo de vida",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 31,
+            "clausula": "Anexo 4.3"
+        }
+    },
+    {
+        "contenido": ". La determinación del alcance no se debería usar para excluir actividades, productos, servicios o instalaciones que tengan o puedan tener aspectos ambientales significativos, o para evadir sus requisitos legales y otros requisitos. El alcance es una declaración basada en hechos, representativa de las operaciones de la organización incluidas dentro de los límites de su sistema de gestión ambiental, que no debería inducir a error a las partes interesadas. Una vez que la organización afirme su conformidad con esta Norma Internacional, se aplica el requisito de poner a disposición de las partes interesadas la declaración del alcance",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 31,
+            "clausula": "Anexo 4.3"
+        }
+    },
+    {
+        "contenido": ". A.4.4 Sistema de gestión ambiental La organización conserva la autoridad y la responsabilidad y obligación de rendir cuentas para decidir cómo cumplir los requisitos de esta Norma Internacional, incluido el nivel de detalle y el grado en el que: a) se establecen uno o más procesos para tener confianza en que se controlan, que se llevan a cabo de la manera planificada y que logran los resultados deseados; b) se integran los requisitos del sistema de gestión ambiental a los diversos procesos de negocio, tales como diseño y desarrollo, compras, recursos humanos, ventas y marketing; c) se incorporan las cuestiones asociadas con el contexto de la organización (véase 4.1) y los requisitos de las partes interesadas (véase 4.2) dentro de su sistema de gestión ambiental",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 31,
+            "clausula": "Anexo 4.4"
+        }
+    },
+    {
+        "contenido": ". Si esta Norma Internacional se implementa en partes específicas de una organización, las políticas, los proce sos y la información documentada desarrollados por otras partes de la organización se pueden usar para cumplir los requisitos de esta Norma Internacional, siempre y cuando sean aplicables a dichas partes específicas. Para información sobre el mantenimiento del sistema de gestión ambiental como parte de la gestión del cambio, véase el capítulo A.1. A.5 Liderazgo A.5.1 Liderazgo y compromiso Para demostrar el liderazgo y compromiso existen responsabilidades específicas relacionadas con el sistema de gestión ambiental en las que la alta dirección debería estar involucrada personalmente o debería dirigir. La alta dirección puede delegar la responsabilidad de estas acciones a otros, pero conserva la responsabilidad y obligación de rendir cuentas para asegurarse de que las acciones se llevan a cabo",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 31,
+            "clausula": "Anexo 5.1"
+        }
+    },
+    {
+        "contenido": ". A.5.2 Política ambiental Una política ambiental es un conjunto de principios establecidos como compromisos, en los cuales la alta dirección establece las intenciones de la organización para apoyar y mejorar su desempeño ambiental. La política ambiental posibilita que la organización establezca sus objetivos ambientales (véase 6.2), lleve a cabo acciones para lograr los resultados previstos del sistema de gestión ambiental, y permita la mejora continua (véase 10).",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 31,
+            "clausula": "Anexo 5.2"
+        }
+    },
+    {
+        "contenido": "- 33 - En esta Norma Internacional se especifican tres compromisos básicos para la política ambiental: a) proteger el medio ambiente; b) cumplir con los requisitos legales y otros requisitos de la organización; c) mejorar continuamente el sistema de gestión ambiental para mejorar el desempeño ambiental. Estos compromisos se reflejan entonces en los procesos que una organización establece para abordar requisitos específicos de esta Norma Internacional, para asegurar un sistema de gestión ambiental robusto, creíble y fiable. El compromiso de proteger el medio ambiente tiene como fin no solamente prevenir impactos ambientales adversos mediante la prevención de la contaminación, sino proteger el entorno natural contra el daño y la degradación cuyo origen son las actividades, productos y servicios de la organización. Los compromisos específicos que aspira a cumplir una organización deberían ser pertinentes a su contexto, e incluir las condiciones ambientales locales o regionales",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 32,
+            "clausula": "Anexo 5.2"
+        }
+    },
+    {
+        "contenido": ". Estos compromisos pueden abordar, por ejemplo, la calidad del agua, el reciclaje o la calidad del aire, y también pueden incluir compromisos relacionados con la mitigación y adaptación al cambio climático, la protección de la biodiversidad y de los ecosistemas, y la restauración. Aunque todos los compromisos son importantes, a algunas partes interesadas les preocupa especialmente el compromiso de la organización para el cumplimiento de sus requisitos legales y otros requisitos, particularmente los requisitos legales aplicables. Esta Norma Internacional especifica varios requisitos interconectados relacionados con este compromiso. Estos incluyen la necesidad de: – determinar los requisitos legales y otros requisitos; – asegurarse de que las operaciones se lleven a cabo de acuerdo con los requisitos legales y otros requisitos; – evaluar el cumplimiento de los requisitos legales y otros requisitos; – corregir las no conformidades",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 32,
+            "clausula": "Anexo 5.2"
+        }
+    },
+    {
+        "contenido": ". A.5.3 Roles, responsabilidades y autoridades en la organización Las personas involucradas activamente en el sistema de gestión ambiental de la organización deberían tener una comprensión clara de sus roles, responsabilidades y autoridades para cumplir los requisitos de esta Norma Internacional y lograr los resultados previstos. Las roles y responsabilidades específicos identificados en el apartado 5.3 se pueden asignar a un individuo, que se denomina con frecuencia “representante de la dirección”, se pueden compartir entre varias personas o se pueden asignar a un miembro de la alta dirección. A.6 Planificación A.6.1 Acciones para abordar riesgos y oportunidades A.6.1.1 Generalidades La intención general de los procesos establecidos en el apartado 6.1.1 es asegurar que la organización esté en capacidad de lograr los resultados previstos de su sistema de gestión ambiental, prevenir o reducir los efectos indeseados y lograr la mejora continua",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 32,
+            "clausula": "Anexo 5.3"
+        }
+    },
+    {
+        "contenido": ". La organización puede asegurar esto determinando los riesgos y oportunidades que necesita abordar, y planificando las acciones para abordarlos. Estos riesgos y oportunidades pueden estar relacionados con los aspectos ambientales, los requisitos legales y otros requisitos, otras cuestiones y otras necesidades y expectativas de las partes interesadas.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 32,
+            "clausula": "Anexo 5.3"
+        }
+    },
+    {
+        "contenido": "Los aspectos ambientales (véase 6.1.2) pueden crear riesgos y oportunidades asociados con impactos ambientales adversos, impactos ambientales beneficiosos y otros efectos para la organización. Los riesgos y oportunidades relacionados con aspectos ambientales se pueden determinar como parte de la evaluación de la significancia, o por separado. Los requisitos legales y otros requisitos (véase 6.1.3) pueden crear riesgos y oportunidades, tales como incumplimiento (que puede afectar a la reputación de la organización o dar como resultado una acción legal) o ir más allá de sus requisitos legales y otros requisitos (que pueden mejorar la reputación de la organización)",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 33,
+            "clausula": "Anexo 5.3"
+        }
+    },
+    {
+        "contenido": ". La organización también puede tener riesgos y oportunidades relacionados con otras cuestiones, que incluyen las condiciones ambientales o las necesidades y expectativas de las partes interesadas, que pueden afectar a la capacidad de la organización para lograr los resultados previstos de su sistema de gestión ambiental, por ejemplo: a) derrames al medio ambiente debido a barreras lingüísticas o de lectura y escritura entre trabajadores, que no entienden los procedimientos de trabajo locales; b) incremento de inundaciones debido al cambio climático, que pueden afectar a las instalaciones de la organización; c) falta de recursos disponibles para mantener un sistema de gestión ambiental eficaz, debido a limitaciones económicas; d) introducción de nueva tecnología subvencionada por el gobierno, que puede mejorar la calidad del aire; e) escasez de agua durante períodos de sequía, que puede afectar la capacidad de la organización para operar sus equipos de control de emisiones",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 33,
+            "clausula": "Anexo 5.3"
+        }
+    },
+    {
+        "contenido": ". Las situaciones de emergencia son eventos no planificados o imprevistos que necesitan la aplicación urgente de competencias, recursos o procesos específicos para prevenir o mitigar sus consecuencias reales o potenciales. Las situaciones de emergencia pueden generar impactos ambientales adversos u otros efectos en la organización. Cuando se determinan las situaciones de emergencia potenciales (por ejemplo, incendios, derrames químicos, clima severo), la organización debería considerar: – la naturaleza de los peligros en “in situ” (por ejempl o, líquidos inflamables, tanques de almacenamiento, gases comprimidos); – el tipo y magnitud más probables de una situación de emergencia; – el potencial de situaciones de emergencia en una instalación cercana (por ejemplo, planta, carretera o vía férrea ). Aunque los riesgos y oportunidades se tienen que determinar y abordar, no hay un requisito para la gestión formal de riesgos, ni un proceso de gestión documentado para riesgos",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 33,
+            "clausula": "Anexo 5.3"
+        }
+    },
+    {
+        "contenido": ". Depende de la organización seleccionar el método que utilizará para determinar sus riesgos y oportunidades. El método podría consistir en un simple proceso cualitativo o en una evaluación cuantitativa completa, dependiendo del contexto en el que opere la organización. Los riesgos y oportunidades identificados (véanse 6.1.1 a 6.1.3) son elementos de entrada para las acciones de planificación (véase 6.1.4) y para establecer los objetivos ambientales (véase 6.2). A.6.1.2 Aspectos ambientales Una organización determina sus aspectos ambientales y los impactos ambientales asociados, y determina los que son significativos y que por lo tanto necesitan abordarse en su sistema de gestión ambiental. Los cambios en el medio ambiente, ya sean adversos o beneficiosos, que son el resultado total o parcial de los aspectos ambientales, se denominan impactos ambientales",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 33,
+            "clausula": "Anexo 6.1.1"
+        }
+    },
+    {
+        "contenido": ". Los impactos ambientales pueden ocurrir a escala local, regional y global, y también pueden ser de naturaleza directa, indirecta o acumulativa. La relación entre los aspectos ambientales y los impactos ambientales es una relación de causa-efecto.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 33,
+            "clausula": "Anexo 6.1.1"
+        }
+    },
+    {
+        "contenido": "- 35 - Cuando se determinan los aspectos ambientales, la organización considera una perspectiva de ciclo de vida. Esto no significa que se requiera un análisis de ciclo de vida detallado. Es suficiente reflexionar cuidadosamente acerca de la s etapas del ciclo de vida que pueden estar bajo el control o influencia de la organización. Las etapas típicas del ciclo de vida de un producto (o servicio) incluyen la adquisición de las materias primas, el diseño, la producción, el transporte/entrega, el uso, el tratamiento al finalizar la vida y la disposición final. Las etapas del ciclo de vida que sean aplicables variarán dependiendo de la actividad, producto o servicio. Una organización necesita determinar los aspectos ambientales que están dentro del alcance de su sistema de gestión ambiental",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 34,
+            "clausula": "Anexo 6.1.1"
+        }
+    },
+    {
+        "contenido": ". Una organización necesita determinar los aspectos ambientales que están dentro del alcance de su sistema de gestión ambiental. Tiene en cuenta los elementos de entrada y de salida (tanto previstos e imprevistos) que están asociados con sus actividades, productos y servicios pertinentes actuales y pasados; desarrollos nuevos o planificados; y actividades, productos y servicios nuevos o modificados. El método utilizado debería considerar las condiciones de operación normales y anormales, las condiciones de parada y arranque, al igual que las situaciones de emergencia razonablemente previsibles, identificadas en el apartado 6.1.1. Se debería prestar atención a situaciones de emergencia ocurridas anteriormente. Para información sobre aspectos ambientales como parte de la gestión del cambio, véase el capítulo A.1",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 34,
+            "clausula": "Anexo 6.1.1"
+        }
+    },
+    {
+        "contenido": ". Para información sobre aspectos ambientales como parte de la gestión del cambio, véase el capítulo A.1. Una organización no tiene que considerar individualmente cada producto, componente o materia prima para determinar y evaluar sus aspectos ambientales; puede agrupar o clasificar las actividades, productos o servicio que tengan características comunes; Cuando determina sus aspectos ambientales, la organización puede considerar: a) las emisiones al aire; b) los vertidos al agua; c) las descargas al suelo; d) el uso de materias primas y recursos naturales; e) el uso de energía; f) la energía emitida (por ejemplo, calor, radiación, vibración (ruido) y luz); g) la generación de residuos y/o subproductos; h) el uso del espacio. Además de los aspectos ambientales que una organización puede controlar directamente, la organización determina si hay aspectos ambientales en los que puede influir",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 34,
+            "clausula": "Anexo 6.1.1"
+        }
+    },
+    {
+        "contenido": ". Estos pueden estar relacionados con los productos y servicios usados por la organización y que son suministrados por otros, al igual que con los productos y servicios que suministra a otros, incluidos los asociados con los procesos contratados externamente. Con respecto a los productos y servicios que la organización proporciona a otros, puede tener influencia limitada sobre el uso y tratamiento al finalizar la vida de los productos y servicios. Sin embargo, en todas las circunstancias es la organización la que determina el grado de control que está en capacidad de ejercer, los aspectos ambientales en los que puede influir y la medida en que decide ejercer tal influencia",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 34,
+            "clausula": "Anexo 6.1.1"
+        }
+    },
+    {
+        "contenido": ". Se deberían considerar los aspectos ambientales relacionados con las actividades, productos y servicios de la organización, tales como: – el diseño y desarrollo de sus instalaciones, procesos, productos y servicios; – la adquisición de materias primas, incluyendo la extracción; – los procesos operacionales o de fabricación, incluido el almacenamiento; – la operación y mantenimiento de las instalaciones, los activos e infraestructura de la organización;",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 34,
+            "clausula": "Anexo 6.1.1"
+        }
+    },
+    {
+        "contenido": "– el desempeño ambiental y las prácticas de los proveedores externos; – el transporte de productos y la prestación de servicios, incluido el embalaje; – el almacenamiento, uso y tratamiento al finalizar la vida útil de los productos; – la gestión de residuos, incluida la reutilización, el reacondicionamiento, el reciclaje y la disposición final. No hay un método único para determinar los aspectos ambientales significativos. Sin embargo, el método y los criterios que se usen deberían arrojar resultados coherentes. La organización establece los criterios para determinar sus aspectos ambientales significativos. Los criterios ambientales son los criterios fundamentales y mínimos para evaluar los aspectos ambientales. Los criterios se pueden relacionar con el aspecto ambiental (por ejemplo, tipo, tamaño, frecuencia) o el impacto ambiental (por ejemplo, magnitud, severidad, duración, exposición), pero también se pueden usar otros criterios",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 35,
+            "clausula": "Anexo 6.1.1"
+        }
+    },
+    {
+        "contenido": ". Un aspecto ambiental podría no ser significativo cuando se consideran solamente los criterios ambientales. Sin embargo, cuando se consideran otros criterios puede alcanzar o superar el límite para determinar la importancia. Estos otros criterios pueden incluir cuestiones organizacionales tales como los requisitos legales o las preocupaciones de las partes interesadas, y no están previstos para disminuir la significancia de algún aspecto que sea significativo con base en su impacto ambiental. Un aspecto ambiental significativo puede dar como resultado uno o más impactos ambientales significativos y por tanto generar riesgos y oportunidades que necesitan abordarse para asegurar que la organización puede lograr los resultados previstos de su sistema de gestión ambiental",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 35,
+            "clausula": "Anexo 6.1.1"
+        }
+    },
+    {
+        "contenido": ". A.6.1.3 Requisitos legales y otros requisitos La organización determina con un nivel de detalle suficiente los requisitos legales y otros requisitos que ha identificado en el apartado 4.2, que son aplicables a sus aspectos ambientales y cómo se aplican a la organización. Los requisitos legales y otros requisitos incluyen los requisitos legales que la organización debe cumplir, y los demás requisitos que la organización tiene que cumplir o que decide cumplir. Los requisitos legales obligatorios relacionados con los aspectos ambientales de una organización pueden incluir, si es aplicable: a) requisitos de entidades gubernamentales u otras autoridades pertinentes; b) leyes y reglamentaciones internacionales, nacionales y locales; c) requisitos especificados en permisos, licencias u otras formas de autorización; d) órdenes, reglas u orientaciones emitidas por los organismos de reglamentación; e) sentencias de cortes de just icia o tribunales administrativos",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 35,
+            "clausula": "Anexo 6.1.3"
+        }
+    },
+    {
+        "contenido": ". Los requisitos legales y otros requisitos también incluyen otros requisitos de las partes interesadas relacionados con su sistema de gestión ambiental que la organización tiene que cumplir o decide adoptar. Estas pueden incluir, si es aplicable: – acuerdos con grupos de la comunidad u organizaciones no gubernamentales; – acuerdos con autoridades públicas o clientes; – requisitos de la organización; – principios o códigos de práctica voluntarios; – compromisos ambientales o de etiquetado voluntarios;",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 35,
+            "clausula": "Anexo 6.1.3"
+        }
+    },
+    {
+        "contenido": "- 37 - – obligaciones que surgen por acuerdos contractuales con la organización; – normas pertinentes de la industria o de la organización. A.6.1.4 Planificación de acciones La organización planifica a alto nivel las acciones que se han de tomar dentro del sistema de gestión ambiental para abordar los aspectos ambientales significativos, los requisitos legales y otros requisitos, y los riesgos y oportunidades identificados en el apartado 6.1.1 que son una prioridad para que la organización logre los resultados previstos de su sistema de gestión ambiental. Las acciones planificadas pueden incluir el establecimiento de objetivos ambientales (véase el apartado 6.2) o se pueden incorporar a otros procesos del sistema de gestión ambiental, ya sea individualmente o combinadas",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 36,
+            "clausula": "Anexo 6.1.4"
+        }
+    },
+    {
+        "contenido": ". Algunas acciones se pueden abordar por medio de otros sistemas de gestión, tales como los relacionados con salud y seguridad ocupacional, continuidad del negocio o por medio de otros procesos de negocio relacionados con la gestión del riesgo, financiera o de recursos humanos. Cuando considera sus opciones tecnológicas, la organización debería considerar el uso de las mejores técnicas disponibles, cuando sea económicamente viable, rentable y que se considere apropiado. No se pretende sugerir que las organizaciones estén obligadas a usar metodologías de contabilidad de costos ambientales. A.6.2 Objetivos ambientales y planificación para lograrlos Los objetivos ambientales los puede establecer la alta dirección a nivel estratégico, táctico u operacional. El nivel estratégico incluye los niveles más altos de la organización, y los objetivos ambientales pueden ser aplicables a toda la organización",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 36,
+            "clausula": "Anexo 6.2"
+        }
+    },
+    {
+        "contenido": ". El nivel estratégico incluye los niveles más altos de la organización, y los objetivos ambientales pueden ser aplicables a toda la organización. Los niveles táctico y operacional pueden incluir objetivos ambientales para unidades o funciones específicas dentro de la organización y deberían ser compatibles con su dirección estratégica. Los objetivos ambientales se deberían comunicar a las personas que trabajan bajo el control de la organización, que tienen capacidad para influir en el logro de los objetivos ambientales. El requisito de “tener en cuenta los aspectos ambientales significativos” no significa que se tenga que establecer un objetivo ambiental para cada aspecto ambiental significativo. Sin embargo, dichos aspectos ambientales significativos tienen una prioridad alta cuando se establecen los objetivos ambientales",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 36,
+            "clausula": "Anexo 6.2"
+        }
+    },
+    {
+        "contenido": ". Sin embargo, dichos aspectos ambientales significativos tienen una prioridad alta cuando se establecen los objetivos ambientales. “Coherente con la política ambiental” significa que los objetivos ambientales están alineados y armonizados ampliamente con los compromisos hechos por la alta dirección en la política ambiental, incluido el compromiso con la mejora continua. Se seleccionan indicadores para evaluar el logro de los objetivos ambientales medibles. “Medible” significa que es posible usar métodos cuantitativos o cualitativos con relación a una escala especificada para determinar si se ha logrado el objetivo ambiental. Al especificar “si es viable” , se reconoce que puede haber situaciones en las que no es viable medir un objetivo ambiental; sin embargo, es importante que la organización esté en capacidad de determinar si un objetivo ambiental se ha logrado o no. Para información adicional sobre indicadores ambientales, véase la Norma ISO 14031",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 36,
+            "clausula": "Anexo 6.2"
+        }
+    },
+    {
+        "contenido": ". Para información adicional sobre indicadores ambientales, véase la Norma ISO 14031. A.7 Apoyo A.7.1 Recursos Los recursos son necesarios para el funcionamiento eficaz y la mejora del sistema de gestión ambiental y para mejorar el desempeño ambiental. La alta dirección debería asegurarse de que se les suministren los recursos necesarios a quienes tengan responsabilidades en el sistema de gestión ambiental. Los recursos internos los puede complementar un proveedor externo.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 36,
+            "clausula": "Anexo 7.1"
+        }
+    },
+    {
+        "contenido": "Los recursos pueden incluir recursos humanos, recursos naturales, infraestructura, tecnología y recursos financieros. Algunos ejemplos de recursos humanos incluyen habilidades y conocimiento especializados; algunos ejemplos de recursos de infraestructura incluyen los edificios de la organización, sus equipos, tanques subterráneos y sistema de drenaje",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 37,
+            "clausula": "Anexo 7.1"
+        }
+    },
+    {
+        "contenido": ". A.7.2 Competencia Los requisitos de competencia de esta Norma Internacional se aplican a personas que trabajan bajo el control de la organización que pueden afectar a su desempeño ambiental, incluidas aquellas personas: a) cuyo trabajo tenga el potencial de causar un impacto ambiental significativo; b) a las que se les haya asignado responsabilidades relacionadas con el sistema de gestión ambiental, incluidas quienes: 1) determinan y evalúan los impactos ambientales o los requisitos legales y otros requisitos; 2) contribuyen al logro de un objetivo ambiental; 3) responden ante situaciones de emergencia; 4) llevan a cabo auditorías internas; 5) llevan a cabo auditorías de cumplimiento. A.7.3 Toma de conciencia Por toma de conciencia de la política ambiental no se debería entender que los compromisos se deban memorizar o que las personas que realicen trabajo bajo el control de la organización tengan una copia de la política ambiental documentada",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 37,
+            "clausula": "Anexo 7.2"
+        }
+    },
+    {
+        "contenido": ". Preferentemente, estas personas deberían conocer su existencia, su propósito y su función para el logro de los compromisos, que incluya cómo su trabajo puede afectar a la capacidad de la organización para cumplir sus requisitos legales y otros requisitos. A.7.4 Comunicación La comunicación permite que la organización suministre y obtenga información pertinente para su sistema de gestión ambiental, incluida información relacionada con sus aspectos ambientales significativos, el desempeño ambiental y los requisitos legales y otros requisitos, y las recomendaciones para la mejora continua. La comunicación es un proceso de dos vías, hacia fuera y hacia adentro de la organización. Cuando se establecen los procesos de comunicación, se debería considerar la estructura organizacional interna para asegurar la comunicación con los niveles y funciones más apropiados",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 37,
+            "clausula": "Anexo 7.4"
+        }
+    },
+    {
+        "contenido": ". Puede ser adecuado un enfoque único para satisfacer las necesidades de muchas partes interesadas diferentes, o podrían ser apropiados múltiples enfoques para abordar las necesidades específicas de las partes interesadas individuales. La información que recibe la organización puede contener solicitudes de las partes interesadas sobre información específica relacionada con la gestión de sus aspectos ambientales, o puede contener impresiones u opiniones generales acerca de la forma en que la organización lleva a cabo dicha gestión. Estas impresiones u opiniones pueden ser positivas o negativas. En el último caso (por ejemplo, quejas), es importante que la organización de una respuesta rápida y clara. Un análisis posterior de estas quejas puede proporcionar información valiosa para detectar oportunidades de mejora para el sistema de gestión ambiental",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 37,
+            "clausula": "Anexo 7.4"
+        }
+    },
+    {
+        "contenido": ". La comunicación debería: a) ser transparente, es decir, que la organización está abierta a informar sobre el origen de la información presentada;",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 37,
+            "clausula": "Anexo 7.4"
+        }
+    },
+    {
+        "contenido": "- 39 - b) ser apropiada, de manera que la información satisfaga las necesidades de las partes interesadas pertinentes, permitiendo su participación; c) ser veraz y que no conduzca a engaño a quienes confían en la información presentada; d) estar basada en hechos, ser exacta y fiable; e) no excluir información relevante; f) ser comprensible para las partes interesadas. Para información adicional sobre la comunicación como parte de la gestión del cambio, véase el capítulo A.1. Para información adicional sobre comunicación, véase la Norma ISO 14063. A.7.5 Información documentada Una organización debería crear y mantener información documentada suficiente, de manera que asegure un sistema de gestión ambiental conveniente, adecuado y eficaz. El enfoque principal debería centrarse en la implementación del sistema de gestión ambiental y en el desempeño ambiental, no en un complejo sistema de control de información documentada",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 38,
+            "clausula": "Anexo 7.5"
+        }
+    },
+    {
+        "contenido": ". Además de la información documentada requerida en los capítulos específicos de esta Norma Internacional, una organización puede decidir crear información adicional documentada, para propósitos de transparencia, responsabilidad y obligación de rendir cuentas, continuidad, coherencia, formación o para facilitar las auditorías. Se puede usar información documentada creada originalmente para propósitos diferentes del sistema de gestión ambiental. La información documentada asociada con el sistema de gestión ambiental se puede integrar con otros sistemas de gestión de la información implementados por la organización. No es necesario que se presente en forma de manual. A.8 Operación A.8.1 Planificación y control operacional El tipo y la extensión de los controles operacionales dependen de la naturaleza de las operaciones, de los riesgos y oportunidades, de los aspectos ambientales significativos y de los requisitos legales y otros requisitos",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 38,
+            "clausula": "Anexo 8.1"
+        }
+    },
+    {
+        "contenido": ". Una organización tiene la flexibilidad para seleccionar el tipo de métodos de control operacional de forma individual o combinados, necesarios para asegurar que los procesos sean eficaces para el logro de los resultados deseados. Estos métodos pueden incluir: a) diseñar unos procesos de manera que se prevengan errores y se aseguren resultados coherentes; b) usar tecnología para controlar los procesos y prevenir resultados adversos (es decir, controles de ingeniería); c) usar personal competente para asegurarse de los resultados deseados; d) llevar a cabo los procesos de una manera especificada; e) realizar el seguimiento o la medición de los procesos para verificar los resultados; f) determinar el uso y la cantidad de información documentada necesaria.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 38,
+            "clausula": "Anexo 8.1"
+        }
+    },
+    {
+        "contenido": "La organización decide el grado de control necesario dentro de sus propios procesos de negocio (por ejemplo, el proceso de compras) para controlar o influir en los procesos contratados externamente o en los proveedores de productos y servicios. Su decisión se debería basar en factores tales como: – el conocimiento, la competencia y los recursos, que incluyen: – la competencia del proveedor externo para cumplir los requisitos del sistema de gestión ambiental de la organización; – la competencia técnica de la organización para definir los controles apropiados o evaluar la adecuación de los controles; – la importancia y el efecto potencial que los productos y servicios tendrán sobre la capacidad de la organización para lograr los resultados previstos de su sistema de gestión ambiental; – el grado en el que se comparte el control del proceso; – la capacidad de lograr el control necesario mediante la aplicación de su proceso general de compras; – las oportunidades de mejora disponibles",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 39,
+            "clausula": "Anexo 8.1"
+        }
+    },
+    {
+        "contenido": ". Cuando un proceso es contratado externamente o cuando los productos y servicios son suministrados por un proveedor externo, la capacidad de la organización para ejercer control o influencia puede variar desde control directo, control limitado, o incluso ningún control o influencia. En algunos casos, un proceso contratado externamente “in situ” podría estar bajo el control directo de una organización; En otros casos, la capacidad de una organización para influir en un proceso contratado externamente o en un proveedor externo podría ser limitada. Cuando se determina el tipo y la extensión de los controles operacionales relacionados con proveedores externos, incluidos los contratistas, la organización puede considerar uno o más de factores tales como: – los aspectos ambientales y los impactos ambientales asociados; – los riesgos y oportunidades asociados con la fabricación de sus productos o la provisión de sus servicios; – los requisitos legales y otros requisitos de la organización",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 39,
+            "clausula": "Anexo 8.1"
+        }
+    },
+    {
+        "contenido": ". Para información sobre controles operacionales como parte de la gestión del cambio, véase el capítulo A.1. Para información sobre la perspectiva de ciclo de vida, véase el capítulo A.6.1.2. Un proceso contratado externamente es aquel que cumple todas las características siguientes: – está dentro del alcance del sistema de gestión ambiental; – es integral al funcionamiento de la organización; – es necesario para que el sistema de gestión ambiental logre su resultado previsto; – la responsabilidad legal del cumplimiento de los requisitos sigue siendo de la organización; – la organización y el proveedor externo tienen una relación en la que las partes interesadas perciben que el proceso lo lleva a cabo la organización. Los requisitos ambientales son las necesidades y expectativas de la organización en relación con el medio ambiente, que la organización establece y comunica a sus partes interesadas (por ejemplo, una función interna, como compras; un cliente; un proveedor externo).",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 39,
+            "clausula": "Anexo 6.1.2"
+        }
+    },
+    {
+        "contenido": "- 41 - Algunos de los impactos ambientales significativos de la organización pueden ocurrir durante el transporte, la entrega, el uso, el tratamiento al finalizar la vida útil, o la disposición final de su producto o servicio. Al suministrar información, una organización puede prevenir o mitigar potencialmente los impactos ambientales durante estas etapas del ciclo de vida. A.8.2 Preparación y respuesta ante emergencias Es responsabilidad de cada organización estar preparada para responder a situaciones de emergencia de una manera apropiada a sus necesidades particulares. Para información sobre la determinación de situaciones de emergencia, véase el capítulo A.6.1.1",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 40,
+            "clausula": "Anexo 8.2"
+        }
+    },
+    {
+        "contenido": ". Cuando se planifica el proceso de preparación y respuesta ante emergencias, la organización debería considerar: a) el método más apropiado para responder a una situación de emergencia; b) los procesos de comunicación interna y externa; c) las acciones requeridas para prevenir o mitigar los impactos ambientales; d) las acciones de mitigación y respuesta a tomar para diferentes tipos de situaciones de emergencia; e) la necesidad de evaluación postemergencia, para determinar e implementar acciones correctivas; f) la prueba periódica de las acciones planificadas de respuesta ante emergencias; g) la formación de las personas de respuesta ante emergencias; h) una lista de las personas clave y de los servicios de emergencia, incluidos los detalles de contacto (por ejemplo, departamento de bomberos, servicios de limpieza de derrames); i) las rutas de evacuación y puntos de encuentro; j) la posibilidad de asistencia mutua por parte de organizaciones vecinas",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 40,
+            "clausula": "Anexo 8.2"
+        }
+    },
+    {
+        "contenido": ". A.9 Evaluación del desempeño A.9.1 Seguimiento, medición, análisis y evaluación A.9.1.1 Generalidades Cuando se determina a qué se debería hacer seguimiento y qué se debería medir, además del progreso de los objetivos ambientales, la organización debería tener en cuenta sus aspectos ambientales significativos, los requisitos legales y otros requisitos y los controles operacionales. Los métodos usados por la organización para hacer seguimiento y medir, analizar y evaluar, se deberían definir en el sistema de gestión ambiental, con el fin de asegurarse de que: a) el cronograma del seguimiento y la medición está coordinado con la necesidad de los resultados de análisis y de evaluación; b) los resultados del seguimiento y la medición son fiables, reproducibles y trazables; c) el análisis y la evaluación son fiables y reproducibles, y permiten a la organización informar sobre las tendencias",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 40,
+            "clausula": "Anexo 9.1"
+        }
+    },
+    {
+        "contenido": ". Se debería informar de los resultados del análisis y la evaluación del desempeño ambiental, a quienes tienen la responsabilidad y la autoridad para iniciar las acciones apropiadas.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 40,
+            "clausula": "Anexo 9.1"
+        }
+    },
+    {
+        "contenido": "Para información adicional sobre la evaluación del desempeño ambiental, véase la Norma ISO 14031. A.9.1.2 Evaluación del cumplimiento La frecuencia y oportunidad de las evaluaciones de conformidad pueden variar dependiendo de la importancia del requisito, de las variaciones en las condiciones de operación, de los cambios en los requisitos legales y otros requisitos, y del desempeño histórico de la organización. Una organización puede usar una variedad de métodos para mantener su conocimiento y comprensión de su estado de cumplimiento; sin embargo, todos los requisitos legales y otros requisitos necesitan evaluarse periódicamente. En el caso de que los resultados indiquen incumplimiento de un requisito legal, la organización necesita determinar e implementar las acciones necesarias para lograr su cumplimiento. Esto puede requerir la comunicación con un organismo reglamentario, y acordar una forma de proceder para restablecer el cumplimiento de los requisitos legales",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 41,
+            "clausula": "Anexo 9.1.2"
+        }
+    },
+    {
+        "contenido": ". Cuando ya existe un acuerdo al respecto, se convierte en requisitos legales y otros requisitos. Un incumplimiento no necesariamente se eleva a no conformidad si, por ejemplo, se identifica y corrige en los procesos del sistema de gestión ambiental. Las no conformidades relacionadas con el cumplimiento necesitan corregirse, incluso si dichas no conformidades no han generado no conformidades reales con los requisitos legales. A.9.2 Auditoría interna Siempre que sea viable, los auditores deberían ser independientes de la actividad auditada, y en todos los casos deberían actuar libres de sesgo y conflicto de intereses. Las no conformidades identificadas durante las auditorías internas son objeto de acciones correctivas apropiadas. Cuando se consideran los resultados de las auditorías previas, la organización debería incluir: a) las no conformidades identificadas previamente y la eficacia de las acciones tomadas; b) los resultados de las auditorías internas y externas",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 41,
+            "clausula": "Anexo 9.2"
+        }
+    },
+    {
+        "contenido": ". Para información adicional sobre el establecimiento de un programa de auditoría interna, sobre la realización de auditorías del sistema de gestión ambiental y sobre la evaluación de la competencia de las personas que realizan la auditoría, véase la Norma ISO 19011. Para información sobre el programa de auditorías internas como parte de la gestión del cambio, véase el capítulo A.1. A.9.3 Revisión por la dirección La revisión por la dirección debería ser nivel superior, y no es necesario que sea una revisión exhaustiva de información detallada. No es necesario considerar de una sola vez todos los temas de la revisión por la dirección; la revisión se puede llevar a cabo durante un periodo de tiempo y puede ser parte de actividades de gestión programadas regularmente, tales como reuniones de la junta directiva o reuniones operacionales; no es necesario que sea una actividad separada",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 41,
+            "clausula": "Anexo 9.3"
+        }
+    },
+    {
+        "contenido": ". La alta dirección examina las quejas pertinentes recibidas de las partes interesadas, para determinar las oportunidades de mejora. Para información sobre la revisión por la dirección como parte de la gestión del cambio, véase el capítulo A.1. “Conveniencia” hace referencia a cómo el sistema de gestión ambiental se ajusta a la organización, a sus operaciones, cultura y sistemas de negocio. “Adecuación” hace referencia a si cumple los requisitos de esta Norma Internacional y si está implementado apropiadamente. “Eficacia” hace referencia a si se logran los resultados deseados.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 41,
+            "clausula": "Anexo 9.3"
+        }
+    },
+    {
+        "contenido": "- 43 - A.10 Mejora A.10.1 Generalidades La organización debería considerar los resultados del análisis y de la evaluación del desempeño ambiental, la evaluación del cumplimiento, las auditorías internas y la revisión por la dirección cuando se toman acciones de mejora. Los ejemplos de mejora incluyen la acción correctiva, la mejora continua, el cambio innovador, la innovación y la reorganización. A.10.2 No conformidad y acción correctiva Uno de los propósitos clave de un sistema de gestión ambiental es actuar como una herramienta preventiva. El concepto de acción preventiva se ha incluido en el apartado 4.1 (es decir, conocimiento de la organización y su contexto) y en el apartado 6.1 (es decir, acciones para abordar riesgos y oportunidades). A.10.3 Mejora continua La organización determina el ritmo, el alcance y los tiempos de las acciones que apoyan la mejora continua",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 42,
+            "clausula": "Anexo 10.1"
+        }
+    },
+    {
+        "contenido": ". A.10.3 Mejora continua La organización determina el ritmo, el alcance y los tiempos de las acciones que apoyan la mejora continua. El desempeño ambiental se puede mejorar aplicando el sistema de gestión ambiental como un todo o mejorando uno o más de sus elementos.",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 42,
+            "clausula": "Anexo 10.3"
+        }
+    },
+    {
+        "contenido": "Anexo B (Informativo) Correspondencia entre e ISO 14001:2004 La Tabla B.1 ilustra la correspondencia entre esta edición de esta Norma Internacional () y la edición anterior (ISO 14001:2004)",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 43,
+            "clausula": "Anexo"
+        }
+    },
+    {
+        "contenido": ". Tabla B.1 – Correspondencia entre la Norma y la Norma ISO 14001:2004 ISO 14001:2004 Título del capítulo Número del capítulo Número del capítulo Título del capítulo Introducción Introducción Objeto y campo de aplicación 1 1 Objeto y campo de aplicación Referencias normativas 2 2 Referencias normativas Términos y definiciones 3 3 Términos y definiciones Contexto de la organización (título únicamente) 4 4 Requisitos del sistema de gestión ambiental (título únicamente) Comprensión de la organización y de su contexto 4.1 Comprensión de las necesidades y expectativas de las partes interesadas 4.2 Determinación del alcance del sistema de gestión ambiental 4.3 4.1 Requisitos generales Sistema de gestión ambiental 4.4 4.1 Requisitos generales Liderazgo (título únicamente) 5 Liderazgo y compromiso 5.1 Política ambiental 5.2 4.2 Política ambiental Roles, responsabilidades y autoridades en la organización 5.3 4.4.1 Recursos, funciones, responsabilidad y autoridad Planificación (título",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 43,
+            "clausula": "Anexo 4.1"
+        }
+    },
+    {
+        "contenido": "ambiental Roles, responsabilidades y autoridades en la organización 5.3 4.4.1 Recursos, funciones, responsabilidad y autoridad Planificación (título únicamente) 6 4.3 Planificación (título únicamente) Acciones para abordar riesgos y oportunidades (título únicamente) 6.1 Generalidades 6.1.1 Aspectos ambientales 6.1.2 4.3.1 Aspectos ambientales Requisitos legales y otros requisitos 6.1.3 4.3.2 Requisitos legales y otros requisitos Planificación de acciones 6.1.4 Objetivos ambientales y planificación para lograrlos (título únicamente) 6.2 4.3.3 Objetivos, metas y programas Objetivos ambientales 6.2.1 Planificación de acciones para lograr los objetivos ambientales 6.2.2 Apoyo (título únicamente) 7 4.4 Implementación y operación (título únicamente) Recursos 7.1 4.4.1 Recursos, funciones, responsabilidad y autoridad Competencia 7.2 4.4.2 Competencia, formación y toma de conciencia Toma de conciencia 7.3",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 43,
+            "clausula": "Anexo 5.3"
+        }
+    },
+    {
+        "contenido": "- 45 - ISO 14001:2004 Título del capítulo Número del capítulo Número del capítulo Título del capítulo Comunicación (título únicamente) 7.4 4.4.3 Comunicación Generalidades 7.4.1 Comunicación interna 7.4.2 Comunicación externa 7.4.3 Información documentada (título únicamente) 7.5 4.4.4 Documentación Generalidades 7.5.1 Creación y actualización 7.5.2 4.4.5 Control de documentos 4.5.4 Control de los registros Control de la información documentada 7.5.3 4.4.5 Control de documentos 4.5.4 Control de los registros Operación (título únicamente) 8 4.4 Implementación y operación (título únicamente) Planificación y control operacional 8.1 4.4.6 Control operacional Preparación y respuesta ante emergencias 8.2 4.4.7 Preparación y respuesta ante emergencias Evaluación del desempeño (título únicamente) 9 4.5 Verificación (título únicamente) Seguimiento, medición, análisis y evaluación (título únicamente) 9.1 4.5.1 Seguimiento y medición Generalidades 9.1.1 Evaluación del cumplimiento 9.1.2 4.5.2",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 44,
+            "clausula": "Anexo 7.4"
+        }
+    },
+    {
+        "contenido": "medición, análisis y evaluación (título únicamente) 9.1 4.5.1 Seguimiento y medición Generalidades 9.1.1 Evaluación del cumplimiento 9.1.2 4.5.2 Evaluación del cumplimiento legal Auditoría interna (título únicamente) 9.2 4.5.5 Auditoría interna Generalidades 9.2.1 Programa de auditoría interna 9.2.2 Revisión por la dirección 9.3 4.6 Revisión por la dirección Mejora (título únicamente) 10 Generalidades 10.1 No conformidad y acción correctiva 10.2 4.5.3 No conformidad, acción correctiva y acción preventiva Mejora continua 10.3 Orientaciones para el uso de esta Norma Internacional Anexo A Anexo A Orientación para el uso de esta Norma Internacional Correspondencia entre e ISO 14001:2004 Anexo B Anexo B Correspondencia entre la Norma ISO 14001:2004 y la Norma ISO 9001:2003 Bibliografía Bibliografía Listado alfabético de términos",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 44,
+            "clausula": "Anexo 9.1"
+        }
+    },
+    {
+        "contenido": "Bibliografía [1] ISO 14004, Sistemas de gestión ambiental. Directrices generales sobre principios, sistemas y técnicas de apoyo [2] ISO 14006, Sistemas de gestión ambiental. Directrices para la incorporación del ecodiseño [3] ISO 14031, Gestión ambiental. Evaluación del comportamiento ambiental. Directrices generales [4] ISO 14044, Gestión ambiental. Análisis de ciclo de vida. Requisitos y directrices [5] ISO 14063, Gestión ambiental. Comunicación ambiental. Directrices y ejemplos [6] ISO 19011, Directrices para la auditoría de los sistemas de gestión [7] ISO 31000, Risk management. Principles and guidelines [8] ISO 50001, Sistemas de gestión de la energía. Requisitos con orientación para su uso [9] ISO Guide 73, Risk management. Vocabulary",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 45,
+            "clausula": "Bibliografía"
+        }
+    },
+    {
+        "contenido": "- 47 - Listado alfabético de términos acción correctiva 3.4.4 alta dirección 3.1.5 aspecto ambiental 3.2.2 auditoría 3.4.1 ciclo de vida 3.3.3 competencia 3.3.1 condición ambiental 3.2.3 conformidad 3.4.2 contratar externamente 3.3.4 desempeño 3.4.10 desempeño ambiental 3.4.11 eficacia 3.4.6 impacto ambiental 3.2.4 indicador 3.4.7 información documentada 3.3.2 medición 3.4.9 medio ambiente 3.2.1 mejora continua 3.4.5 no conformidad 3.4.3 objetivo 3.2.5 objetivo ambiental 3.2.6 organización 3.1.4 parte interesada 3.1.6 política ambiental 3.1.3 prevención de la contaminación 3.2.7 proceso 3.3.5 requisito 3.2.8 requisitos legales y otros requisitos 3.2.9 riesgo 3.2.10 riesgos y oportunidades 3.2.11 seguimiento 3.4.8 sistema de gestión 3.1.1 sistema de gestión ambiental 3.1.2",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 46,
+            "clausula": "Bibliografía"
+        }
+    },
+    {
+        "contenido": "Génova, 6 info@aenor.es Tel.: 902 102 201 28004 MADRID-España www.aenor.es Fax: 913 104 032 Génova, 6 info@aenor.es Tel.: 902 102 201 28004 MADRID-España www.aenor.es Fax: 913 104 032",
+        "metadatos": {
+            "norma": "UNE-EN ISO 14001_2015",
+            "pagina": 47,
+            "clausula": "Bibliografía"
+        }
+    }
+]

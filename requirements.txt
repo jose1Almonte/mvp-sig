@@ -1,0 +1,37 @@
+# ---------------------------------------------------------------------------
+# MVP de diagnóstico inteligente de Sistemas Integrados de Gestión (SIG)
+# ISO 9001:2015 / ISO 14001:2015 / ISO 45001:2018
+# ---------------------------------------------------------------------------
+# Python >= 3.10 (probado en 3.13)
+
+# --- Base de datos vectorial ---------------------------------------------
+chromadb==1.5.9
+# Alternativa comparada en el experimento de la fase 3.3.a. Es opcional: el
+# MVP no lo usa, sólo el script scripts/experimento_bd_vectorial.py.
+# qdrant-client==1.19.1
+
+# --- Integraciones con modelos de lenguaje --------------------------------
+ollama==0.6.1
+requests==2.32.5
+
+# --- Extracción de documentos ---------------------------------------------
+pypdf==6.9.2          # PDF
+python-docx==1.2.0    # DOCX
+openpyxl==3.1.5       # XLSX
+xlrd==2.0.2           # XLS heredado (Excel 97-2003, formato binario)
+olefile==0.47         # Clasificación de contenedores OLE2 (Word/Excel antiguos)
+
+# --- Sólo para las pruebas (genera ficheros .xls de ejemplo) --------------
+# xlwt==1.3.0
+
+# --- API REST --------------------------------------------------------------
+fastapi==0.139.0
+uvicorn==0.47.0
+pydantic>=2.7
+
+# --- Interfaz web ----------------------------------------------------------
+streamlit==1.66.0
+pandas==2.3.3
+
+# --- Utilidades ------------------------------------------------------------
+numpy==2.4.2

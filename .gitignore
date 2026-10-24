@@ -1,0 +1,27 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Configuración local (puede contener claves de API)
+.env
+
+# Datos generados: base vectorial, catálogos, informes y logs
+data/storage/
+data/catalog/
+data/reports/
+data/*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

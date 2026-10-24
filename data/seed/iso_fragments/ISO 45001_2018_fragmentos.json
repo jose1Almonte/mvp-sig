@@ -1,0 +1,1282 @@
+[
+    {
+        "contenido": "NORMA INTERNACIONAL Sistemas de gestión de la seguridad y salud en el trabajo — Requisitos con orientación para su uso 1 Objeto y campo de aplicación Este documento especifica requisitos para un sistema de gestión de la seguridad y salud en el trabajo (SST) y proporciona orientación para su uso, para permitir a las organizaciones proporcionar lugares de trabajo seguros y saludables previniendo las lesiones y el deterioro de la salud relacionados con el trabajo, así como mejorando de manera proactiva su desempeño de la SST. Este documento es aplicable a cualquier organización que desee establecer, implementar y mantener un sistema de gestión de la SST para mejorar la seguridad y salud en el trabajo, eliminar los peligros y minimizar los riesgos para la SST (incluyendo las deficiencias del sistema), aprovechar las oportunidades para la SST y abordar las no conformidades del sistema de gestión de la SST asociadas a sus actividades",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 10,
+            "clausula": "General/Contexto"
+        }
+    },
+    {
+        "contenido": ". Este documento ayuda a una organización a alcanzar los resultados previstos de su sistema de gestión de la SST. En coherencia con la política de la SST de la organización, los resultados previstos de un sistema de gestión de la SST incluyen: a) la mejora continua del desempeño de la SST; b) el cumplimiento de los requisitos legales y otros requisitos; c) el logro de los objetivos de la SST. Este documento es aplicable a cualquier organización sin importar su tamaño, tipo y actividades. Es aplicable a los riesgos para la SST bajo el control de la organización, teniendo en cuenta factores tales como el contexto en el que opera la organización y las necesidades y expectativas de sus trabajadores y otras partes interesadas. Este documento no establece criterios específicos para el desempeño de la SST, ni para el diseño de un sistema de gestión de la SST",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 10,
+            "clausula": "General/Contexto"
+        }
+    },
+    {
+        "contenido": ". Este documento no establece criterios específicos para el desempeño de la SST, ni para el diseño de un sistema de gestión de la SST. Este documento permite a una organización, mediante su sistema de gestión de la SST, integrar otros aspectos de la seguridad y salud, tales como el bienestar del trabajador. Este documento no aborda cuestiones tales como la seguridad del producto, los daños a la propiedad o los impactos ambientales, más allá de los riesgos para los trabajadores y para otras partes interesadas pertinentes. Este documento puede ser utilizado total o parcialmente para mejorar de manera sistemática la gestión de la seguridad y salud en el trabajo. Sin embargo, las declaraciones de conformidad con este documento no son aceptables a menos que todos sus requisitos estén incorporados en el sistema de gestión de la SST de una organización y se cumplan sin exclusión.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 10,
+            "clausula": "General/Contexto"
+        }
+    },
+    {
+        "contenido": "2 Referencias normativas El presente documento no contiene referencias normativas. 3 Términos y definiciones Para los fines de este documento, se aplican los términos y definiciones siguientes. ISO e IEC mantienen bases de datos terminológicas para su utilización en normalización en las siguientes direcciones: — Plataforma de búsqueda en línea de ISO: disponible en https://www.iso.org/obp — Electropedia de IEC: disponible en http://www.electropedia.org/ 3.1 organización persona o grupo de personas que tiene sus propias funciones con responsabilidades, autoridades y relaciones para el logro de sus objetivos (3.16) Nota 1 a la entrada: El concepto de organización incluye, entre otros, un trabajador independiente, compañía, corporación, firma, empresa, autoridad, sociedad, organización benéfica o institución, o una parte o combinación de éstas, ya estén constituidas o no, públicas o privadas",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 11,
+            "clausula": "3.1"
+        }
+    },
+    {
+        "contenido": ". Nota 2 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1. 3.2 parte interesada persona u organización (3.1) que puede afectar, verse afectada, o percibirse como afectada por una decisión o actividad Nota 1 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1. 3.3 trabajador persona que realiza trabajo o actividades relacionadas con el trabajo que están bajo el control de la organización (3.1) Nota 1 a la entrada: Personas que realizan trabajo o actividades relacionadas con el trabajo bajo diversos acuerdos, pagados o no pagados, tales como de manera regular o temporal, intermitente o estacional, esporádica o a tiempo parcial",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 11,
+            "clausula": "3.2"
+        }
+    },
+    {
+        "contenido": ". Nota 2 a la entrada: Los trabajadores incluyen la alta dirección (3.12), personas directivas y no directivas. Nota 3 a la entrada: El trabajo o las actividades relacionadas con el trabajo realizadas bajo el control de la organización puede ser realizado por trabajadores empleados por la organización, trabajadores de proveedores externos, contratistas, independientes, trabajadores proporcionados por otra organización, y por otras personas en la medida en que la organización comparta el control sobre su trabajo o actividades relacionadas con el trabajo, de acuerdo con el contexto de la organización.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 11,
+            "clausula": "3.2"
+        }
+    },
+    {
+        "contenido": "3.4 participación acción y efecto de involucrar en la toma de decisiones Nota 1 a la entrada: La participación incluye el comprometer a los comités de seguridad y salud y a los representantes de los trabajadores, cuando existan. 3.5 consulta búsqueda de opiniones antes de tomar una decisión Nota 1 a la entrada: La consulta incluye el comprometer a los comités de seguridad y salud y a los representantes de los trabajadores, cuando existan. 3.6 lugar de trabajo lugar bajo el control de la organización (3.1) donde una persona necesita estar o ir por razones de trabajo Nota 1 a la entrada: Las responsabilidades de la organización bajo el sistema de gestión de la SST (3.11) para el lugar de trabajo dependen del grado de control sobre el lugar de trabajo",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 12,
+            "clausula": "3.4"
+        }
+    },
+    {
+        "contenido": ". 3.7 contratista organización (3.1) externa que proporciona servicios a la organización de acuerdo con las especificaciones, términos y condiciones acordados Nota 1 a la entrada: Los servicios pueden incluir actividades de construcción, entre otros. 3.8 requisito necesidad o expectativa establecida, generalmente implícita u obligatoria Nota 1 a la entrada: “Generalmente implícita” significa que es habitual o práctica común para la organización (3.1) y las partes interesadas (3.2) que la necesidad o expectativa bajo consideración está implícita. Nota 2 a la entrada: Un requisito especificado es el que está declarado, por ejemplo en información documentada (3.24). Nota 3 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 12,
+            "clausula": "3.7"
+        }
+    },
+    {
+        "contenido": ". 3.9 requisitos legales y otros requisitos requisitos legales que una organización (3.1) tiene que cumplir y otros requisitos (3.8) que una organización tiene que cumplir o que elige cumplir Nota 1 a la entrada: Para los propósitos de este documento, los requisitos legales y otros requisitos son aquellos que son pertinentes para el sistema de gestión de la SST (3.11). Nota 2 a la entrada: “Los requisitos legales y otros requisitos” incluyen las disposiciones de acuerdos colectivos. Nota 3 a la entrada: Los requisitos legales y otros requisitos incluyen aquellos que identifican a las personas que son los representantes de los trabajadores (3.3) de acuerdo con las leyes, los reglamentos, los acuerdos colectivos y las prácticas.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 12,
+            "clausula": "3.9"
+        }
+    },
+    {
+        "contenido": "3.10 sistema de gestión conjunto de elementos de una organización (3.1) interrelacionados o que interactúan para establecer políticas (3.14), objetivos (3.16) y procesos (3.25) para lograr estos objetivos Nota 1 a la entrada: Un sistema de gestión puede abordar una sola disciplina o varias disciplinas. Nota 2 a la entrada: Los elementos del sistema incluyen la estructura de la organización, los roles y las responsabilidades, la planificación, la operación, la evaluación del desempeño y la mejora. Nota 3 a la entrada: El alcance de un sistema de gestión puede incluir la totalidad de la organización, funciones específicas e identificadas de la organización, secciones específicas e identificadas de la organización, o una o más funciones dentro de un grupo de organizaciones",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 13,
+            "clausula": "3.10"
+        }
+    },
+    {
+        "contenido": ". Nota 4 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1. La Nota 2 a la entrada se ha modificado para clarificar ciertos aspectos más amplios de un sistema de gestión. 3.11 sistema de gestión de la seguridad y salud en el trabajo sistema de gestión de la SST sistema de gestión (3.10) o parte de un sistema de gestión utilizado para alcanzar la política de la SST (3.15) Nota 1 a la entrada: Los resultados previstos del sistema de gestión de la SST son prevenir lesiones y deterioro de la salud (3.18) a los trabajadores (3.3) y proporcionar lugares de trabajo (3.6) seguros y saludables. Nota 2 a la entrada: Los términos “salud y seguridad en el trabajo” (en inglés, OSH) y “seguridad y salud en el trabajo” (en inglés, OH&S) tienen el mismo significado",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 13,
+            "clausula": "3.11"
+        }
+    },
+    {
+        "contenido": ". 3.12 alta dirección persona o grupo de personas que dirige y controla una organización (3.1) al más alto nivel Nota 1 a la entrada: La alta dirección tiene el poder para delegar autoridad y proporcionar recursos dentro de la organización siempre que se conserve la responsabilidad última del sistema de gestión de la SST (3.11). Nota 2 a la entrada: Si el alcance del sistema de gestión (3.10) comprende sólo una parte de la organización, entonces alta dirección se refiere a quienes dirigen y controlan esa parte de la organización. Nota 3 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1. La Nota 1 a la entrada se ha modificado para clarificar la responsabilidad de la alta dirección en relación con un sistema de gestión de la SST",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 13,
+            "clausula": "3.12"
+        }
+    },
+    {
+        "contenido": ". La Nota 1 a la entrada se ha modificado para clarificar la responsabilidad de la alta dirección en relación con un sistema de gestión de la SST. 3.13 eficacia grado en el que se realizan las actividades planificadas y se alcanzan los resultados planificados Nota 1 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 13,
+            "clausula": "3.13"
+        }
+    },
+    {
+        "contenido": "3.14 política intenciones y dirección de una organización (3.1), como las expresa formalmente su alta dirección (3.12) Nota 1 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1. 3.15 política de la seguridad y salud en el trabajo política de la SST política (3.14) para prevenir lesiones y deterioro de la salud (3.18) relacionados con el trabajo a los trabajadores (3.3), y para proporcionar lugares de trabajo (3.6) seguros y saludables 3.16 objetivo resultado a alcanzar Nota 1 a la entrada: Un objetivo puede ser estratégico, táctico u operativo",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 14,
+            "clausula": "3.14"
+        }
+    },
+    {
+        "contenido": ". Nota 2 a la entrada: Los objetivos pueden referirse a diferentes disciplinas (tales como financieras, de seguridad y salud y ambientales) y se pueden aplicar en diferentes niveles [tales como estratégicos, para toda la organización, para proyectos, productos y procesos (3.25)]. Nota 3 a la entrada: Un objetivo se puede expresar de otras maneras, por ejemplo, como un resultado previsto, un propósito, un criterio operativo, un objetivo de la SST (3.17) o mediante el uso de términos con un significado similar (por ejemplo finalidad o meta). Nota 4 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1. La “Nota 4 a la entrada” original se ha eliminado porque el término “objetivo de la SST” se ha definido de forma separada en 3.17",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 14,
+            "clausula": "3.17"
+        }
+    },
+    {
+        "contenido": ". La “Nota 4 a la entrada” original se ha eliminado porque el término “objetivo de la SST” se ha definido de forma separada en 3.17. 3.17 objetivo de la seguridad y salud en el trabajo objetivo de la SST objetivo (3.16) establecido por la organización (3.1) para lograr resultados específicos coherentes con la política de la SST (3.15) 3.18 lesión y deterioro de la salud efecto adverso en la condición física, mental o cognitiva de una persona Nota 1 a la entrada: Estos efectos adversos incluyen enfermedad profesional, enfermedad común y muerte. Nota 2 a la entrada: El término “ lesión y deterioro de la salud” implica la presencia de lesiones o de deterioro de la salud, solos o en combinación",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 14,
+            "clausula": "3.17"
+        }
+    },
+    {
+        "contenido": ". 3.19 peligro fuente con un potencial para causar lesiones y deterioro de la salud (3.18) Nota 1 a la entrada: Los peligros pueden incluir fuentes con el potencial de causar daños o situaciones peligrosas, o circunstancias con el potencial de exposición que conduzca a lesiones y deterioro de la salud.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 14,
+            "clausula": "3.19"
+        }
+    },
+    {
+        "contenido": "3.20 riesgo efecto de la incertidumbre Nota 1 a la entrada: Un efecto es una desviación de lo esperado — positiva o negativa. Nota 2 a la entrada: Incertidumbre es el estado, incluso parcial, de deficiencia de información relacionada con la comprensión o conocimiento de un evento, su consecuencia o su probabilidad. Nota 3 a la entrada: Con frecuencia el riesgo se caracteriza por referencia a “eventos” potenciales (según se define en la Guía ISO 73:2009, 3.5.1.3), y “consecuencias” (según se define en la Guía ISO 73:2009, 3.6.1.3), o una combinación de éstos. Nota 4 a la entrada: Con frecuencia el riesgo se expresa en términos de una combinación de las consecuencias de un evento (incluidos cambios en las circunstancias) y la “probabilidad” (según se define en la Guía ISO 73:2009, 3.6.1.1) asociada de que ocurra",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 15,
+            "clausula": "3.20"
+        }
+    },
+    {
+        "contenido": ". Nota 5 a la entrada: En este documento, cuando se utiliza el término “riesgos y oportunidades” significa riesgos para la SST (3.21), oportunidades para la SST (3.22) y otros riesgos y otras oportunidades para el sistema de gestión. Nota 6 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1. La Nota 5 a la e ntrada se ha añadido para clarificar el término “riesgos y oportunidades” en su uso para este documento",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 15,
+            "clausula": "3.20"
+        }
+    },
+    {
+        "contenido": ". La Nota 5 a la e ntrada se ha añadido para clarificar el término “riesgos y oportunidades” en su uso para este documento. 3.21 riesgo para la seguridad y salud en el trabajo riesgo para la SST combinación de la probabilidad de que ocurran eventos o exposicion es peligrosos relacionados con el trabajo y la severidad de la lesión y deterioro de la salud (3.18) que pueden causar l os eventos o exposiciones 3.22 oportunidad para la seguridad y salud en el trabajo oportunidad para la SST circunstancia o conjunto de circunstancias que pueden conducir a la mejora del desempeño de la SST (3.28) 3.23 competencia capacidad para aplicar conocimientos y habilidades con el fin de alcanzar los resultados previstos Nota 1 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 15,
+            "clausula": "3.21"
+        }
+    },
+    {
+        "contenido": ". 3.24 información documentada información que una organización (3.1) tiene que controlar y mantener, y el medio que la contiene Nota 1 a la entrada: La información documentada puede estar en cualquier formato y medio, y puede provenir de cualquier fuente. Nota 2 a la entrada: La información documentada puede hacer referencia a:",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 15,
+            "clausula": "3.24"
+        }
+    },
+    {
+        "contenido": "a) el sistema de gestión (3.10), incluidos los procesos (3.25) relacionados; b) la información generada para que la organización opere (documentación); c) la evidencia de los resultados alcanzados (registros). Nota 3 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1. 3.25 proceso conjunto de actividades interrelacionadas o que interactúan, que transforma las entradas en salidas Nota 1 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1. 3.26 procedimiento forma especificada de llevar a cabo una actividad o un proceso (3.25) Nota 1 a la entrada: Los procedimientos pueden estar documentados o no",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 16,
+            "clausula": "3.25"
+        }
+    },
+    {
+        "contenido": ". [FUENTE: ISO 9000:2015, 3.4.5, modificado — La Nota 1 a la entrada se ha modificado en la versión inglesa al sustituir “can” por “may”, no aplica a la versión en español.] 3.27 desempeño resultado medible Nota 1 a la entrada: El desempeño se puede relacionar con hallazgos cuantitativos o cualitativos. Los resultados pueden determinarse y evaluarse por métodos cualitativos o cuantitativos. Nota 2 a la entrada: El desempeño se puede relacionar con la gestión de actividades, procesos (3.25), productos (incluidos servicios), sistemas u organizaciones (3.1). Nota 3 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1. La Nota 1 a la entrada se ha modificado para clarificar los tipos y métodos que pueden utilizarse para determinar y evaluar los resultados",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 16,
+            "clausula": "3.4.5"
+        }
+    },
+    {
+        "contenido": ". La Nota 1 a la entrada se ha modificado para clarificar los tipos y métodos que pueden utilizarse para determinar y evaluar los resultados. 3.28 desempeño de la seguridad y salud en el trabajo desempeño de la SST desempeño (3.27) relacionado con la eficacia (3.13) de la prevención de lesiones y deterioro de la salud (3.18) para los trabajadores (3.3) y de la provisión de lugares de trabajo (3.6) seguros y saludables 3.29 contratar externamente, verbo establecer un acuerdo mediante el cual una organización (3.1) externa realiza parte de una función o proceso (3.25) de una organización Nota 1 a la entrada: Una organización externa está fuera del alcance del sistema de gestión (3.10), aunque la función o proceso contratado externamente forme parte del alcance.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 16,
+            "clausula": "3.28"
+        }
+    },
+    {
+        "contenido": "Nota 2 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1. 3.30 seguimiento determinación del estado de un sistema, un proceso (3.25) o una actividad Nota 1 a la entrada: Para determinar el estado, puede ser necesario verificar, supervisar u observar en forma crítica. Nota 2 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1. 3.31 medición proceso (3.25) para determinar un valor Nota 1 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 17,
+            "clausula": "3.30"
+        }
+    },
+    {
+        "contenido": ". 3.32 auditoría proceso (3.25) sistemático, independiente y documentado para obtener las evidencias de auditoría y evaluarlas de manera objetiva con el fin de determinar el grado en el que se cumplen los criterios de auditoría Nota 1 a la entrada: Una auditoría puede ser interna (de primera parte) o externa (de segunda o tercera parte), y puede ser combinada (combinando dos o más disciplinas). Nota 2 a la entrada: La auditoría interna la realiza la propia organización (3.1), o una parte externa en su nombre. Nota 3 a la entrada: “Evidencia de auditoría” y “criterios de auditoría” se definen en la Norma ISO 19011. Nota 4 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 17,
+            "clausula": "3.32"
+        }
+    },
+    {
+        "contenido": ". 3.33 conformidad cumplimiento de un requisito (3.8) Nota 1 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1. 3.34 no conformidad incumplimiento de un requisito (3.8) Nota 1 a la entrada: La no conformidad está relacionada con requisitos de este documento y con requisitos adicionales del sistema de gestión de la SST (3.11) que una organización (3.1) establece por sí misma.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 17,
+            "clausula": "3.33"
+        }
+    },
+    {
+        "contenido": "Nota 2 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1. La Nota 1 a la entrada se ha añadido para clarificar la relación de las no conformidades con los requisitos de este documento y con los requisitos propios de la organización para su sistema de gestión de la SST. 3.35 incidente suceso que surge del trabajo o en el transcurso del trabajo que podría tener o tiene como resultado lesiones y deterioro de la salud (3.18) Nota 1 a la entrada: En ocasiones se denomina “accidente” a un incidente donde se han producido lesiones y deterioro de la salud. Nota 2 a la entrada: Un incidente donde no se han producido lesiones y deterioro de la salud, pero tiene el potencial para causarlos, puede denominarse un “cuasi-accidente”",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 18,
+            "clausula": "3.35"
+        }
+    },
+    {
+        "contenido": ". Nota 3 a la entrada: Aunque puede haber una o más no conformidades (3.34) relacionadas con un incidente, un incidente también puede producirse aunque no haya ninguna no conformidad. 3.36 acción correctiva acción para eliminar la causa de una no conformidad (3.34) o un incidente (3.35) y prevenir que vuelva a ocurrir Nota 1 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas de sistemas de gestión de ISO proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1. La definición se ha modificado para incluir la referencia a “incidente”, dado que los incidentes son los factores clave de la seguridad y salud en el trabajo, sin embargo, las actividades necesarias para resolverlos son las mismas que para las no conformidades, a través de acciones correctivas",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 18,
+            "clausula": "3.36"
+        }
+    },
+    {
+        "contenido": ". 3.37 mejora continua actividad recurrente para mejorar el desempeño (3.27) Nota 1 a la entrada: Mejorar el desempeño está relacionado con el uso del sistema de gestión de la SST (3.11) para lograr la mejora en el desempeño global de la SST (3.28) coherente con la política de la SST (3.15) y los objetivos de la SST (3.17). Nota 2 a la entrada: Continua no significa ininterrumpida de manera que no es necesario que la actividad tenga lugar en todas las áreas de forma simultánea. Nota 3 a la entrada: Este constituye uno de los términos comunes y definiciones esenciales de las normas ISO de sistemas de gestión de proporcionados en el Anexo SL del suplemento de ISO consolidado de las Directivas ISO/IEC, Parte 1. La Nota 1 a la entrada se ha añadid o para clarificar el significado de “desempeño” en el contexto del sistema de gestión de la SST; y la Nota 2 a la entrada se ha añadido para clarificar el significado de “continua”",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 18,
+            "clausula": "3.37"
+        }
+    },
+    {
+        "contenido": ". 4 Contexto de la organización 4.1 Comprensión de la organización y de su contexto La organización debe determinar las cuestiones externas e internas que son pertinentes para su propósito y que afectan a su capacidad para alcanzar los resultados previstos de su sistema de gestión de la SST.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 18,
+            "clausula": "4.1"
+        }
+    },
+    {
+        "contenido": "4.2 Comprensión de las necesidades y expectativas de los trabajadores y de otras partes interesadas La organización debe determinar: a) las otras partes interesadas, además de los trabajadores, que son pertinentes al sistema de gestión de la SST; b) las necesidades y expectativas pertinentes (es decir, los requisitos) de los trabajadores y de otras partes interesadas; c) cuáles de estas necesidades y expectativas son, o podrían convertirse, en requisitos legales y otros requisitos. 4.3 Determinación del alcance del sistema de gestión de la SST La organización debe determinar los límites y la aplicabilidad del sistema de gestión de la SST para establecer su alcance. Cuando se determina este alcance, la organización debe: a) considerar las cuestiones externas e internas indicadas en el apartado 4.1; b) tener en cuenta los requisitos indicados en el apartado 4.2; c) tener en cuenta las actividades relacionadas con el trabajo, planificadas o realizadas",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 19,
+            "clausula": "4.2"
+        }
+    },
+    {
+        "contenido": ". El sistema de gestión de la SST debe incluir las actividades, los productos y los servicios bajo el control o la influencia de la organización que pueden tener un impacto en el desempeño de la SST de la organización. El alcance debe estar disponible como información documentada. 4.4 Sistema de gestión de la SST La organización debe establecer, implementar, mantener y mejorar continuamente un sistema de gestión de la SST, incluidos los procesos necesarios y sus interacciones, de acuerdo con los requisitos de este documento",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 19,
+            "clausula": "4.4"
+        }
+    },
+    {
+        "contenido": ". 5 Liderazgo y participación de los trabajadores 5.1 Liderazgo y compromiso La alta dirección debe demostrar liderazgo y compromiso con respecto al sistema de gestión de la SST: a) asumiendo la total responsabilidad y rendición de cuentas para la prevención de las lesiones y el deterioro de la salud relacionados con el trabajo, así como la provisión de actividades y lugares de trabajo seguros y saludables; b) asegurándose de que se establezcan la política de la SST y los objetivos relacionados de la SST y sean compatibles con la dirección estratégica de la organización;",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 19,
+            "clausula": "5.1"
+        }
+    },
+    {
+        "contenido": "c) asegurándose de la integración de los requisitos del sistema de gestión de la SST en los procesos de negocio de la organización; d) asegurándose de que los recursos necesarios para establecer, implementar, mantener y mejorar el sistema de gestión de la SST estén disponibles; e) comunicando la importancia de una gestión de la SST eficaz y conforme con los requisitos del sistema de gestión de la SST; f) asegurándose de que el sistema de gestión de la SST alcance los resultados previstos; g) dirigiendo y apoyando a las personas, para contribuir a la eficacia del sistema de gestión de la SST; h) asegurando y promoviendo la mejora continua; i) apoyando otros roles pertinentes de la dirección, para demostrar su liderazgo aplicado a sus áreas de responsabilidad; j) desarrollando, liderando y promoviendo una cultura en la organización que apoye los resultados previstos del sistema de gestión de la SST",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 20,
+            "clausula": "5.1"
+        }
+    },
+    {
+        "contenido": "; j) desarrollando, liderando y promoviendo una cultura en la organización que apoye los resultados previstos del sistema de gestión de la SST; k) protegiendo a los trabajadores de represalias al informar de incidentes, peligros, riesgos y oportunidades; l) asegurándose de que la organización establezca e implemente procesos para la consulta y la participación de los trabajadores (véase 5.4); m) apoyando el establecimiento y funcionamiento de comités de seguridad y salud [véase 5.4 e) 1)]",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 20,
+            "clausula": "5.1"
+        }
+    },
+    {
+        "contenido": ". NOTA En este documento se puede interpretar el término “negocio” en su sentido más amplio para referirse a aquellas actividades que son esenciales para la existencia de la organización",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 20,
+            "clausula": "5.1"
+        }
+    },
+    {
+        "contenido": ". 5.2 Política de la SST La alta dirección debe establecer, implementar y mantener una política de la SST que: a) incluya un compromiso para proporcionar condiciones de trabajo seguras y saludables para la prevención de lesiones y deterioro de la salud relacionados con el trabajo y que sea apropiada al propósito, tamaño y contexto de la organización y a la naturaleza específica de sus riesgos para la SST y sus oportunidades para la SST; b) proporcione un marco de referencia para el establecimiento de los objetivos de la SST; c) incluya un compromiso para cumplir los requisitos legales y otros requisitos; d) incluya un compromiso para eliminar los peligros y reducir los riesgos para la SST (véase 8.1.2); e) incluya un compromiso para la mejora continua del sistema de gestión de la SST; f) incluya un compromiso para la consulta y la participación de los trabajadores, y cuando existan, de los representantes de los trabajadores.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 20,
+            "clausula": "5.2"
+        }
+    },
+    {
+        "contenido": "La política de la SST debe: — estar disponible como información documentada; — comunicarse dentro de la organización; — estar disponible para las partes interesadas, según sea apropiado; — ser pertinente y apropiada. 5.3 Roles, responsabilidades y autoridades en la organización La alta dirección debe asegurarse de que las responsabilidades y autoridades para los roles pertinentes dentro del sistema de gestión de la SST se asignen y comuniquen a todos los niveles dentro de la organización, y se mantengan como información documentada. Los trabajadores en cada nivel de la organización deben asumir la responsabilidad de aquellos aspectos del sistema de gestión de la SST sobre los que tengan control. NOTA Mientras que la responsabilidad y la autoridad se pueden asignar, finalmente, la alta dirección es la que rinde cuentas del funcionamiento del sistema de gestión de la SST",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 21,
+            "clausula": "5.3"
+        }
+    },
+    {
+        "contenido": ". La alta dirección debe asignar la responsabilidad y autoridad para: a) asegurarse de que el sistema de gestión de la SST es conforme con los requisitos de este documento; b) informar a la alta dirección sobre el desempeño del sistema de gestión de la SST. 5.4 Consulta y participación de los trabajadores La organización debe establecer, implementar y mantener procesos para la consulta y la participación de los trabajadores a todos los niveles y funciones aplicables, y cuando existan, de los representantes de los trabajadores en el desarrollo, la planificación, la implementación, la evaluación del desempeño y las acciones para la mejora del sistema de gestión de la SST. La organización debe: a) proporcionar los mecanismos, el tiempo, la formación y los recursos necesarios para la consulta y la participación; NOTA 1 La representación de los trabajadores puede ser un mecanismo para la consulta y la participación",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 21,
+            "clausula": "5.4"
+        }
+    },
+    {
+        "contenido": ". b) proporcionar el acceso oportuno a información clara, comprensible y pertinente sobre el sistema de gestión de la SST; c) determinar y eliminar los obstáculos o barreras a la participación y minimizar aquellas que no puedan eliminarse; NOTA 2 Los obstáculos y barreras pueden incluir la falta de respuesta a los aportes o sugerencias de los trabajadores, barreras de idioma o de alfabetización, represalias o amenazas de represalias y políticas o prácticas que desalientan o penalizan la participación del trabajador.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 21,
+            "clausula": "5.4"
+        }
+    },
+    {
+        "contenido": "d) enfatizar la consulta de los trabajadores no directivos sobre lo siguiente: 1) la determinación de las necesidades y expectativas de las partes interesadas (véase 4.2); 2) el establecimiento de la política de la SST (véase 5.2); 3) la asignación de roles, responsabilidades y autoridades de la organización, según sea aplicable (véase 5.3); 4) la determinación de cómo cumplir los requisitos legales y otros requisitos (véase 6.1.3); 5) el establecimiento de los objetivos de la SST y la planificación para lograrlos (véase 6.2); 6) la determinación de los controles aplicables para la contratación externa, las compras y los contratistas (véase 8.1.4); 7) la determinación de qué necesita seguimiento, medición y evaluación (véase 9.1); 8) la planificación , el establecimiento , la implementación y el mantenimiento de programas de auditoría (véase 9.2.2); 9) el aseguramiento de la mejora continua (véase 10.3)",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 22,
+            "clausula": "5.4"
+        }
+    },
+    {
+        "contenido": "; 9) el aseguramiento de la mejora continua (véase 10.3); e) enfatizar la participación de los trabajadores no directivos sobre lo siguiente: 1) la determinación de los mecanismos para su consulta y participación; 2) la identificación de los peligros y la evaluación de los riesgos y oportunidades (véanse 6.1.1 y 6.1.2); 3) la determinación de acciones para eliminar los peligros y reducir los riesgos para la SST (véase 6.1.4); 4) la determinación de los requisitos de competencia, las necesidades de formación, la formación y la evaluación de la formación (véase 7.2); 5) la determinación de qué información se necesita comunicar y cómo hacerlo (véase 7.4); 6) la determinación de medidas de control y su implementación y uso eficaces (véanse 8.1, 8.1.3 y 8.2); 7) la investigación de los incidentes y no conformidades y la determinación de las acciones correctivas (véase 10.2)",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 22,
+            "clausula": "6.1.1"
+        }
+    },
+    {
+        "contenido": ". NOTA 3 Enfatizar la consulta y la participación de los trabajadores no directivos pretende aplicarse a las personas que llevan a cabo actividades de trabajo, pero no pretende excluir, por ejemplo a los directivos que sufren un impacto por actividades de trabajo o por otros factores de la organización. NOTA 4 Se reconoce que la provisión de formación sin costo para los trabajadores y la provisión de formación durante las horas de trabajo, cuando sea posible, puede eliminar barreras significativas para la participación de los trabajadores.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 22,
+            "clausula": "6.1.1"
+        }
+    },
+    {
+        "contenido": "6 Planificación 6.1 Acciones para abordar riesgos y oportunidades 6.1.1 Generalidades Al planificar el sistema de gestión de la SST, la organización debe considerar las cuestiones referidas en el apartado 4.1 (contexto), los requisitos referidos en los apartados 4.2 (partes interesadas) y 4.3 (el alcance de su sistema de gestión de la SST) y determinar los riesgos y oportunidades que es necesario abordar con el fin de: a) asegurar que el sistema de gestión de la SST pueda alcanzar sus resultados previstos; b) prevenir o reducir efectos no deseados; c) lograr la mejora continua. Al determinar los riesgos y oportunidades para el sistema de gestión de la SST y sus resultados previstos que es necesario abordar, la organización debe tener en cuenta: — los peligros (véase 6.1.2.1); — los riesgos para la SST y otros riesgos (véase 6.1.2.2); — las oportunidades para la SST y otras oportunidades (véase 6.1.2.3); — los requisitos legales y otros requisitos (véase 6.1.3)",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 23,
+            "clausula": "6.1"
+        }
+    },
+    {
+        "contenido": ". La organización, en sus procesos de planificación, debe determinar y evaluar los riesgos y oportunidades que son pertinentes para los resultados previstos del sistema de gestión de la SST asociados con los cambios en la organización, sus procesos, o el sistema de gestión de la SST. En el caso de cambios planificados, permanentes o temporales, esta evaluación debe llevarse a cabo antes de que se implemente el cambio (véase 8.1.3). La organización debe mantener información documentada sobre: — los riesgos y oportunidades; — los procesos y acciones necesarios para determinar y abordar sus riesgos y oportunidades (véase desde 6.1.2 hasta 6.1.4), en la medida necesaria para tener la confianza de que se llevan a cabo según lo planificado. 6.1.2 Identificación de peligros y evaluación de los riesgos y oportunidades 6.1.2.1 Identificación de peligros La organización debe establecer, implementar y mantener procesos de identificación continua y proactiva de los peligros",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 23,
+            "clausula": "6.1.2"
+        }
+    },
+    {
+        "contenido": ". Los procesos deben tener en cuenta, pero no limitarse a: a) cómo se organiza el trabajo, los factores sociales [incluyendo la carga de trabajo, horas de trabajo, victimización y acoso (bullying) e intimidación], el liderazgo y la cultura de la organización;",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 23,
+            "clausula": "6.1.2"
+        }
+    },
+    {
+        "contenido": "b) las actividade s y las situaciones rutinarias y no rutinarias, incluyendo los peligros que surjan de: 1) la infraestructura, los equipos, los materiales, las sustancias y las condiciones físicas del lugar de trabajo; 2) el diseño de productos y servicios, la investigación, el desarrollo, los ensayos, la producción, el montaje, la construcción, la prestación de servicios, el mantenimiento y la disposición; 3) los factores humanos; 4) cómo se realiza el trabajo; c) los incidentes pasados pertinentes internos o externos a la organización, incluyendo emergencias, y sus causas; d) las situaciones de emergencia potenciales; e) las personas, incluyendo la consideración de: 1) aquéllas con acceso al lugar de trabajo y sus actividades, incluyendo trabajadores, contratistas, visitantes y otras personas; 2) aquéllas en las inmediaciones del lugar de trabajo que pueden verse afectadas por las actividades de la organización",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 24,
+            "clausula": "6.1.2"
+        }
+    },
+    {
+        "contenido": "; 2) aquéllas en las inmediaciones del lugar de trabajo que pueden verse afectadas por las actividades de la organización; 3) los trabajadores en una ubicación que no está bajo el control directo de la organización; f) otras cuestiones, incluyendo la consideración de: 1) el diseño de las áreas de trabajo, los procesos, las instalaciones, la maquinaria/equipos, los procedimientos operativos y la organización del trabajo, incluyendo su adaptación a las necesidades y capacidades de los trabajadores involucrados; 2) las situaciones que ocurren en las inmediaciones del lugar de trabajo causadas por actividades relacionadas con el trabajo bajo el control de la organización; 3) las situaciones no controladas por la organización y que ocurren en las inmediaciones del lugar de trabajo que pueden causar lesiones y deterioro de la salud a personas en el lugar de trabajo",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 24,
+            "clausula": "6.1.2"
+        }
+    },
+    {
+        "contenido": "; g) los cambios reales o propuestos en la organización, operaciones, procesos, actividades y el sistema de gestión de la SST (véase 8.1.3); h) los cambios en el conocimiento y la información sobre los peligros",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 24,
+            "clausula": "6.1.2"
+        }
+    },
+    {
+        "contenido": ". 6.1.2.2 Evaluación de los riesgos para la SST y otros riesgos para el sistema de gestión de la SST La organización debe establecer, implementar y mantener procesos para: a) evaluar los riesgos para la SST a partir de los peligros identificados, teniendo en cuenta la eficacia de los controles existentes; b) determinar y evaluar los otros riesgos relacionados con el establecimiento, implementación, operación y mantenimiento del sistema de gestión de la SST.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 24,
+            "clausula": "6.1.2.2"
+        }
+    },
+    {
+        "contenido": "Las metodologías y criterios de la organización para la evaluación de los riesgos para la SST deben definirse con respecto al alcance, naturaleza y momento en el tiempo, para asegurarse de que son más proactivas que reactivas y que se utilicen de un modo sistemático. Estas metodologías y criterios deben mantenerse y conservarse como información documentada",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 25,
+            "clausula": "6.1.2.2"
+        }
+    },
+    {
+        "contenido": ". Estas metodologías y criterios deben mantenerse y conservarse como información documentada. 6.1.2.3 Evaluación de las oportunidades para la SST y otras oportunidades para el sistema de gestión de la SST La organización debe establecer, implementar y mantener procesos para evaluar: a) las oportunidades para la SST que permitan mejorar el desempeño de la SST, teniendo en cuenta los cambios planificados en la organización, sus políticas, sus procesos o sus actividades, y: 1) las oportunidades para adaptar el trabajo, la organización del trabajo y el ambiente de trabajo a los trabajadores; 2) las oportunidades de eliminar los peligros y reducir los riesgos para la SST; b) otras oportunidades para mejorar el sistema de gestión de la SST. NOTA Los riesgos para la SST y las oportunidades para la SST pueden dar como resultado otros riesgos y otras oportunidades para la organización",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 25,
+            "clausula": "6.1.2.3"
+        }
+    },
+    {
+        "contenido": ". NOTA Los riesgos para la SST y las oportunidades para la SST pueden dar como resultado otros riesgos y otras oportunidades para la organización. 6.1.3 Determinación de los requisitos legales y otros requisitos La organización debe establecer, implementar y mantener procesos para: a) determinar y tener acceso a los requisitos legales y otros requisitos actualizados que sean aplicables a sus peligros, sus riesgos para la SST y su sistema de gestión de la SST; b) determinar cómo estos requisitos legales y otros requisitos aplican a la organización y qué necesita comunicarse; c) tener en cuenta estos requisitos legales y otros requisitos al establecer, implementar, mantener y mejorar de manera continua su sistema de gestión de la SST. La organización debe mantener y conservar información documentada sobre sus requisitos legales y otros requisitos y debe asegurarse de que se actualiza para reflejar cualquier cambio",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 25,
+            "clausula": "6.1.3"
+        }
+    },
+    {
+        "contenido": ". NOTA Los requisitos legales y otros requisitos pueden dar como resultado riesgos y oportunidades para la organización. 6.1.4 Planificación de acciones La organización debe planificar: a) las acciones para: 1) abordar estos riesgos y oportunidades (véanse 6.1.2.2 y 6.1.2.3); 2) abordar los requisitos legales y otros requisitos (véase 6.1.3); 3) prepararse y responder ante situaciones de emergencia (véase 8.2);",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 25,
+            "clausula": "6.1.4"
+        }
+    },
+    {
+        "contenido": "b) la manera de: 1) integrar e implementar las acciones en sus procesos del sistema de gestión de la SST o en otros procesos de negocio; 2) evaluar la eficacia de estas acciones. La organización debe tener en cuenta la jerarquía de los controles (véase 8.1.2) y las salidas del sistema de gestión de la SST cuando planifique la toma de acciones. Al planificar sus acciones la organización debe considerar las mejores prácticas, las opciones tecnológicas y los requisitos financieros, operacionales y de negocio. 6.2 Objetivos de la SST y planificación para lograrlos 6.2.1 Objetivos de la SST La organización debe establecer objetivos de la SST para las funciones y niveles pertinentes para mantener y mejorar continuamente el sistema de gestión de la SST y el desempeño de la SST (véase 10.3)",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 26,
+            "clausula": "6.2"
+        }
+    },
+    {
+        "contenido": ". Los objetivos de la SST deben: a) ser coherentes con la política de la SST; b) ser medibles (si es posible) o evaluables en términos de desempeño; c) tener en cuenta: 1) los requisitos aplicables; 2) los resultados de la evaluación de los riesgos y oportunidades (véanse 6.1.2.2 y 6.1.2.3); 3) los resultados de la consulta con los trabajadores (véase 5.4) y, cuando existan, con los representantes de los trabajadores; d) ser objeto de seguimiento; e) comunicarse; f) actualizarse, según sea apropiado. 6.2.2 Planificación para lograr los objetivos de la SST Al planificar cómo lograr sus objetivos de la SST, la organización debe determinar: a) qué se va a hacer; b) qué recursos se requerirán; c) quién será responsable; d) cuándo se finalizará;",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 26,
+            "clausula": "6.1.2.2"
+        }
+    },
+    {
+        "contenido": "e) cómo se evaluarán los resultados, incluyendo los indicadores de seguimiento; f) cómo se integrarán las acciones para lograr los objetivos de la SST en los procesos de negocio de la organización. La organización debe mantener y conservar información documentada sobre los objetivos de la SST y los planes para lograrlos. 7 Apoyo 7.1 Recursos La organización debe determinar y proporcionar los recursos necesarios para el establecimiento, implementación, mantenimiento y mejora continua del sistema de gestión de la SST",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 27,
+            "clausula": "7.1"
+        }
+    },
+    {
+        "contenido": ". 7.2 Competencia La organización debe: a) determinar la competencia necesaria de los trabajadores que afecta o puede afectar a su desempeño de la SST; b) asegurarse de que los trabajadores sean competentes (incluyendo la capacidad de identificar los peligros), basándose en la educación, formación o experiencia apropiadas; c) cuando sea aplicable, tomar acciones para adquirir y mantener la competencia necesaria y evaluar la eficacia de las acciones tomadas; d) conservar la información documentada apropiada, como evidencia de la competencia. NOTA Las acciones aplicables pueden incluir, por ejemplo, la provisión de formación, la tutoría o la reasignación de las personas empleadas actualmente; o la contratación o subcontratación de personas competentes",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 27,
+            "clausula": "7.2"
+        }
+    },
+    {
+        "contenido": ". 7.3 Toma de conciencia Los trabajadores deben ser sensibilizados sobre y tomar conciencia de: a) la política de la SST y los objetivos de la SST; b) su contribución a la eficacia del sistema de gestión de la SST, incluidos los beneficios de una mejora del desempeño de la SST; c) las implicaciones y las consecuencias potenciales de no cumplir los requisitos del sistema de gestión de la SST; d) los incidentes, y los resultados de investigaciones, que sean pertinentes para ellos; e) los peligros, los riesgos para la SST y las acciones determinadas, que sean pertinentes para ellos; f) la capacidad de alejarse de situaciones de trabajo que consideren que presentan un peligro inminente y serio para su vida o su salud, así como las disposiciones para protegerles de las consecuencias indebidas de hacerlo.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 27,
+            "clausula": "7.3"
+        }
+    },
+    {
+        "contenido": "7.4 Comunicación 7.4.1 Generalidades La organización debe establecer, implementar y mantener los procesos necesarios para las comunicaciones internas y externas pertinentes al sistema de gestión de la SST, incluyendo la determinación de: a) qué comunicar; b) cuándo comunicar; c) a quién comunicar: 1) internamente entre los diversos niveles y funciones de la organización; 2) entre contratistas y visitantes al lugar de trabajo; 3) entre otras partes interesadas; d) cómo comunicar. La organización debe tener en cuenta aspectos de diversidad (por ejemplo, género, idioma, cultura, alfabetización, discapacidad), al considerar sus necesidades de comunicación. La organización debe asegurarse de que se consideran los puntos de vista de partes interesadas externas al establecer sus procesos de comunicación",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 28,
+            "clausula": "7.4"
+        }
+    },
+    {
+        "contenido": ". La organización debe asegurarse de que se consideran los puntos de vista de partes interesadas externas al establecer sus procesos de comunicación. Al establecer sus procesos de comunicación, la organización debe: — tener en cuenta sus requisitos legales y otros requisitos; — asegurarse de que la información de la SST a comunicar es coherente con la información generada dentro del sistema de gestión de la SST, y es fiable La organización debe responder a las comunicaciones pertinentes sobre su sistema de gestión de la SST. La organización debe conservar la información documentada como evidencia de sus comunicaciones, según sea apropiado",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 28,
+            "clausula": "7.4"
+        }
+    },
+    {
+        "contenido": ". La organización debe conservar la información documentada como evidencia de sus comunicaciones, según sea apropiado. 7.4.2 Comunicación interna La organización debe: a) comunicar internamente la información pertinente para el sistema de gestión de la SST entre los diversos niveles y funciones de la organización, incluyendo los cambios en el sistema de gestión de la SST, según sea apropiado; b) asegurarse de que sus procesos de comunicación permit an a los trabajadores contribuir a la mejora continua. 7.4.3 Comunicación externa La organización debe comunicar externamente la información pertinente para el sistema de gestión de la SST, según se establece en los procesos de comunicación de la organización y teniendo en cuenta sus requisitos legales y otros requisitos.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 28,
+            "clausula": "7.4.2"
+        }
+    },
+    {
+        "contenido": "7.5 Información documentada 7.5.1 Generalidades El sistema de gestión de la SST de la organización debe incluir: a) la información documentada requerida por este documento; b) la información documentada que la organización determina como necesaria para la eficacia del sistema de gestión de la SST. NOTA La extensión de la información documentada para un sistema de gestión de la SST puede variar de una organización a otra, debido a: — el tamaño de la organización y su tipo de actividades, procesos, productos y servicios; — la necesidad de demostrar el cumplimiento de los requisitos legales y otros requisitos; — la complejidad de los procesos y sus interacciones; — la competencia de los trabajadores",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 29,
+            "clausula": "7.5"
+        }
+    },
+    {
+        "contenido": ". 7.5.2 Creación y actualización Al crear y actualizar la información documentada, la organización debe asegurarse de que lo siguiente sea apropiado: a) la identificación y descripción (por ejemplo, título, fecha, autor o ); b) el formato (por ejemplo, idioma, versión del software, gráficos) y los medios de soporte (por ejemplo, papel, electrónico); c) la revisión y aprobación con respecto a la conveniencia y adecuación. 7.5.3 Control de la Información documentada La información documentada requerida por el sistema de gestión de la SST y por este documento se debe controlar para asegurarse de que: a) esté disponible y sea idónea para su uso, dónde y cuándo se necesite; b) esté protegida adecuadamente (por ejemplo, contra pérdida de la confidencialidad, uso inadecuado, o pérdida de integridad)",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 29,
+            "clausula": "7.5.2"
+        }
+    },
+    {
+        "contenido": ". Para el control de la información documentada, la organización debe abordar las siguientes actividades, según sea aplicable — distribución, acceso, recuperación y uso; — almacenamiento y preservación, incluida la preservación de la legibilidad; — control de cambios (por ejemplo control de versión); — conservación y disposición.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 29,
+            "clausula": "7.5.2"
+        }
+    },
+    {
+        "contenido": "La información documentada de origen externo que la organización determina como necesaria para la planificación y operación del sistema de gestión de la SST se debe identificar, según sea apropiado, y controlar. NOTA 1 El acceso puede implicar una decisión en relación al permiso solamente para consultar la información documentada, o al permiso y a la autoridad para consultar y modificar la información documentada. NOTA 2 El acceso a la información documentada pertinente incluye el acceso por parte de los trabajadores, y cuando existan, de los representantes de los trabajadores",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 30,
+            "clausula": "7.5.2"
+        }
+    },
+    {
+        "contenido": ". 8 Operación 8.1 Planificación y control operacional 8.1.1 Generalidades La organización debe planificar, implementar, controlar y mantener los procesos necesarios para cumplir los requisitos del sistema de gestión de la SST y para implementar las acciones determinadas en el capítulo 6 mediante: a) el establecimiento de criterios para los procesos; b) la implementación del control de los procesos de acuerdo con los criterios; c) el mantenimiento y la conservación de información documentada en la medida necesaria para confiar en que los procesos se han llevado a cabo según lo planificado; d) la adaptación del trabajo a los trabajadores. En lugares de trabajo con múltiples empleadores, la organización debe coordinar las partes pertinentes del sistema de gestión de la SST con las otras organizaciones",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 30,
+            "clausula": "8.1"
+        }
+    },
+    {
+        "contenido": ". 8.1.2 Eliminar peligros y reducir riesgos para la SST La organización debe establecer, implementar y mantener procesos para la eliminación de los peligros y la reducción de los riesgos para la SST utilizando la siguiente jerarquía de los controles: a) eliminar el peligro; b) sustituir con procesos, operaciones, materiales o equipos menos peligrosos; c) utilizar controles de ingeniería y reorganización del trabajo; d) utilizar controles administrativos, incluyendo la formación; e) utilizar equipos de protección personal adecuados. NOTA En muchos países, los requisitos legales y otros requisitos incluyen el requisito de que los equipos de protección personal (EPP) se proporcionen sin costo para los trabajadores.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 30,
+            "clausula": "8.1.2"
+        }
+    },
+    {
+        "contenido": "8.1.3 Gestión del cambio La organización debe establecer procesos para la implementación y el control de los cambios planificados temporales y permanentes que impactan en el desempeño de la SST, incluyendo: a) los nuevos productos, servicios y procesos o los cambios de productos, servicios y procesos existentes, incluyendo: — las ubicaciones de los lugares de trabajo y sus alrededores; — la organización del trabajo; — las condiciones de trabajo; — los equipos; — la fuerza de trabajo; b) cambios en los requisitos legales y otros requisitos; c) cambios en el conocimiento o la información sobre los peligros y riesgos para la SST; d) desarrollos en conocimiento y tecnología. La organización debe revisar las consecuencias de los cambios no previstos, tomando acciones para mitigar cualquier efecto adverso, según sea necesario. NOTA Los cambios pueden resultar en riesgos y oportunidades",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 31,
+            "clausula": "8.1.3"
+        }
+    },
+    {
+        "contenido": ". NOTA Los cambios pueden resultar en riesgos y oportunidades. 8.1.4 Compras 8.1.4.1 Generalidades La organización debe establecer, implementar y mantener procesos para controlar la compra de productos y servicios de forma que se asegure su conformidad con su sistema de gestión de la SST. 8.1.4.2 Contratistas La organización debe coordinar sus procesos de compras con sus contratistas, para identificar los peligros y para evaluar y controlar los riesgos para la SST, que surjan de: a) las actividades y operaciones de los contratistas que impact an en la organización; b) las actividades y operaciones de la organización que impact an en los trabajadores de los contratistas; c) las actividades y operaciones de los contratistas que impact an en otras partes interesadas en el lugar de trabajo. La organización debe asegurarse de que los requisitos de su sistema de gestión de la SST se cumplen por los contratistas y sus trabajadores",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 31,
+            "clausula": "8.1.4"
+        }
+    },
+    {
+        "contenido": ". La organización debe asegurarse de que los requisitos de su sistema de gestión de la SST se cumplen por los contratistas y sus trabajadores. Los procesos de compra de la organización deben definir y aplicar los criterios de la seguridad y salud en el trabajo para la selección de contratistas. NOTA Puede ser útil incluir los criterios de la seguridad y salud en el trabajo para la selección de los contratistas en los documentos contractuales.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 31,
+            "clausula": "8.1.4"
+        }
+    },
+    {
+        "contenido": "8.1.4.3 Contratación externa La organización debe asegurarse de que las funciones y los procesos contratados externamente esté n controlados. La organización debe asegurarse de que sus acuerdos en materia de contratación externa son coherentes con los requisitos legales y otros requisitos y con alcanzar los resultados previstos de l sistema de gestión de la SST. El tipo y el grado de control a aplicar a esta s funciones y procesos deben definirse dentro del sistema de gestión de la SST. NOTA La coordinación con proveedores externos puede ayudar a una organización a abordar cualquier impacto que la contratación externa tenga sobre su desempeño de la SST",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 32,
+            "clausula": "8.1.4.3"
+        }
+    },
+    {
+        "contenido": ". 8.2 Preparación y respuesta ante emergencias La organización debe establecer, implementar y mantener procesos necesarios para prepararse y para responder ante situaciones de emergencia potenciales, según se identifica en el apartado 6.1.2.1, incluyendo: a) el establecimiento de una respuesta planificada a las situaciones de emergencia, incluyendo la prestación de primeros auxilios; b) la provisión de formación para la respuesta planificada; c) las pruebas periódicas y el ejercicio de la capacidad de respuesta planificada; d) la evaluación del desempeño y, cuando sea necesario, la revisión de la respuesta planificada, incluso después de las pruebas y, en particular, después de que ocurran situaciones de emergencia; e) la comunicación y provisión de la información pertinente a todos los trabajadores sobre sus deberes y responsabilidades",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 32,
+            "clausula": "8.2"
+        }
+    },
+    {
+        "contenido": "; e) la comunicación y provisión de la información pertinente a todos los trabajadores sobre sus deberes y responsabilidades; f) la comunicación de la información pertinente a los contratistas, visitantes, servicios de respuesta ante emergencias, autoridades gubernamentales y, según sea apropiado, a la comunidad local; g) tener en cuenta las necesidades y capacidades de todas las partes interesadas pertinentes y asegurándose que se involucran, según sea apropiado, en el desarrollo de la respuesta planificada",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 32,
+            "clausula": "8.2"
+        }
+    },
+    {
+        "contenido": ". La organización debe mantener y conservar información documentada sobre los procesos y sobre los planes de respuesta ante situaciones de emergencia potenciales. 9 Evaluación del desempeño 9.1 Seguimiento, medición, análisis y evaluación del desempeño 9.1.1 Generalidades La organización debe establecer, implementar y mantener procesos para el seguimiento, la medición, el análisis y la evaluación del desempeño. La organización debe determinar: a) qué necesita seguimiento y medición, incluyendo: 1) el grado en que se cumplen los requisitos legales y otros requisitos;",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 32,
+            "clausula": "9.1"
+        }
+    },
+    {
+        "contenido": "2) sus actividades y operaciones relacionadas con los peligros, los riesgos y oportunidades identificados; 3) el progreso en el logro de los objetivos de la SST de la organización; 4) la eficacia de los controles operacionales y de otros controles; b) los métodos de seguimiento, medición, análisis y evaluación del desempeño, según sea aplicable, para asegurar resultados válidos; c) los criterios frente a los que la organización evaluará su desempeño de la SST; d) cuándo se debe realizar el seguimiento y la medición; e) cuándo se deben analizar, evaluar y comunicar los resultados del seguimiento y la medición. La organización debe evaluar el desempeño de la SST y determinar la eficacia del sistema de gestión de la SST. La organización debe asegurarse de que el equipo de seguimiento y medición se calibra o se verifica según sea aplicable, y se utiliza y mantiene según sea apropiado",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 33,
+            "clausula": "9.1"
+        }
+    },
+    {
+        "contenido": ". NOTA Puede haber requisitos legales u otros requisitos (por ejemplo, normas nacionales o internacionales) relativos a la calibración o verificación del equipo de seguimiento y medición. La organización debe conservar la información documentada adecuada: — como evidencia de los resultados del seguimiento, la medición, el análisis y la evaluación del desempeño; — sobre el mantenimiento, calibración o verificación de los equipos de medición. 9.1.2 Evaluación del cumplimiento La organización debe establecer, implementar y mantener procesos para evaluar el cumplimiento con los requisitos legales y otros requisitos (véase 6.1.3)",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 33,
+            "clausula": "9.1.2"
+        }
+    },
+    {
+        "contenido": ". La organización debe: a) determinar la frecuencia y los métodos para la evaluación del cumplimiento; b) evaluar el cumplimiento y tomar acciones si es necesario (véase 10.2); c) mantener el conocimiento y la comprensión de su estado de cumplimiento con los requisitos legales y otros requisitos; d) conservar la información documentada de los resultados de la evaluación del cumplimiento. 9.2 Auditoría interna 9.2.1 Generalidades La organización debe llevar a cabo auditorías internas a intervalos planificados, para proporcionar información acerca de si el sistema de gestión de la SST:",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 33,
+            "clausula": "9.2"
+        }
+    },
+    {
+        "contenido": "a) es conforme con: 1) los requisitos propios de la organización para su sistema de gestión de la SST, incluyendo la política de la SST y los objetivos de la SST; 2) los requisitos de este documento; b) se implementa y mantiene eficazmente",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 34,
+            "clausula": "9.2"
+        }
+    },
+    {
+        "contenido": ". 9.2.2 Programa de auditoría interna La organización debe: a) planificar, establecer, implementar y mantener programas de auditoría que incluyan la frecuencia, los métodos, las responsabilidades, la consulta, los requisitos de planificación, y la elaboración de informes, que deben tener en consideración la importancia de los procesos involucrados y los resultados de las auditorías previas; b) definir los criterios de la auditoría y el alcance para cada auditoría; c) seleccionar auditores y llevar a cabo auditorías para asegurarse de la objetividad y la imparcialidad del proceso de auditoría; d) asegurarse de que los resultados de las auditorías se informan a los directivos pertinentes ; asegurarse de que se informa de los hallazgos de la auditoría pertinentes a los trabajadores, y cuando existan, a los representantes de los trabajadores, y a otras partes interesadas pertinentes",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 34,
+            "clausula": "9.2.2"
+        }
+    },
+    {
+        "contenido": "; e) tomar acciones para abordar las no conformidades y mejorar continuamente su desempeño de la SST (véase el Capítulo 10); f) conservar información documentada como evidencia de la implementación del programa de auditoría y de los resultados de las auditorías",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 34,
+            "clausula": "9.2.2"
+        }
+    },
+    {
+        "contenido": ". NOTA Para más información sobre las auditorías y las competencias de los auditores, véase la Norma ISO 19011. 9.3 Revisión por la dirección La alta dirección debe revisar el sistema de gestión de la SST de la organización a intervalos planificados, para asegurarse de su conveniencia, adecuación y eficacia continuas. La revisión por la dirección debe considerar: a) el estado de las acciones de las revisiones por la dirección previas; b) los cambios en las cuestiones externas e internas que sean pertinentes al sistema de gestión de la SST, incluyendo: 1) las necesidades y expectativas de las partes interesadas; 2) los requisitos legales y otros requisitos; 3) los riesgos y oportunidades;",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 34,
+            "clausula": "9.3"
+        }
+    },
+    {
+        "contenido": "c) el grado en el que se han cumplido la política de la SST y los objetivos de la SST; d) la información sobre el desempeño de la SST, incluidas las tendencias relativas a: 1) los incidentes, no conformidades, acciones correctivas y mejora continua; 2) los resultados de seguimiento y medición; 3) los resultados de la evaluación del cumplimiento con los requisitos legales y otros requisitos; 4) los resultados de la auditoría; 5) la consulta y la participación de los trabajadores; 6) los riesgos y oportunidades; e) la adecuación de los recursos para mantener un sistema de gestión de la SST eficaz; f) las comunicaciones pertinentes con las partes interesadas; g) las oportunidades de mejora continua",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 35,
+            "clausula": "9.3"
+        }
+    },
+    {
+        "contenido": ". Las salidas de la revisión por la dirección deben incluir las decisiones relacionadas con: — la conveniencia, adecuación y eficacia continuas del sistema de gestión de la SST en alcanzar sus resultados previstos; — las oportunidades de mejora continua; — cualquier necesidad de cambio en el sistema de gestión de la SST; — los recursos necesarios; — las acciones, si son necesarias; — las oportunidades de mejorar la integración del sistema de gestión de la SST con otros procesos de negocio; — cualquier implicación para la dirección estratégica de la organización. La alta dirección debe comunicar los resultados pertinentes de las revisiones por la dirección a los trabajadores, y cuando existan, a los representantes de los trabajadores (véase 7.4). La organización debe conservar información documentada como evidencia de los resultados de las revisiones por la dirección",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 35,
+            "clausula": "9.3"
+        }
+    },
+    {
+        "contenido": ". La organización debe conservar información documentada como evidencia de los resultados de las revisiones por la dirección. 10 Mejora 10.1 Generalidades La organización debe determinar las oportunidades de mejora (véase el Capítulo 9) e implementar las acciones necesarias para alcanzar los resultados previstos de su sistema de gestión de la SST.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 35,
+            "clausula": "10.1"
+        }
+    },
+    {
+        "contenido": "10.2 Incidentes, no conformidades y acciones correctivas La organización debe establecer, implementar y mantener procesos, incluyendo informar , investigar y tomar acciones para determinar y gestionar los incidentes y las no conformidades",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 36,
+            "clausula": "10.2"
+        }
+    },
+    {
+        "contenido": ". Cuando ocurra un incidente o una no conformidad, la organización debe: a) reaccionar de manera oportuna ante el incidente o la no conformidad y, según sea aplicable: 1) tomar acciones para controlar y corregir el incidente o la no conformidad; 2) hacer frente a las consecuencias; b) evaluar, con la participación de los trabajadores (véase 5.4) e involucrando a otras partes interesadas pertinentes, la necesidad de acciones correctivas para eliminar las causas raíz d el incidente o la no conformidad, con el fin de que no vuelva a ocurrir ni ocurra en otra parte, mediante: 1) la investigación del incidente o la revisión de la no conformidad; 2) la determinación de las causas del incidente o la no conformidad; 3) la determinación de si han ocurrido incidentes similares, si existen no conformidades, o si potencialmente podrían ocurrir; c) revisar las evaluaciones existentes de los riesgos para la SST y otros riesgos, según sea apropiado (véase 6.1)",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 36,
+            "clausula": "10.2"
+        }
+    },
+    {
+        "contenido": "; c) revisar las evaluaciones existentes de los riesgos para la SST y otros riesgos, según sea apropiado (véase 6.1); d) determinar e implementar cualquier acción necesaria, incluyendo acciones correctivas, de acuerdo con la jerarquía de los controles (véase 8.1.2) y la gestión del cambio (véase 8.1.3); e) evaluar los riesgos de la SST que se relacionan con los peligros nuevos o modificados, antes de tomar acciones; f) revisar la eficacia de cualquier acción tomada, incluyendo las acciones correctivas; g) si fuera necesario, hacer cambios al sistema de gestión de la SST",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 36,
+            "clausula": "10.2"
+        }
+    },
+    {
+        "contenido": ". Las acciones correctivas deben ser apropiadas a los efectos o los efectos potenciales de los incidentes o las no conformidades encontradas. La organización debe conservar información documentada, como evidencia de: — la naturaleza de los incidentes o las no conformidades y cualquier acción tomada posteriormente; — los resultados de cualquier acción y acción correctiva, incluyendo su eficacia. La organización debe comunicar esta información documentada a los trabajadores pertinentes, y cuando existan, a los representantes de los trabajadores, y a otras partes interesadas pertinentes. NOTA Informar e investigar incidentes sin retrasos indebidos puede permitir que se eliminen los peligros y que los riesgos para la SST asociados se minimicen lo antes posible.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 36,
+            "clausula": "10.2"
+        }
+    },
+    {
+        "contenido": "10.3 Mejora continua La organización debe mejorar continuamente la conveniencia, adecuación y eficacia del sistema de gestión de la SST para: a) mejorar el desempeño de la SST; b) promover una cultura que apoye al sistema de gestión de la SST; c) promover la participación de los trabajadores en la implementación de acciones para la mejora continua del sistema de gestión de la SST; d) comunicar los resultados pertinentes de la mejora continua a sus trabajadores, y cuando existan, a los representantes de los trabajadores; e) mantener y conservar información documentada como evidencia de la mejora continua.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 37,
+            "clausula": "10.3"
+        }
+    },
+    {
+        "contenido": "Anexo A (informativo) Orientación para el uso de este documento A.1 Generalidades La información explicativa presentada en este anexo está prevista para evitar la interpretación equivocada de los requisitos contenidos en este documento. Aunque esta información aborda estos requisitos, y es coherente con ellos, no está prevista para añadir, restar o modificarlos de manera alguna. Los requisitos de este documento necesitan considerarse desde una perspectiva de sistemas y no deberían tomarse de forma aislada, es decir, puede haber una interrelación entre los requisitos de un capítulo con los requisitos de otros capítulos. A.2 Referencias normativas El presente documento no contiene referencias normativas. Los usuarios pueden consultar los documentos listados en la Bibliografía para información adicional sobre directrices relativas a la SST y otras normas ISO de sistemas de gestión",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 38,
+            "clausula": "Anexo"
+        }
+    },
+    {
+        "contenido": ". A.3 Términos y definiciones Además de los términos y definiciones presentados en el Capítulo 3, y con el fin de evitar malentendidos, a continuación se proporciona aclaración de algunos conceptos seleccionados. a) La palabra “Continua” indica duración que ocurre en un periodo de tiempo dado, con intervalos de interrupción (a diferencia de “continuo” , en el sentido de ininterrumpida, que indica duración sin interrupción). Por tanto “continua” es la palabra apropiada para utilizar en el contexto de la mejora. b) La palabra “considerar” significa que es necesario pensar en algo p ero que se puede excluir, mientras que “tener en cuenta” significa que es necesario pensar en algo pero no se puede excluir. c) Las palabras “apropiado” y “aplicable” no son intercambiables. “Apropiado” significa adecuado (para) e implica cierto grado de l ibertad, mientras que “aplicable” significa pertinente o posible de aplicar e implica que si se puede hacer se debe hacer",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 38,
+            "clausula": "Anexo"
+        }
+    },
+    {
+        "contenido": ". d) Este documento en su versión en inglés utiliza el término “interested party”; el término “stakeholder” es un sinónimo que representa el mismo concepto. NOTA a la versión en español: Los términos en inglés “interested party” y “stakeholder” tienen una traducción única al español como “parte interesada”. e) La palabra “asegurarse” significa que la responsabilidad se puede delegar, pero no la obligación de rendir cuentas para asegurar que se ha realizado una acción.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 38,
+            "clausula": "Anexo"
+        }
+    },
+    {
+        "contenido": "f) “Información documentada” se utiliza para incluir tanto documentos como registros. Este documento utiliza la expresión “conservar información documentada como evidencia de…” que significa registros, y “mantener información documentada” que significa documentos, incluidos los procedimientos. La frase “conservar información documentada como evidencia de…” no pretende requerir que la información conservada cumplirá los requisitos probatorios legales. En su lugar, pretende definir el tipo de registros que se necesita conservar. g) Las actividades que están “bajo el control compartido de la organización” son actividades para las que la organización comparte el control sobre los medios o métodos, o comparte la dirección del trabajo ejercido respecto a su desempeño de la SST, coherente con sus requisitos legales y otros requisitos. Las organizaciones pueden estar sujetas a requisitos relacionados con el sistema de gestión de la SST que exijan el uso de términos específicos y su significado",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 39,
+            "clausula": "Anexo"
+        }
+    },
+    {
+        "contenido": ". Si se utilizan estos otros términos, se sigue requiriendo la conformidad con este documento. A.4 Contexto de la organización A.4.1 Comprensión de la organización y de su contexto La comprensión del contexto de una organización se utiliza para establecer, implementar, mantener y mejorar continuamente su sistema de gestión de la SST",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 39,
+            "clausula": "Anexo 4.1"
+        }
+    },
+    {
+        "contenido": ". Las cuestiones internas y externas pueden ser positivas o negativas e incluyen condiciones, características o circunstancias cambiantes que pueden afectar al sistema de gestión de la SST, por ejemplo: a) cuestiones externas, tales como: 1) el entorno cultural, social, político, legal, financiero, tecnológico, económico y ambiental y la competencia de mercado, ya sea internacional, nacional, regional o local; 2) la introducción de nuevos competidores, contratistas, subcontratistas, proveedores, socios y prestadores de servicios, nuevas tecnologías, nuevas leyes y la aparición de nuevas profesiones; 3) nuevos conocimientos sobre los productos y su efecto sobre la seguridad y salud; 4) los factores y tendencias clave pertinentes para la industria o para el sector que tienen impacto sobre la organización; 5) las relaciones con sus partes interesadas externas, así como sus percepciones y valores; 6) los cambios en relación con cualquiera de los anteriores",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 39,
+            "clausula": "Anexo 4.1"
+        }
+    },
+    {
+        "contenido": "; 6) los cambios en relación con cualquiera de los anteriores; b) cuestiones internas, tales como: 1) la gobernanza, la estructura de la organización, los roles y la rendición de cuentas; 2) las políticas, los objetivos y las estrategias que están establecidos para lograrlos; 3) las capacidades, entendidas en términos de recursos, conocimientos y competencia (por ejemplo, capital, tiempo, recursos humanos, procesos, sistemas y tecnologías);",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 39,
+            "clausula": "Anexo 4.1"
+        }
+    },
+    {
+        "contenido": "4) los sistemas de información, los flujos de información y los procesos de toma de decisiones (formales e informales); 5) la introducción de nuevos productos, materiales, servicios, herramientas, software, instalaciones y equipos; 6) las relaciones con los trabajadores, así como sus percepciones y valores; 7) la cultura en la organización; 8) las normas, directrices y modelos adoptados por la organización; 9) la forma y la extensión de las relaciones contractuales, incluyendo, por ejemplo las actividades contratadas externamente; 10) los acuerdos sobre los horarios de trabajo; 11) las condiciones de trabajo; 12) los cambios relacionados con cualquiera de los anteriores",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 40,
+            "clausula": "Anexo 4.1"
+        }
+    },
+    {
+        "contenido": ". A.4.2 Comprensión de las necesidades y expectativas de los trabajadores y de otras partes interesadas Las partes interesadas, además de los trabajadores, pueden incluir: a) autoridades legales y reglamentarias (locales, regionales, estatales/provinciales, nacionales o internacionales); b) casas matriz; c) proveedores, contratistas y subcontratistas; d) representantes de los trabajadores; e) organizaciones de trabajadores (sindicatos) y organizaciones de empleadores; f) propietarios, accionistas, clientes, visitantes, comunidad local y vecinos de la organización y el público en general; g) clientes, servicios médicos y otros servicios a la comunidad, medios de comunicación, academia , asociaciones empresariales y organizaciones no gubernamentales (ONG); h) organizaciones dedicadas a la seguridad y salud en el trabajo y profesionales de la seguridad y el cuidado de la salud en el trabajo",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 40,
+            "clausula": "Anexo 4.2"
+        }
+    },
+    {
+        "contenido": ". Algunas necesidades y expectativas son obligatorias, por ejemplo porque han sido incorporadas a leyes y reglamentos. La organización también puede decidir acordar o adoptar voluntariamente otras necesidades y expectativas (por ejemplo subscribiéndose a una iniciativa voluntaria). Una vez que la organización las adopta, éstas se abordan al planificar y establecer el sistema de gestión de la SST.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 40,
+            "clausula": "Anexo 4.2"
+        }
+    },
+    {
+        "contenido": "A.4.3 Determinación del alcance del sistema de gestión de la SST Una organización tiene la libertad y flexibilidad para definir los límites y la aplicabilidad del sistema de gestión de la SST. Los límites y la aplicabilidad pueden incluir toda la organización, una o varias partes específicas de la organización, siempre que la alta dirección de esa parte de la organización tenga sus propias funciones, responsabilidades y autoridades para establecer un sistema de gestión de la SST. La credibilidad del sistema de gestión de la SST de la organización dependerá de la elección de los límites. El establecimiento del alcance no debería utilizarse para excluir actividades, productos y servicios que tengan o puedan tener un impacto en el desempeño de la SST de la organización, o para evadir sus requisitos legales y otros requisitos",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 41,
+            "clausula": "Anexo 4.3"
+        }
+    },
+    {
+        "contenido": ". El alcance es una declaración de hecho y representativa de las operaciones de la organización incluidas dentro de los límites de su sistema de gestión de la SST que no debería inducir a error a las partes interesadas. A.4.4 Sistema de gestión de la SST La organización conserva la autoridad, la obligación de rendir cuentas y la autonomía para decidir cómo cumplirá los requisitos de este documento, incluyendo el nivel de detalle y el grado en el que: a) establece uno o más procesos para tener confianza en que se controlan, se llevan a cabo según lo planificado y se alcanzan los resultados previstos del sistema de gestión de la SST; b) se integran los requisitos del sistema de gestión de la SST en sus diversos procesos de negocio (por ejemplo, el diseño y desarrollo, las compras, los recursos humanos, las ventas y el marketing)",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 41,
+            "clausula": "Anexo 4.4"
+        }
+    },
+    {
+        "contenido": ". Si este documento se implementa para partes específicas de una organización, las políticas y procesos desarrollados por otras partes de la organización pueden utilizarse para cumplir los requisitos de este documento, siempre que sean aplicables a las partes específicas que estarán sujetas a ellos y que sean conformes con los requisitos de este documento. Ejemplos de esto incluyen políticas de la SST corporativas, programas de educación, formación y competencia, y controles de compras. A.5 Liderazgo y participación de los trabajadores A.5.1 Liderazgo y compromiso El liderazgo y el compromiso por parte de la alta dirección de la organización, incluyendo la toma de conciencia, la capacidad de respuesta, el soporte activo y la retroalimentación, son críticos para el éxito del sistema de gestión de la SST y para el logro de sus resultados previstos; por tanto, la alta dirección tiene responsabilidades específicas para las que necesita involucrarse personalmente o necesita dirigir",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 41,
+            "clausula": "Anexo 5.1"
+        }
+    },
+    {
+        "contenido": ". La alta dirección determina en gran medida la cultura que apoya al sistema de gestión de la SST de una organización y ésta es el producto de los valores, actitudes, prácticas de gestión, percepciones, competencias y modelos de actividades, individuales y grupales, que determinan el compromiso con su sistema de gestión de la SST, su estilo y su aptitud. Se caracteriza, pero no se limita a ello, por la participación activa de los trabajadores, la cooperación y las comunicaciones basadas en la confianza mutua, las percepciones compartidas de la importancia del sistema de gestión de la SST involucrándolos activamente en la detección de las oportunidades para la SST y la confianza en la eficacia de las medidas de prevención y protección",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 41,
+            "clausula": "Anexo 5.1"
+        }
+    },
+    {
+        "contenido": ". Un modo importante en que la alta dirección demuestra su liderazgo es animando a los trabajadores a informar sobre incidentes, peligros, riesgos y oportunidades, y protegiendo a los trabajadores frente a represalias, tales como amenazas de despido o acciones disciplinarias, en caso de hacerlo.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 41,
+            "clausula": "Anexo 5.1"
+        }
+    },
+    {
+        "contenido": "A.5.2 Política de la SST La política de la SST es un conjunto de principios establecidos como compromisos en los que la alta dirección describe la dirección a largo plazo de la organización para apoyar y mejorar continuamente su desempeño de la SST. La política de la SST proporciona un sentido global de la dirección, así como un marco de referencia para que la organización establezca sus objetivos y tome acciones para alcanzar los resultados previstos del sistema de gestión de la SST. Estos compromisos se reflejan en los procesos que una organización establece para asegurar un sistema de gestión de la SST robusto, creíble y fiable (incluyendo abordar los requisitos específicos de este documento). El término “minimizar” se utiliza para fijar las aspiraciones de la organización para su sistema de gestión de la SST en relación con los riesgos para la SST. El término “reducir” se utiliza para describir el proceso para lograrlo",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 42,
+            "clausula": "Anexo 5.2"
+        }
+    },
+    {
+        "contenido": ". El término “reducir” se utiliza para describir el proceso para lograrlo. Al desarrollar su política de la SST, una organización debería considerar su coherencia y su coordinación con otras políticas. A.5.3 Roles, responsabilidades y autoridades en la organización Aquellos involucrados en el sistema de gestión de la SST de la organización deberían tener una clara comprensión de sus roles, responsabilidades y autoridades para alcanzar los resultados previstos del sistema de gestión de la SST. Aunque la alta dirección tiene la responsabilidad y autoridad globales del sistema de gestión de la SST, cada persona en el lugar de trabajo necesita tener en cuenta no sólo su propia seguridad y salud, sino también la seguridad y la salud de los demás. Que la alta dirección tenga que rendir cuentas significa que tiene que responder de las decisiones y actividades ante los órganos de gobierno de la organización, las autoridades legales, y más ampliamente, sus partes interesadas",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 42,
+            "clausula": "Anexo 5.3"
+        }
+    },
+    {
+        "contenido": ". Esto significa tener la responsabilidad final y está relacionado con la persona que rinde cuentas si algo no se hace, si no se hace adecuadamente, si no funciona o si no logra su objetivo. Los trabajadores deberían tener la posibilidad de informar sobre situaciones peligrosas de manera que se puedan tomar acciones. Deberían ser capaces de informar sobre preocupaciones a las autoridades responsables cuando se requiera, sin la amenaza de despido, acciones disciplinarias u otras represalias similares. Los roles y responsabilidades específicos identificados en el apartado 5.3 pueden asignarse a un a persona, compartirse por varias personas o asignarse a un miembro de la alta dirección",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 42,
+            "clausula": "Anexo 5.3"
+        }
+    },
+    {
+        "contenido": ". A.5.4 Consulta y participación de los trabajadores La consulta y la participación de los trabajadores, y cuando existan, de los representantes de los trabajadores, puede ser un factor clave de éxito para un sistema de gestión de la SST y deberían ser animados mediante los procesos establecidos por la organización. La consulta implica una comunicación bidireccional que incluye el diálogo y los intercambios. La consulta implica la provisión oportuna de la información necesaria para los trabajadores, y cuando existan, para los representantes de los trabajadores, para dar una retroalimentación informada a considerar por la organización antes de tomar una decisión.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 42,
+            "clausula": "Anexo 5.4"
+        }
+    },
+    {
+        "contenido": "La participación permite a los trabajadores contribuir a los procesos de toma de decisión sobre las medidas y los cambios propuestos al desempeño de la SST. La retroalimentación sobre el sistema de gestión de la SST depende de la participación de los trabajadores. La organización debería asegurarse de que se anima a los trabajadores a todos los niveles a informar de las situaciones peligrosas, de manera que puedan ponerse en práctica medidas preventivas y puedan tomarse acciones correctivas. La recepción de sugerencias será más eficaz si los trabajadores no temen la amenaza de despido, acciones disciplinarias u otras represalias similares, al hacerlo. A.6 Planificación A.6.1 Acciones para abordar riesgos y oportunidades A.6.1.1 Generalidades La planificación no es un evento único, sino un proceso continuo, que se anticipa a las circunstancias cambiantes e identifica continuamente los riesgos y oportunidades para los trabajadores y para el sistema de gestión de la SST",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 43,
+            "clausula": "Anexo 6.1"
+        }
+    },
+    {
+        "contenido": ". Los efectos indeseados pueden incluir lesiones y deterioro de la salud relacionados con el trabajo, incumplimiento de los requisitos legales y otros requisitos o daño a la reputación. La planificación considera las relaciones e interacciones entre las actividades y los requisitos para el sistema de gestión como un todo. Las oportunidades para la SST abordan la identificación de los peligros, cómo se comunican, y el análisis y la mitigación de los peligros conocidos. Otras oportunidades abordan las estrategias de mejora del sistema",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 43,
+            "clausula": "Anexo 6.1"
+        }
+    },
+    {
+        "contenido": ". Otras oportunidades abordan las estrategias de mejora del sistema. Ejemplos de oportunidades para mejorar el desempeño de la SST son: a) las funciones de inspección y de auditoría; b) el análisis de los peligros del trabajo (análisis de la seguridad del trabajo) y las evaluaciones relacionadas con las tareas; c) la mejora del desempeño de la SST atenuando el trabajo monótono o el trabajo a un ritmo predeterminado potencialmente peligroso; d) el permiso de trabajo y otros métodos de reconocimiento y control; e) las investigaciones de incidentes y no conformidades y acciones correctivas; f) las evaluaciones ergonómicas y otras evaluaciones relacionadas con la prevención de lesiones",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 43,
+            "clausula": "Anexo 6.1"
+        }
+    },
+    {
+        "contenido": ". Ejemplos de otras oportunidades para mejorar el desempeño de la SST son: — integrar los requisitos de la seguridad y la salud en el trabajo en la etapa más temprana del ciclo de vida de las instalaciones, los equipos o la planificación de los procesos para la reubicación de las instalaciones, el rediseño del proceso o el reemplazo de la maquinaria y de la planta;",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 43,
+            "clausula": "Anexo 6.1"
+        }
+    },
+    {
+        "contenido": "— integrar los requisitos de la seguridad y la salud en el trabajo en la etapa más temprana de la planificación para la reubicación de las instalaciones, el rediseño del proceso o el reemplazo de la maquinaria y de la planta; — utilizar nuevas tecnologías para mejorar el desempeño de la SST; — mejorar la cultura de la seguridad y salud en el trabajo, tal como la ampliación de la competencia relacionada con la seguridad y salud en el trabajo más allá de los requisitos o animando a los trabajadores a informar de incidentes de manera oportuna; — mejorar la visibilidad del apoyo de la alta dirección al sistema de gestión de la SST; — mejorar los procesos de investigación de incidentes; — mejorar los procesos para la participación y consulta de los trabajadores; — realizar estudios comparativos con las mejores prácticas (benchmarking), incluyendo la consideración del desempeño pasado de la propia organización y el de otras organizaciones",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 44,
+            "clausula": "Anexo 6.1"
+        }
+    },
+    {
+        "contenido": "; — colaborar en foros que se centran en temas que tratan la salud y la seguridad en el trabajo",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 44,
+            "clausula": "Anexo 6.1"
+        }
+    },
+    {
+        "contenido": ". A.6.1.2 Identificación de peligros y evaluación de los riesgos y oportunidades A.6.1.2.1 Identificación de peligros La identificación proactiva continua de los peligros comienza en la etapa de diseño conceptual de cualquier lugar de trabajo, instalación, producto u organización nuevos. Debería continuar cuando se detalla el diseño y entra en funcionamiento, así como debería ser continua durante su ciclo de vida completo para reflejar las actividades actuales, cambiantes y futuras. Aunque este documento no aborda la seguridad del producto (es decir, la seguridad de los usuarios finales de los productos), deberían considerarse los peligros para los trabajadores que ocurren durante la fabricación, construcción, montaje o ensayos de los productos. La identificación de los peligros ayuda a la organización a reconocer y comprender los peligros en el lugar de trabajo y los peligros para los trabajadores, para evaluar, priorizar y eliminar los peligros o reducir los riesgos para la SST",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 44,
+            "clausula": "Anexo 6.1.2"
+        }
+    },
+    {
+        "contenido": ". Los peligros pueden ser físicos, químicos, biológicos, psicosociales, mecánicos, eléctricos, o basados en el movimiento y la energía. La lista dada en el apartado 6.1.2.1 no es exhaustiva. NOTA La numeración de las viñetas a) a f) de la siguiente lista no corresponde exactamente con la numeración de los elementos de la lista dada en el apartado 6.1.2.1. El proceso o procesos de identificación de peligros de la organización deberían considerar: a) las actividades y situaciones rutinarias y no rutinarias: 1) las actividades y situaciones rutinarias que crean peligros a través de las operaciones diarias y las actividades de trabajo normales; 2) las actividades y situaciones no rutinarias que son ocasionales o no planificadas;",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 44,
+            "clausula": "Anexo 6.1.2.1"
+        }
+    },
+    {
+        "contenido": "3) las actividades a corto plazo o a largo plazo que pueden crear diferentes peligros; b) los factores humanos: 1) los factores humanos relativos a las capacidades, limitaciones y otras características humanas; 2) la información debería aplicarse a herramientas, máquinas, sistemas, actividades y al entorno para un uso humano seguro y cómodo; 3) deberían abordar tres aspectos: la actividad, el trabajador y la organización, y cómo éstos interactúan y tienen un impacto en la seguridad y la salud en el trabajo; c) los peligros nuevos o modificados: 1) pueden surgir cuando los procesos de trabajo se deterioren, modifiquen, adapten o evolucionen como resultado de la familiaridad o las circunstancias cambiantes; 2) comprenden cómo se lleva a cabo el trabajo realmente (por ejemplo observar y discutir sobre los peligros con los trabajadores), puede identificar si los riesgos para la SST aumentan o disminuyen",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 45,
+            "clausula": "Anexo 6.1.2.1"
+        }
+    },
+    {
+        "contenido": "; d) las situaciones potenciales de emergencia: 1) son situaciones no planificadas o no programadas que requieren una respuesta inmediata, (por ejemplo, una máquina que se incendia en el lugar de trabajo, o un desastre natural en las inmediaciones del lugar de trabajo o en otra ubicación donde los trabajadores están desempeñando actividades relacionadas con el trabajo); 2) incluyen situaciones tales como disturbios civiles en una ubicación en la que los trabajadores están desempeñando actividades relacionadas con el trabajo, que requieren su evacuación urgente; e) las personas: 1) aquellas personas que se encuentran en las inmediaciones del lugar de trabajo que podrían verse afectadas por las actividades de la organización (por ejemplo, transeúntes, contratistas o vecinos inmediatos)",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 45,
+            "clausula": "Anexo 6.1.2.1"
+        }
+    },
+    {
+        "contenido": "; 2) los trabajadores en una ubicación que no se encuentra bajo el control directo de la organización, tales como trabajadores móviles o trabajadores que viajan para desempeñar actividades relacionadas con el trabajo en otra ubicación (por ejemplo, carteros, conductores de autobús, personal de servicio que viaja al sitio de un cliente y trabaja en él); 3) los trabajadores que desarrollan su actividad desde el hogar, o aquellos que trabajan en solitario; f) los cambios en los conocimientos y la información sobre los peligros: 1) las fuentes de conocimientos, de información y de nueva comprensión sobre los peligros pueden incluir literatura publicada, investigación y desarrollo, retroalimentación de los trabajadores, y revisión de la propia experiencia operacional de la organización; 2) estas fuentes pueden proporcionar información nueva sobre los peligros y los riesgos para la SST.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 45,
+            "clausula": "Anexo 6.1.2.1"
+        }
+    },
+    {
+        "contenido": "A.6.1.2.2 Evaluación de los riesgos para la SST y otros riesgos para el sistema de gestión de la SST Una organización puede utilizar diferentes métodos para evaluar los riesgos para la SST como parte de su estrategia global para abordar los diferentes peligros o actividades. El método y la complejidad de la evaluación no dependen del tamaño de la organización, sino de los peligros asociados con las actividades de la organización. También deberían evaluarse otros riesgos para el sistema de gestión de la SST utilizando los métodos apropiados. Los procesos para la evaluación de los riesgos para el sistema de gestión de la SST deberían considerar las operaciones y decisiones diarias (por ejemplo, picos en el flujo de trabajo, restructuración) así como aspectos externos (por ejemplo, cambios económicos)",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 46,
+            "clausula": "Anexo 6.1.2.2"
+        }
+    },
+    {
+        "contenido": ". Las metodologías pueden incluir la consulta continua de los trabajadores afectados por las actividades diarias (por ejemplo cambios en la carga de trabajo), el seguimiento y la comunicación de nuevos requisitos legales y otros requisitos (por ejemplo, reformas reglamentarias, revisiones de acuerdos colectivos relacionados con la seguridad y la salud en el trabajo), y asegurándose de que los recursos cumplen las necesidades existentes y las cambiantes, (por ejemplo, formación en equipos o productos nuevos y mejorados o su compra). A.6.1.2.3 Evaluación de las oportunidades para la SST y otras oportunidades para el sistema de gestión de la SST El proceso para la evaluación debería considerar las oportunidades para la SST y otras oportunidades determinadas, sus beneficios y su potencial para mejorar el desempeño de la SST",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 46,
+            "clausula": "Anexo 6.1.2.3"
+        }
+    },
+    {
+        "contenido": ". A.6.1.3 Determinación de los requisitos legales y otros requisitos a) Los requisitos legales pueden incluir: 1) legislación (nacional, regional o internacional), incluyendo estatutos y reglamentos; 2) decretos y directivas; 3) disposiciones emitidas por los reguladores; 4) permisos, licencias u otras formas de autorización; 5) sentencias de tribunales o de tribunales administrativos; 6) tratados, convenciones, protocolos; 7) convenios colectivos. b) Otros requisitos pueden incluir: 1) los requisitos de la organización; 2) las condiciones contractuales; 3) los acuerdos con los empleados; 4) los acuerdos con las partes interesadas;",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 46,
+            "clausula": "Anexo 6.1.3"
+        }
+    },
+    {
+        "contenido": "5) los acuerdos con las autoridades de salud; 6) las normas no reglamentarias, normas de consenso y directrices; 7) los principios voluntarios, códigos de prácticas, especificaciones técnicas, estatutos; 8) los compromisos públicos de la organización o de su casa matriz. A.6.1.4 Planificación de acciones Las acciones planificadas deberían gestionarse principalmente a través del sistema de gestión de la SST y deberían incluir la integración con otros procesos de negocio tales como los establecidos para la gestión ambiental , de la calidad, de la continuidad del negocio, del riesgo, financiera o de recursos humanos. Se espera que la implementación de las acciones tomadas alcance los resultados previstos del sistema de gestión de la SST",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 47,
+            "clausula": "Anexo 6.1.4"
+        }
+    },
+    {
+        "contenido": ". Se espera que la implementación de las acciones tomadas alcance los resultados previstos del sistema de gestión de la SST. Cuando la evaluación de riesgos y otros riesgos haya identificado la necesidad de controles, la actividad de planificación determina cómo se implementan éstos en la operación (véase el Capítulo 8); por ejemplo determinar si se incorporan estos controles a las instrucciones de trabajo o a las acciones para mejorar la competencia. Otros controles pueden tomar la forma de medición o seguimiento (véase el Capítulo 9). También se deberían considerar acciones para abordar los riesgos y oportunidades bajo la gestión del cambio (véase 8.1.3), para asegurarse de que no hay consecuencias resultantes no previstas. A.6.2 Objetivos de la SST y planificación para lograrlos A.6.2.1 Objetivos de la SST Los objetivos se establecen para mantener y mejorar el desempeño de la SST",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 47,
+            "clausula": "Anexo 6.2"
+        }
+    },
+    {
+        "contenido": ". Los objetivos se deberían vincular a los riesgos y oportunidades y a los criterios de desempeño que la organización ha identificado como necesarios para el logro de los resultados previstos del sistema de gestión de la SST. Los objetivos de la SST pueden integrarse con otros objetivos de negocio y se deberían establecer en las funciones y niveles pertinentes. Los objetivos pueden ser estratégicos, tácticos u operacionales: a) pueden establecerse objetivos estratégicos para mejorar el desempeño global del sistema de gestión de la SST (por ejemplo eliminar la exposición al ruido); b) pueden establecerse objetivos tácticos a nivel de las instalacion es, proyecto o de proceso (por ejemplo reducir el ruido en la fuente); c) pueden establecerse objetivos operacionales a nivel de la actividad (por ejemplo confinamiento de máquinas individuales para reducir el ruido). La medición de los objetivos de la SST puede ser cualitativa o cuantitativa",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 47,
+            "clausula": "Anexo 6.2"
+        }
+    },
+    {
+        "contenido": ". La medición de los objetivos de la SST puede ser cualitativa o cuantitativa. Las medidas cualitativas pueden ser aproximaciones como las obtenidas de encuestas, entrevistas y observaciones. La organización no necesita establecer objetivos para la SST para cada riesgo y oportunidad que determine. A.6.2.2 Planificación para lograr los objetivos de la SST La organización puede planificar el logro de los objetivos de manera individual o colectiva. Cuando sea necesario, los planes pueden desarrollarse para múltiples objetivos.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 47,
+            "clausula": "Anexo 6.2.2"
+        }
+    },
+    {
+        "contenido": "La organización debería examinar los recursos requeridos (por ejemplo, financieros, humanos, de equipos, de infraestructura) para lograr sus objetivos. Cuando sea posible, se debería asociar cada objetivo con un indicador que puede ser estratégico, táctico u operacional. A.7 Apoyo A.7.1 Recursos Ejemplos de recursos incluyen los humanos, naturales, de infraestructura, de tecnología y financieros. Ejemplos de infraestructura de la organización incluyen los edificios, las plantas, los equipos, las instalaciones de servicios ( utilities), los sistemas de tecnologías de la información y de las comunicaciones y los sistemas de contención de emergencias. A.7.2 Competencia La competencia de los trabajadores debería incluir los conocimientos y las habilidades necesarios para identificar apropiadamente los peligros y tratar los riesgos de la SST asociados con su trabajo y su lugar de trabajo",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 48,
+            "clausula": "Anexo 7.1"
+        }
+    },
+    {
+        "contenido": ". Al determinar la competencia para cada rol, la organización debería tener en cuenta temas tales como: a) la educación, formación, cualificación y experiencia necesarias para asumir el rol y la formación continua necesaria para mantener la competencia; b) el ambiente de trabajo; c) las medidas preventivas y de control resultantes del proceso de evaluación de riesgos; d) los requisitos aplicables al sistema de gestión de la SST; e) los requisitos legales y otros requisitos; f) la política de la SST; g) las consecuencias potenciales del cumplimiento y el incumplimiento, incluido el impacto sobre la seguridad y salud del trabajador; h) la importancia de la participación de los trabajadores en el sistema de gestión de la SST basado en sus conocimientos y habilidades; i) los deberes y las responsabilidades asociadas a los roles; j) las capacidades individuales, incluyendo la experiencia, las habilidades lingüísticas, la alfabetización y la diversidad",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 48,
+            "clausula": "Anexo 7.1"
+        }
+    },
+    {
+        "contenido": "; j) las capacidades individuales, incluyendo la experiencia, las habilidades lingüísticas, la alfabetización y la diversidad; k) la actualización pertinente de las competencias que el contexto o los cambios del trabajo han hecho necesaria.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 48,
+            "clausula": "Anexo 7.1"
+        }
+    },
+    {
+        "contenido": "Los trabajadores pueden ayudar a la organización a determinar las competencias necesarias para los roles. Los trabajadores deberían tener la competencia necesaria para alejarse de situaciones de peligro inminente y grave. Para este propósito, es importante que se provea a los trabajadores con la formación suficiente sobre peligros y riesgos asociados con su trabajo. Según sea apropiado, los trabajadores deberían recibir la formación requerida para permitirles llevar a cabo eficazmente sus funciones de representación para la seguridad y la salud en el trabajo. En numerosos países, proporcionar formación sin costo para los trabajadores es un requisito legal. A.7.3 Toma de conciencia Además de los trabajadores (especialmente los trabajadores temporales) los contratistas, los visitantes y otras partes deberían tomar conciencia de los riesgos para la SST a los que están expuestos",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 49,
+            "clausula": "Anexo 7.3"
+        }
+    },
+    {
+        "contenido": ". A.7.4 Comunicación Los procesos de comunicación establecidos por la organización deberían permitir la recopilación, la actualización y la difusión de la información. Debería asegurarse de que se proporciona la información pertinente a todos los trabajadores y partes interesadas pertinentes y de que éstos la reciben y que es comprensible. A.7.5 Información documentada Es importante mantener la complejidad de la información documentada en el mínimo nivel posible para asegurarse de su eficacia, eficiencia y simplicidad al mismo tiempo. Esto debería incluir la información documentada relacionada con la planificación para abordar los requisitos legales y otros requisitos y sobre las evaluaciones de la eficacia de estas acciones. Las acciones descritas en el apartado 7.5.3 están dirigidas particularmente a prevenir el riesgo del uso no intencionado de información documentada obsoleta. Los ejemplos de información confidencial incluyen la información personal y la información médica",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 49,
+            "clausula": "Anexo 7.4"
+        }
+    },
+    {
+        "contenido": ". Los ejemplos de información confidencial incluyen la información personal y la información médica. A.8 Operación A.8.1 Planificación y controles operacionales A.8.1.1 Generalidades Es necesario establecer e implementar la planificación y los controles de los procesos cuando sea necesario para aumentar la seguridad y salud en el trabajo, eliminando los peligros o, si eso no es factible, reduciendo los riesgos para la SST a niveles tan bajos como sea razonablemente viable para las áreas y actividades operacionales. Ejemplos de controles operacionales de los procesos incluyen: a) el uso de procedimientos y sistemas de trabajo;",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 49,
+            "clausula": "Anexo 8.1"
+        }
+    },
+    {
+        "contenido": "b) asegurarse de la competencia de los trabajadores; c) establecer programas de inspección y de mantenimiento preventivos o predictivos; d) las especificaciones para la compra de bienes y servicios; e) la aplicación de los requisitos legales y otros requisitos, o de las instrucciones del fabricante para el equipo; f) los controles de ingeniería y controles administrativos; g) adaptar el trabajo a los trabajadores; por ejemplo, mediante: 1) la definición, o redefinición, de cómo se organiza el trabajo; 2) la inducción de los nuevos trabajadores; 3) la definición, o redefinición, de los procesos y los ambientes de trabajo; 4) el uso de enfoques ergonómicos en el diseño de nuevos lugares de trabajo, equipos, etc. o en la modificación de lugares de trabajo, equipos, etc",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 50,
+            "clausula": "Anexo 8.1"
+        }
+    },
+    {
+        "contenido": ". o en la modificación de lugares de trabajo, equipos, etc. A.8.1.2 Eliminar peligros y reducir los riesgos para la SST La jerarquía de los controles pretende proporcionar un enfoque sistemático para aumentar la seguridad y salud en el trabajo, eliminar los peligros, y reducir o controlar los riesgos para la SST. Cada control se considera menos eficaz que el anterior a él. Es habitual combinar varios controles para lograr reducir los riesgos para la SST a un nivel que sea tan bajo como sea razonablemente viable. Los siguientes ejemplos se proporcionan para ilustrar las medidas que se pueden implementar en cada nivel. a) Eliminación: suprimir los peligros; detener la utilización de productos químicos peligrosos; aplicar enfoques ergonómicos al planificar nuevos lugares de trabajo; eliminar el trabajo monótono o el trabajo que causa estrés negativo; eliminar las carretillas elevadoras en un área",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 50,
+            "clausula": "Anexo 8.1.2"
+        }
+    },
+    {
+        "contenido": ". b) Sustitución: reemplazar lo peligroso por lo menos peligroso; cambiar la respuesta a las quejas de los clientes por orientaciones en línea; combatir los riesgos para la SST en su fuente; adaptarse al progreso técnico (por ejemplo, reemplazar pintura en base solvente por pintura en base agua; cambiar los revestimientos de suelo resbaladizos; bajar los requisitos de voltaje para los equipos). c) Controles de ingeniería, reorganización del trabajo, o ambos: aislar a las personas del peligro; implementar medidas de protección colectiva (por ejemplo, aislamiento, protección de máquinas, sistemas de ventilación); abordar la manipulación mecánica; reducir el ruido; proteger a las personas contra caídas de altura mediante el uso de barreras de seguridad; reorganizar el trabajo para evitar que las personas trabajen solas, con horas de trabajo o carga de trabajo n o saludables o para prevenir la victimización.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 50,
+            "clausula": "Anexo 8.1.2"
+        }
+    },
+    {
+        "contenido": "d) Controles administrativos incluyendo la formación: llevar a cabo inspecciones periódicas de los equipos de seguridad; llevar a cabo formación para prevenir el acoso ( bullying) y la intimidación; gestionar la coordinación de la seguridad y salud con las actividades de los subcontratistas; llevar a cabo cursos de inducción, administrar los permisos para conducir equipos elevadores ( forklift); proporcionar instrucciones sobre la manera de informar sobre incidentes, no conformidades y victimización sin miedo a represalias; cambiar los modelos de trabajo de los trabajadores (por ejemplo turnos); gestionar programas de vigilancia de la salud o médica para los trabajadores que han sido identificados en situación de riesgo (por ejemplo, relacionados con la audición, la vibración mano-brazo, trastornos respiratorios, trastornos de la piel o situaciones de exposición) ; entregar instrucciones apropiadas a los trabajadores (por ejemplo procesos de control de entrada)",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 51,
+            "clausula": "Anexo 8.1.2"
+        }
+    },
+    {
+        "contenido": ". e) Equipo de protección personal (EPP): proporcionar el EPP adecuado, incluyendo la vestimenta y las instrucciones para la utilización y el mantenimiento del EPP (por ejemplo, calzado de seguridad; gafas de seguridad; protección auditiva; guantes). A.8.1.3 Gestión del cambio El objetivo del proceso de gestión del cambio es mejorar la seguridad y salud en el trabajo, minimizando la introducción de nuevos peligros y los riesgos para la SST en el ambiente de trabajo cuando los cambios ocurren (por ejemplo, en la tecnología, los equipos, las instalaciones, las prácticas y los procedimientos de trabajo, las especificaciones de diseño, las materias primas, el personal, y las normas o reglamentos). Dependiendo de la naturaleza de un cambio esperado, la organización puede utilizar metodologías apropiadas (por ejemplo la revisión del diseño) para evaluar los riesgos para la SST y las oportunidades para la SST asociados al cambio",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 51,
+            "clausula": "Anexo 8.1.3"
+        }
+    },
+    {
+        "contenido": ". La necesidad de gestionar los cambios puede ser un resultado de la planificación (véase 6.1.4). A.8.1.4 Compras A.8.1.4.1 Generalidades Los procesos de compras deberían utilizarse para determinar, evaluar y eliminar los peligros y reducir los riesgos para la SST asociados a, por ejemplo, productos, sustancias o materiales peligrosos, materias primas, equipos o servicios, antes de su introducción en el lugar de trabajo. Los procesos de compras de las organizaciones deberían abordar los requisitos incluyendo, por ejemplo, suministros, equipos, materias primas y otros bienes y servicios relacionados, comprados por la organización para ser conformes con el sistema de gestión de la SST de la organización. El proceso también debería abordar cualquier necesidad de consulta (véase 5.4) y comunicación (véase 7.4)",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 51,
+            "clausula": "Anexo 8.1.4"
+        }
+    },
+    {
+        "contenido": ". El proceso también debería abordar cualquier necesidad de consulta (véase 5.4) y comunicación (véase 7.4). La organización debería verificar que los equipos, las instalaciones y los materiales son seguros para su uso por parte de sus trabajadores, asegurándose de que: a) los equipos se entreguen de acuerdo con las especificaciones y se ensayen para asegurarse de que funcionan como estaba previsto; b) las instalaciones se pongan en servicio para asegurarse de que funcionan como se habían diseñado; c) los materiales se entreguen de acuerdo con sus especificaciones; d) cualquier requisito de uso, precaución u otras medidas de protección se comuniquen y estén disponibles.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 51,
+            "clausula": "Anexo 8.1.4"
+        }
+    },
+    {
+        "contenido": "A.8.1.4.2 Contratistas La necesidad de coordinación reconoce que algunos contratistas (es decir, proveedores externos) poseen conocimientos, habilidades, métodos y medios especializados. Ejemplos de actividades y operaciones de contratistas incluyen mantenimiento, construcción, operaciones, seguridad, limpieza y un cierto número de otras funciones. Los contratistas pueden ser, asimismo, consultores o especialistas en funciones administrativas, de contabilidad y otras. La asignación de actividades a los contratistas no elimina la responsabilidad de la organización por la seguridad y salud en el trabajo de los trabajadores. Una organización puede lograr la coordinación de las actividades de sus contratistas mediante el uso de contratos que definan claramente las responsabilidades de las partes involucradas",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 52,
+            "clausula": "Anexo 8.1.4.2"
+        }
+    },
+    {
+        "contenido": ". Una organización puede utilizar diversas herramientas para asegurarse del desempeño de la SST de los contratistas en el lugar de trabajo (por ejemplo, mecanismos de adjudicación de contratos o criterios de calificación previa que consideren el desempeño de la seguridad y salud realizada, la formación en seguridad, o las capacidades en términos de seguridad y salud, así como requisitos contractuales directos). Al coordinarse con los contratistas, la organización debería tener en consideración informar de peligros entre ella misma y sus contratistas, el control de acceso de los trabajadores a áreas peligrosas, y los procedimientos a seguir en emergencias",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 52,
+            "clausula": "Anexo 8.1.4.2"
+        }
+    },
+    {
+        "contenido": ". La organización debería especificar cómo coordinará el contratista sus actividades con los propios procesos del sistema de gestión de la SST de la organización (por ejemplo, los utilizados para controlar la entrada a un espacio confinado, la evaluación de la exposición, y la gestión de la seguridad del proceso) y para informar de los incidentes. La organización debería verificar que los contratistas son capaces de desempeñar sus tareas antes de permitirles proceder con su trabajo, por ejemplo verificando que: a) los registros del desempeño de la SST son satisfactorios; b) la calificación, la experiencia y los criterios de competencia de los trabajadores se especifican y se cumplen (por ejemplo mediante formación); c) los recursos, los equipos y la preparación del trabajo son adecuados y están listos para que el trabajo comience",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 52,
+            "clausula": "Anexo 8.1.4.2"
+        }
+    },
+    {
+        "contenido": ". A.8.1.4.3 Contratación externa Cuando se contrata externamente, la organización necesita tener el control de los procesos y funciones contratados externamente para alcanzar los resultados previstos del sistema de gestión de la SST. La organización mantiene la responsabilidad de la conformidad con los requisitos de este documento en las funciones y procesos contratados externamente. La organización debería establecer el grado de control sobre los procesos o las funciones contratados externamente basándose en factores tales como: — la capacidad de la organización externa para cumplir los requisitos del sistema de gestión de la SST de la organización; — la competencia técnica de la organización para definir los controles apropiados o para evaluar la adecuación de los controles; — el efecto potencial que el proceso o la función contratada externamente tendrá en la capacidad de la organización de alcanzar el resultado previsto de su sistema de gestión de la SST;",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 52,
+            "clausula": "Anexo 8.1.4.3"
+        }
+    },
+    {
+        "contenido": "— el grado en que el proceso o la función contratada externamente se comparte; — la capacidad de la organización para lograr el control necesario mediante la aplicación de su proceso de compras; — las oportunidades de mejora. En algunos países, los requisitos legales abordan las funciones o procesos contratados externamente. A.8.2 Preparación y respuesta ante emergencias Los planes de preparación ante emergencias pueden incluir eventos naturales, técnicos y provocados por el hombre que ocurren dentro y fuera de las horas de trabajo normales. A.9 Evaluación del desempeño A.9.1 Seguimiento, medición, análisis y evaluación del desempeño A.9.1.1 Generalidades Para alcanzar los resultados previstos del sistema de gestión de la SST, se debería hacer un seguimiento de los procesos, medirlos y analizarlos",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 53,
+            "clausula": "Anexo 8.2"
+        }
+    },
+    {
+        "contenido": ". a) Los ejemplos de a qué se podría hacer seguimiento y medición pueden incluir, pero no se limitan a: 1) las quejas de la salud en el trabajo, la salud de los trabajadores (a través de la vigilancia) y el ambiente de trabajo; 2) los incidentes, las lesiones y el deterioro de la salud relacionados con el trabajo, y las quejas, incluyendo las tendencias; 3) la eficacia de los controles operacionales y los ejercicios de emergencia, o la necesidad de modificar o introducir nuevos controles; 4) la competencia",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 53,
+            "clausula": "Anexo 8.2"
+        }
+    },
+    {
+        "contenido": ". b) Los ejemplos de a qué se podría hacer seguimiento y medición para evaluar el cumplimiento de los requisitos legales pueden incluir, pero no se limitan a: 1) los requisitos legales identificados (por ejemplo cuando todos los requisitos legales se hayan determinado, y si la información documentada de la organización respecto a los mismos se mantiene actualizada); 2) los acuerdos colectivos (cuando son legalmente obligatorios); 3) el estado de las brechas identificadas en el cumplimiento. c) Los ejemplos de a qué se podría hacer seguimiento y medición para evaluar el cumplimiento de otros requisitos pueden incluir, pero no se limitan a: 1) los acuerdos colectivos (cuando no son legalmente obligatorios); 2) las normas y los códigos;",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 53,
+            "clausula": "Anexo 8.2"
+        }
+    },
+    {
+        "contenido": "3) las políticas corporativas y otras políticas, reglas y reglamentos; 4) los requisitos del seguro. d) Los criterios son lo que la organización puede utilizar para comparar su desempeño. 1) Son ejemplos los estudios comparativos con las mejores prácticas de: i) otras organizaciones; ii) normas y códigos; iii) códigos y objetivos propios de la organización; iv) estadísticas de la SST. 2) Para medir los criterios, típicamente se utilizan indicadores, por ejemplo: i) si el criterio es una comparación de incidentes, la organización puede elegir considerar la frecuencia, el tipo, la severidad o el número de incidentes; entonces el indicador podría ser la ratio determinada dentro de cada uno de estos criterios; ii) si el criterio es una comparación de la finalización de acciones correctivas, entonces el indicador podría ser el porcentaje de las acciones correctivas finalizadas a tiempo",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 54,
+            "clausula": "Anexo 8.2"
+        }
+    },
+    {
+        "contenido": ". El seguimiento puede involucrar la verificación, supervisión, observación crítica o determinación continua del estado para identificar el cambio con respecto al nivel de desempeño requerido o previsto. El seguimiento se puede aplicar al sistema de gestión de la SST, a los procesos o a los controles. Los ejemplos incluyen el uso de entrevistas, revisiones de la información documentada y observaciones del trabajo que se está desempeñando. La medición generalmente involucra la asignación de números a objetos o eventos. Es la base para los datos cuantitativos y generalmente se asocia con la evaluación del desempeño de los programas de seguridad y vigilancia de la salud. Los ejemplos incluyen el uso de equipo calibrado o verificado para medir la exposición a una sustancia peligrosa o el cálculo de la distancia de seguridad de un peligro. El análisis es el proceso de examinar los datos para revelar relaciones, patrones y tendencias",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 54,
+            "clausula": "Anexo 8.2"
+        }
+    },
+    {
+        "contenido": ". El análisis es el proceso de examinar los datos para revelar relaciones, patrones y tendencias. Esto puede significar el uso de operaciones estadísticas, incluyendo información de otras organizaciones similares, para ayudar a sacar conclusiones de los datos. A menudo este proceso se asocia con las actividades de medición. La evaluación del desempeño es una actividad desarrollada para determinar la conveniencia, adecuación y eficacia del tema para lograr los objetivos establecidos del sistema de gestión de la SST. A.9.1.2 Evaluación del cumplimiento La frecuencia y el momento en el tiempo de las evaluaciones del cumplimiento pueden variar dependiendo de la importancia del requisito, de las variaciones en las condiciones de operación, de los cambios en los requisitos legales y otros requisitos y del desempeño pasado de la organización. Una organización puede utilizar diversos métodos para mantener sus conocimientos y su comprensión del estado de su cumplimiento.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 54,
+            "clausula": "Anexo 9.1.2"
+        }
+    },
+    {
+        "contenido": "A.9.2 Auditoría interna El alcance del programa de auditoría debería basarse en la complejidad y el nivel de madurez del sistema de gestión de la SST. Una organización puede establecer la objetividad e imparcialidad de la auditoría interna creando procesos que separen los roles de los auditores como auditores internos de los deberes que tiene asignados normalmente, o la organización también puede utilizar personas externas para esta función. A.9.3 Revisión por la dirección Los términos utilizados en relación con la revisión por la dirección deberían entenderse como sigue: a) “conveniencia” hace referencia a cómo el sistema de gestión de la SST se ajusta a la organización, su operación, su cultura y los sistemas de negocio; b) “adecuación” hace referencia a si el sistema de gestión de la SST se implementa adecuadamente; c) “eficacia” hace referencia a si el sistema de gestión de la SST alcanza los resultados previstos",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 55,
+            "clausula": "Anexo 9.2"
+        }
+    },
+    {
+        "contenido": ". No es necesario abordar al mismo tiempo los elementos de la revisión por la dirección enumerados en el apartado 9.3, de a) hasta g); la organización debería determinar cuándo y cómo se abordan los elementos de la revisión por la dirección. A.10 Mejora A.10.1 Generalidades Cuando toma una acción de mejora, la organización debería considerar los resultados del análisis y la evaluación del desempeño de la SST, la evaluación del cumplimiento, las auditorías internas y la revisión por la dirección. Los ejemplos de mejora incluyen acciones correctivas, mejora continua, cambio de avance, innovación y reorganización. A.10.2 Incidentes, no conformidades y acciones correctivas Pueden existir procesos separados para las investigaciones de incidentes y las revisiones de no conformidades, o pueden combinarse en un único proceso, dependiendo de los requisitos de la organización",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 55,
+            "clausula": "Anexo 9.3"
+        }
+    },
+    {
+        "contenido": ". Los ejemplos de incidentes, no conformidades y acciones correctivas pueden incluir, pero no se limitan a: a) incidentes: caída al mismo nivel con o sin lesiones; fractura de una pierna; asbestosis; pérdida auditiva; daño a edificios o vehículos cuando éstos pueden provocar riesgos para la SST; b) no conformidades: equipo de protección que no funciona adecuadamente; no cumplir requisitos legales y otros requisitos; no seguir procedimientos establecidos; c) acciones correctivas (según se indica en la jerarquía de los controles; véase 8.1.2): eliminación de los peligros; sustitución por materiales menos peligrosos; rediseño o modificación de equipos o herramientas; desarrollo de procedimientos; mejora de la competencia de los trabajadores afectados; cambios en la frecuencia de uso; o el uso de equipos de protección personal.",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 55,
+            "clausula": "Anexo 9.3"
+        }
+    },
+    {
+        "contenido": "El análisis de la causa raíz hace referencia a la práctica de explorar todos los posibles factores asociados con un incidente o una no conformidad, preguntando qué pasó, cómo pasó, y por qué pasó, para proporcionar las entradas relativas a lo que se puede hacer para evitar que vuelva a ocurrir. Al determinar la causa raíz de un incidente o una no conformidad, la organización debería utilizar métodos apropiados a la naturaleza del incidente o la no conformidad que se analiza. El centro del análisis de la causa raíz es la prevención. Este análisis puede identificar múltiples fallos que contribuyen a la ocurrencia del incidente o a la no conformidad, incluyendo factores relacionados con la comunicación, la competencia, la fatiga, los equipos o los procedimientos. Revisar la eficacia de las acciones correctivas [véase 10.2 f)] hace referencia al grado en que las acciones correctivas implementadas controlan adecuadamente las causas raíz",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 56,
+            "clausula": "Anexo 9.3"
+        }
+    },
+    {
+        "contenido": ". A.10.3 Mejora continua Los ejemplos de factores de mejora continua incluyen, pero no se limitan a: a) nueva tecnología; b) buenas prácticas, internas y externas de la organización; c) sugerencias y recomendaciones de las partes interesadas; d) nuevos conocimientos y comprensión de cuestiones relacionadas con la seguridad y salud en el trabajo; e) materiales nuevos o mejorados; f) cambios en las capacidades o la competencia de los trabajadores; g) lograr un mejor desempeño con menos recursos (es decir, simplificación, racionalización etc.).",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 56,
+            "clausula": "Anexo 10.3"
+        }
+    },
+    {
+        "contenido": "Bibliografía [1] ISO 9000:2015 , Sistemas de gestión de la calidad — Fundamentos y vocabulario [2] ISO 9001, Sistemas de gestión de la calidad — Requisitos [3] ISO 14001, Sistemas de gestión ambiental — Requisitos con orientación para su uso [4] ISO 19011, Directrices para la auditoría de los sistemas de gestión [5] ISO 20400, Compras sostenibles — Directrices [6] ISO 26000, Guía de responsabilidad social [7] ISO 31000, Risk management —Guidelines [8] ISO 37500, Guidance on outsourcing [9] ISO 39001, Road traffic safety (RTS) management systems — [10] ISO Guide 73:2009, Risk management — Vocabulary [11] IEC 31010, Risk management — Risk assessment techniques [12] ILO. Guidelines on occupational safety and health management systems, ILO-OSH 2001. 2nd ed. International Labour Office, Geneva, 2009. Disponible en : http://www.ilo.org/safework/ info/standards-and-instruments/WCMS_107727/lang--en/index.htm [13] ILO",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 57,
+            "clausula": "Bibliografía"
+        }
+    },
+    {
+        "contenido": ". Disponible en : http://www.ilo.org/safework/ info/standards-and-instruments/WCMS_107727/lang--en/index.htm [13] ILO. International Labour Standards (incluyendo aquellas sobre seguridad y salud en el trabajo). International Labour Office, Geneva. Disponible en : http://www.ilo.org/normlex (hacer click e n “instruments”, luego en “Conventions and Recommendations by subject”) [14] OHSAS 18001. Occupational health and safety management systems — Requirements. 2nd ed. OHSAS Project Group, London, July 2007, ISBN 978 0 580 50802 8 [15] OHSAS 18002. Occupational health and safety management systems — Guidelines for the implementation of OHSAS 18001:2007. 2nd ed. OHSAS Project Group, London, Nov 2008, ISBN 978 0 580 61674 7",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 57,
+            "clausula": "Bibliografía"
+        }
+    },
+    {
+        "contenido": "Índice alfabético de términos acción correctiva 3.36 política 3.14 alta dirección 3.12 política de la seguridad y salud en el trabajo 3.15 política de la SST auditoría 3.32 procedimiento 3.26 competencia 3.23 proceso 3.25 conformidad 3.33 requisito 3.8 consulta 3.5 requisitos legales y otros requisitos 3.9 contratar externamente, verbo 3.29 riesgo 3.20 contratista 3.7 riesgo para la seguridad y salud en el trabajo 3.21 riesgo para la SST desempeño 3.27 seguimiento 3.30 desempeño de la seguridad y salud en el trabajo 3.28 desempeño de la SST sistema de gestión 3.10 eficacia 3.13 sistema de gestión de la seguridad y la salud en el trabajo 3.11 sistema de gestión de la SST incidente 3.35 trabajador 3.3 información documentada 3.24 lesión y deterioro de la salud 3.18 lugar de trabajo 3.6 medición 3.31 mejora continua 3.37 no conformidad 3.34 objetivo 3.16 objetivo de la seguridad y salud en el trabajo 3.17 objetivo de la SST oportunidad para la seguridad y salud en el trabajo 3.22",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 58,
+            "clausula": "Bibliografía"
+        }
+    },
+    {
+        "contenido": "3.34 objetivo 3.16 objetivo de la seguridad y salud en el trabajo 3.17 objetivo de la SST oportunidad para la seguridad y salud en el trabajo 3.22 oportunidad para la SST organización 3.1 parte interesada 3.2 participación 3.4 peligro 3.19",
+        "metadatos": {
+            "norma": "ISO 45001_2018",
+            "pagina": 58,
+            "clausula": "Bibliografía"
+        }
+    }
+]
