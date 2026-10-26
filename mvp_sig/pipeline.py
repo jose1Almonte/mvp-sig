@@ -1059,6 +1059,7 @@ class Pipeline:
         modelo: str | None = None,
         progreso=None,
         notificar_n8n: bool = False,
+        sin_limite: bool = False,
     ) -> InformeDiagnostico:
         llm = self.llm
         if proveedor or modelo:
@@ -1070,7 +1071,7 @@ class Pipeline:
         if clausulas:
             set_clausulas = set(clausulas)
             requisitos = [r for r in requisitos if r.clausula in set_clausulas]
-        if limite:
+        if limite and not sin_limite:
             requisitos = requisitos[:limite]
 
         motor = MotorDiagnostico(

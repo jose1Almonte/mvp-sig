@@ -78,9 +78,9 @@ def barra_lateral() -> None:
         st.subheader("Selección de requisitos")
         modo_eval = st.radio(
             "Modo de evaluación",
-            options=["Por límite", "Por cláusulas específicas", "Por requisitos concretos"],
+            options=["Por límite", "Por cláusulas específicas", "Por requisitos concretos", "Por normas ISO completas"],
             index=0,
-            help="Por límite: toma los primeros N del listado. Por cláusulas: evalúa solo las cláusulas elegidas. Por requisitos concretos: elige IDs exactos.",
+            help="Por límite: toma los primeros N del listado. Por cláusulas: evalúa solo las cláusulas elegidas. Por requisitos concretos: elige IDs exactos. Por normas ISO completas: lee íntegramente las normas ISO seleccionadas en 'Alcance del diagnóstico' y evalúa TODOS los requisitos de esas normas contra todo el corpus de evidencias.",
         )
 
         clausulas_sel = []
@@ -132,14 +132,28 @@ def barra_lateral() -> None:
                 else:
                     st.caption("Selecciona al menos un requisito.")
 
+        elif modo_eval == "Por normas ISO completas":
+            if not normas_sel:
+                st.warning("Selecciona al menos una norma en 'Alcance del diagnóstico'.")
+            else:
+                try:
+                    _p_norm = obtener_pipeline()
+                    _reqs_norm = _p_norm.cargar_requisitos(normas_sel)
+                    if ambitos_sel:
+                        _reqs_norm = [r for r in _reqs_norm if r.ambito in ambitos_sel]
+                    st.info(f"Se leerán **completas** las normas: {', '.join(normas_sel)}. Se evaluarán **{len(_reqs_norm)}** requisito(s) de esas normas contra todo el corpus de evidencias.")
+                    st.caption("El texto íntegro de las normas seleccionadas se añadirá como contexto extra. Las citas seguirán validándose contra los fragmentos recuperados de las evidencias.")
+                except Exception as exc:
+                    st.warning(f"No se pudo calcular el total de requisitos: {exc}")
+
         limite = st.number_input(
             "Máximo de requisitos a evaluar",
             min_value=1,
             max_value=300,
             value=12,
             step=1,
-            disabled=(modo_eval != "Por límite"),
-            help="Solo se usa cuando el modo es 'Por límite'.",
+            disabled=(modo_eval not in ["Por límite"]),
+            help="Solo se usa cuando el modo es 'Por límite'. En 'Por normas ISO completas' se evalúan TODOS los requisitos de las normas seleccionadas.",
         )
         top_k = st.slider("Fragmentos recuperados por requisito (k)", 1, 12, 5)
         organizacion = st.text_input("Organización evaluada", "METUNIMET — Manufacturas Metalmecánicas")
@@ -235,6 +249,70 @@ with tabs[0]:
                         st.info(f"Evaluando {len(reqs_eval)} requisito(s) por ID: {', '.join(ids_sel)}")
                         motor = MotorDiagnostico(pipeline.store, pipeline.llm, top_k=cfg["top_k"], organizacion=cfg["organizacion"])
                         informe = motor.diagnosticar(reqs_eval, con_resumen=cfg["con_resumen"])
+
+                    elif modo_eval == "Por normas ISO completas":
+                        normas_iso = cfg.get("normas") or []
+                        if not normas_iso:
+                            st.warning("Selecciona al menos una norma en 'Alcance del diagnóstico'.")
+                            st.stop()
+
+                        contexto_extra = ""
+                        try:
+                            from mvp_sig.settings import PATHS, NORMAS
+                            partes = []
+                            for nkey in normas_iso:
+                                n = NORMAS.get(nkey)
+                                if not n:
+                                    continue
+                                base = PATHS.seed_fragments
+                                cand = base / f"{n.nombre_archivo}_fragmentos.json"
+                                if cand.exists():
+                                    try:
+                                        data = json.loads(cand.read_text(encoding="utf-8"))
+                                        textos = []
+                                        if isinstance(data, list):
+                                            for it in data:
+                                                if isinstance(it, dict):
+                                                    t = it.get("texto") or it.get("contenido") or ""
+                                                    if t:
+                                                        textos.append(str(t))
+                                                elif isinstance(it, str):
+                                                    textos.append(it)
+                                        elif isinstance(data, dict):
+                                            for v in data.values():
+                                                if isinstance(v, list):
+                                                    for it in v:
+                                                        if isinstance(it, dict):
+                                                            t = it.get("texto") or it.get("contenido") or ""
+                                                            if t:
+                                                                textos.append(str(t))
+                                                        elif isinstance(it, str):
+                                                            textos.append(it)
+                                                elif isinstance(v, str):
+                                                    textos.append(v)
+                                        if textos:
+                                            partes.append(f"=== NORMA {nkey} ({n.nombre_archivo}) ===\n\n" + "\n\n".join(textos))
+                                    except Exception:
+                                        pass
+                            if partes:
+                                contexto_extra = "\n\n".join(partes)
+                                max_chars = 40000
+                                if len(contexto_extra) > max_chars:
+                                    contexto_extra = contexto_extra[:max_chars] + "\n\n[... norma truncada para ajustarse al contexto ...]"
+                        except Exception as exc:  # noqa: BLE001
+                            st.warning(f"No se pudo cargar el texto completo de las normas: {exc}")
+
+                        st.info(f"Leyendo normas completas: {', '.join(normas_iso)}. Se evaluarán **TODOS** los requisitos de esas normas contra todo el corpus de evidencias.")
+                        informe = pipeline.diagnosticar(
+                            normas=normas_iso,
+                            ambitos=cfg["ambitos"] or None,
+                            limite=None,
+                            top_k=cfg["top_k"],
+                            organizacion=cfg["organizacion"],
+                            con_resumen=cfg["con_resumen"],
+                            contexto_extra=contexto_extra,
+                            sin_limite=True,
+                        )
 
                     else:
                         informe = pipeline.diagnosticar(
