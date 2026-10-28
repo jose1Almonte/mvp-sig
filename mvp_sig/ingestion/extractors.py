@@ -7,10 +7,44 @@ referencia es la base de la trazabilidad requisito-evidencia.
 from __future__ import annotations
 
 import io
+import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 
 from mvp_sig.utils.text import colapsar_espacios
+
+# Logging para ver qué extractor se usa
+_LOG_DIR = Path(__file__).resolve().parents[2] / "logs"
+_LOG_DIR.mkdir(parents=True, exist_ok=True)
+_LOG_FILE = _LOG_DIR / "extractor_debug.log"
+
+
+def _log_extractor(msg: str) -> None:
+    try:
+        with open(_LOG_FILE, "a", encoding="utf-8") as f:
+            f.write(f"{msg}\n")
+    except Exception:
+        pass
+    try:
+        sys.stderr.write(f"{msg}\n")
+        sys.stderr.flush()
+    except Exception:
+        pass
+    print(msg, flush=True)
+
+
+# Docling integration (optional)
+try:
+    from docling.document_converter import DocumentConverter
+
+    _DOCLING_AVAILABLE = True
+    try:
+        _DOCLING_CONVERTER = DocumentConverter()
+    except Exception:
+        _DOCLING_CONVERTER = None
+except Exception:
+    _DOCLING_AVAILABLE = False
+    _DOCLING_CONVERTER = None
 
 
 @dataclass
@@ -304,7 +338,34 @@ def _clase_ole(ruta: Path) -> str:
     return "desconocido"
 
 
-def extract_documento(ruta: Path) -> DocumentoExtraido:
+def extract_documento_docling(ruta: Path) -> DocumentoExtraido:
+    if not _DOCLING_AVAILABLE or _DOCLING_CONVERTER is None:
+        raise RuntimeError("Docling no disponible")
+    try:
+        result = _DOCLING_CONVERTER.convert(str(ruta))
+        doc = result.document
+        # Try to export as markdown/text
+        try:
+            texto = doc.export_to_markdown()
+        except Exception:
+            try:
+                texto = doc.export_to_text()
+            except Exception:
+                texto = ""
+        if not texto or not texto.strip():
+            return DocumentoExtraido(ok=False, tipo=_tipo(ruta), texto="", paginas=0, error="Docling: sin contenido extraído")
+        # Try to get page count
+        paginas = 0
+        try:
+            paginas = len(doc.pages) if hasattr(doc, "pages") else 0
+        except Exception:
+            paginas = 0
+        return DocumentoExtraido(ok=True, tipo=_tipo(ruta), texto=texto, paginas=paginas, error=None)
+    except Exception as exc:
+        return DocumentoExtraido(ok=False, tipo=_tipo(ruta), texto="", paginas=0, error=f"Docling error: {exc}")
+
+
+def extract_documento(ruta: Path, motor: str | None = None) -> DocumentoExtraido:
     ext = ruta.suffix.lower()
     fn = EXTRACTORES.get(ext)
     if fn is None:

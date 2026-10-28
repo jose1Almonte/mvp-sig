@@ -85,6 +85,7 @@ class Pipeline:
         self,
         ruta: Path,
         *,
+        motor_extraccion: str = "auto",
         ambitos_forzados: list[str] | None = None,
         ambito_principal_forzado: str | None = None,
         tipo_documento_forzado: str | None = None,
@@ -103,7 +104,7 @@ class Pipeline:
         mano lleve metadatos decididos por el usuario (ámbito, tipo, código) en
         lugar de los inferidos del nombre del archivo.
         """
-        extraido = extract_documento(ruta)
+        extraido = extract_documento(ruta, motor=motor_extraccion)
         if not extraido.ok:
             registro = RegistroEvidencia(
                 documento=ruta.name,
@@ -214,6 +215,7 @@ class Pipeline:
         limite: int | None = None,
         verbose: bool = True,
         lote_documentos: int = 25,
+        motor_extraccion: str = "auto",
     ) -> ResultadoIngesta:
         raiz = Path(raiz)
         if not raiz.exists():
@@ -285,8 +287,8 @@ class Pipeline:
 
         for i, ruta in enumerate(archivos, start=1):
             if verbose:
-                print(f"  [{i}/{len(archivos)}] {ruta.name}", flush=True)
-            registro, chunks_doc = self._procesar_documento(ruta)
+                print(f"  [{i}/{len(archivos)}] {ruta.name} [motor:{motor_extraccion}]", flush=True)
+            registro, chunks_doc = self._procesar_documento(ruta, motor_extraccion=motor_extraccion)
             if registro.estado == "error":
                 resultado.documentos_fallidos += 1
                 resultado.omitidos += 1

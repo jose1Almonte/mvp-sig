@@ -161,6 +161,12 @@ def barra_lateral() -> None:
 
         st.subheader("Corpus de evidencias")
         raiz = st.text_input("Carpeta del corpus", str(CORPUS_EVIDENCIAS))
+        motor_ext = st.selectbox(
+            "Motor de extracción",
+            options=["auto", "pypdf/docx", "docling"],
+            index=0,
+            help="auto: usa Docling para PDFs si está disponible. docling: fuerza Docling. pypdf/docx: usa extractores actuales.",
+        )
 
     st.session_state["cfg"] = {
         "normas": normas_sel,
@@ -170,6 +176,7 @@ def barra_lateral() -> None:
         "organizacion": organizacion,
         "con_resumen": con_resumen,
         "raiz": raiz,
+        "motor_extraccion": motor_ext,
         "modo_eval": modo_eval,
         "clausulas_sel": clausulas_sel,
         "requisitos_ids_sel": requisitos_ids_sel,
@@ -1064,6 +1071,7 @@ with tabs[5]:
                     cfg["raiz"],
                     extensiones=tuple(ext),
                     limite=int(limite_docs) or None,
+                    motor_extraccion=cfg.get("motor_extraccion", "auto"),
                 )
                 pipeline.indexar_requisitos()
                 st.session_state["ingesta"] = resultado.to_dict()
